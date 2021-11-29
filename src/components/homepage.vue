@@ -1,10 +1,10 @@
 <template>
 <div class="relative z-10">
-<div class=" absolute z-0 top-0 right-0 w-1/3 -mt-36 lg:-mt-56" ><img src="../assets/Rectangle.png" class="w-full" alt=""></div>
+      <div class=" absolute z-0 top-0 right-0 w-1/3 -mt-36 lg:-mt-56" ><img src="../assets/Rectangle.png" class="w-full" alt=""></div>
 
 
-<div class="relative max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0 space-y-20 md:space-y-20 z-10">
-<div class="w-full overflow-hidden">
+      <div class="relative max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0 space-y-20 md:space-y-20 z-10">
+      <div class="w-full overflow-hidden">
 <div class=" flex flex-col lg:flex-row space-y-10 lg:space-y-0">
 <div class="w-full lg:w-3/5 space-y-5 pt-0 md:pt-5 ">
 <h1 class=" font-black tracking-normal text-gray-900 text-4xl md:text-6xl lg:heading animate__bounceIn">Premium Software Solutions for Your Business</h1>
@@ -152,7 +152,7 @@
         <h2 class=" font-semibold tracking-normal text-gray-700" style="font-size: 24px;">Ghana Vehicle Import Duty Estimater</h2>
         <p class=" font-normal tracking-normal text-gray-500 leading-normal" style="font-size: 16px; ">Our Web App makes it possible to check the import duty and vehicle information about any vehicle you would like to import into Ghana stress free and all in one space.</p>
         <div>
-        <router-link to="/contact" class="px-10 py-3 font-normal text-white rounded-md" style="background-color: #b00000; font-size: 14px">Visit Website</router-link>
+        <router-link to="h" class="px-10 py-3 font-normal text-white rounded-md" style="background-color: #b00000; font-size: 14px">Visit Website</router-link>
         </div></div>
         
         </div>
