@@ -1,5 +1,5 @@
 <template>
-    <div class="max-w-screen-xl mx-auto space-y-5 md:space-y-10 px-10 xl:px-0">
+    <div class="max-w-screen-xl mx-auto space-y-5 md:space-y-10 px-5 md:px-10 xl:px-0">
     <h1 class="font-bold text-gray-700 text-center md:text-left " style="font-size: 40px; letter-spacing:0.2px;">Products</h1>
         <div class="flex flex-col md:flex-row">
         <div class="w-full md:w-1/2 p-5"><img src="../assets/Macbook Pro.png" class="w-full" alt=""/></div>

@@ -3,7 +3,7 @@
 <div class=" absolute z-0 top-0 right-0 w-1/3 -mt-36 lg:-mt-56" ><img src="../assets/Rectangle.png" class="w-full" alt=""></div>
 
 
-<div class="relative max-w-screen-xl mx-auto px-10 xl:px-0 space-y-20 md:space-y-20 z-10">
+<div class="relative max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0 space-y-20 md:space-y-20 z-10">
 <div class="w-full overflow-hidden">
 <div class=" flex flex-col lg:flex-row space-y-10 lg:space-y-0">
 <div class="w-full lg:w-3/5 space-y-5 pt-0 md:pt-5 ">
