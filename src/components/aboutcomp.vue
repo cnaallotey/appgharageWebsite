@@ -1,5 +1,5 @@
 <template>
-    <div class="max-w-screen-xl mx-auto px-10 xl:px-0 space-y-36">
+    <div class="max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0 space-y-36">
     <div class="flex flex-col md:flex-row space-y-10 md:space-y-0">
     <div class="space-y-5 w-full md:w-1/2 flex flex-col justify-center">
     <h1 class=" font-bold text-gray-700 " style="letter-spacing: 0.2px; font-size:40px;">About Us</h1>

@@ -1,5 +1,5 @@
 <template>
-<div class=" max-w-screen-xl mx-auto px-10 xl:px-0">
+<div class=" max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0">
 <div class="w-full space-y-10">
 <h1 class="font-bold text-gray-700 text-center " style="font-size: 40px; letter-spacing:0.2px;">Contact Us</h1>
 <p class="font-normal text-center text-sm text-gray-700" style="line-height: 28px; letter-spacing:0.2px">Need Our Services? <br>Get in touch with us.</p>
