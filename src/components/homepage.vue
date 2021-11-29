@@ -152,9 +152,8 @@
         <h2 class=" font-semibold tracking-normal text-gray-700" style="font-size: 24px;">Ghana Vehicle Import Duty Estimater</h2>
         <p class=" font-normal tracking-normal text-gray-500 leading-normal" style="font-size: 16px; ">Our Web App makes it possible to check the import duty and vehicle information about any vehicle you would like to import into Ghana stress free and all in one space.</p>
         <div>
-        <button class="px-10 py-3 font-normal text-white rounded-md" style="background-color: #b00000; font-size: 14px">Visit Website</button>
+        <router-link to="/contact" class="px-10 py-3 font-normal text-white rounded-md" style="background-color: #b00000; font-size: 14px">Visit Website</router-link>
         </div></div>
-        
         
         </div>
 </div>
