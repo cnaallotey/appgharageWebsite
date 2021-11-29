@@ -21,23 +21,23 @@
 
   <div class="my-3 px-3 w-1/2 overflow-hidden cursor-pointer">
     <!-- Column Content -->
-    <p class="text-white tracking-normal font-normal hover:text-red-500 hover:underline cursor-pointer" style="font-size: 16px;">About Us</p>
+    <router-link to="/about" class="text-white tracking-normal font-normal hover:text-red-500 hover:underline cursor-pointer" style="font-size: 16px;">About Us</router-link>
 
   </div>
 
   <div class="my-3 px-3 w-1/2 overflow-hidden">
     <!-- Column Content -->
-    <p class="text-white tracking-normal font-normal hover:text-red-500 hover:underline cursor-pointer" style="font-size: 16px;">Product</p>
+    <router-link to="/products" class="text-white tracking-normal font-normal hover:text-red-500 hover:underline cursor-pointer" style="font-size: 16px;">Product</router-link>
   </div>
 
   <div class="my-3 px-3 w-1/2 overflow-hidden">
     <!-- Column Content -->
-    <p class="text-white tracking-normal font-normal hover:text-red-500 hover:underline cursor-pointer" style="font-size: 16px;">Contact</p>
+    <router-link to="/contact" class="text-white tracking-normal font-normal hover:text-red-500 hover:underline cursor-pointer" style="font-size: 16px;">Contact</router-link>
   </div>
 
   <div class="my-3 px-3 w-1/2 overflow-hidden">
     <!-- Column Content -->
-    <p class="text-white tracking-normal font-normal hover:text-red-500 hover:underline cursor-pointer" style="font-size: 16px;">Careers</p>
+    <router-link to="/jobs" class="text-white tracking-normal font-normal hover:text-red-500 hover:underline cursor-pointer" style="font-size: 16px;">Careers</router-link>
   </div>
 
 </div>

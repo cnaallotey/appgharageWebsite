@@ -5,12 +5,12 @@
 
       <div class="relative max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0 space-y-20 md:space-y-20 z-10">
       <div class="w-full overflow-hidden">
-<div class=" flex flex-col lg:flex-row space-y-10 lg:space-y-0">
+<div class=" flex flex-col-reverse lg:flex-row lg:space-y-0">
 <div class="w-full lg:w-3/5 space-y-5 pt-0 md:pt-5 ">
-<h1 class=" font-black tracking-normal text-gray-900 text-4xl md:text-6xl lg:heading animate__bounceIn">Premium Software Solutions for Your Business</h1>
-<div class="pr-0 md:pr-20"><p class=" mr-0 md:mr-20 font-normal text-gray-500 text-base md:text-lg lg:herocaption">AppGharage is Your technology partner for innovative and impactful digital solutions.</p>
+<h1 class=" font-black tracking-normal text-gray-900 text-4xl md:text-6xl lg:heading animate__bounceIn text-center lg:text-left">Premium Software Solutions for Your Business</h1>
+<div class="pr-0 md:pr-20"><p class=" mr-0 md:mr-20 font-normal text-gray-500 text-base md:text-lg lg:herocaption text-center lg:text-left px-10 lg:px-0">AppGharage is Your technology partner for innovative and impactful digital solutions.</p>
 </div></div>
-<div class="w-full lg:w-2/5"> <img src="../assets/heroimg.svg" class="w-full " alt=""></div>
+<div class="w-full lg:w-2/5 mb-10 lg:mb-0"> <img src="../assets/heroimg.svg" class="w-full px-5 lg:px-0 " alt=""></div>
 </div>
 </div>
 <div class="w-full space-y-10 pt-0 md:pt-24">
