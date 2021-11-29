@@ -14,7 +14,7 @@
     <input type="text" placeholder="Your name" v-model="fullName" name="name" class="px-3 py-3 bg-white w-full focus:outline-none">
     <input type="email" placeholder="Your Email Address" v-model="email" name="email" class="px-3 py-3 bg-white w-full focus:outline-none">
     <textarea type="text" placeholder="Enter your message" v-model="message" name="message" class="px-3 py-3 bg-white w-full focus:outline-none h-64"></textarea>
-    <button type="submit" class="w-full md:w-32 py-3 font-semibold text-white rounded-md" style="background-color: #b00000;" @click.prevent="sendMail()">Send</button>
+    <button type="submit" class="w-full md:w-32 py-3 font-semibold text-white rounded-md" style="background-color: #b00000;" @click="sendMail()">Send</button>
     
     </form>
 </div>
@@ -37,7 +37,7 @@ data() {
 },
 methods: {
     sendMail: function(){
-       axios.post('http://localhost:3000/sendmail', {
+       axios.post('/sendmail', {
   from: this.email,
   name: this.fullName,
   to: 'decryme@gmail.com',
