@@ -1,8 +1,8 @@
 <template>
-  <div id="app" class="space-y-10 md:space-y-28 ">
-  <navbarVue class="nav-fix" :class="[isscroll ? 'bg-white shadow-md' : 'bg-none shadow-none']" />
-  <router-view/>
-  <foooterVue/>
+  <div id="app" class="">
+  <navbarVue class="nav-fix filter" :class="[isscroll ? 'bg-white drop-shadow-md ' : 'bg-transparent drop-shadow-none']" :isscroll="isscroll"  />
+  <router-view class="mt-10 mb-10 md:mb-20"/>
+  <foooterVue />
   </div>
 </template>
 
@@ -26,7 +26,7 @@ data(){
     
 window.onscroll = () => {
   console.log(window.scrollY)
-    if (window.scrollY > 80) {
+    if (window.scrollY > 50) {
         this.isscroll=true;
     } else {
         this.isscroll=false;
@@ -42,5 +42,7 @@ window.onscroll = () => {
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 #app {
   font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
 }
+
 </style>
