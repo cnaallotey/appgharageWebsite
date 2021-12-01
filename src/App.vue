@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="">
   <navbarVue class="nav-fix filter" :class="[isscroll ? 'bg-white drop-shadow-md ' : 'bg-transparent drop-shadow-none']" :isscroll="isscroll"  />
-  <router-view class="mt-10 mb-10 md:mb-20"/>
+  <router-view class="mt-10 mb-20 md:mb-20"/>
   <foooterVue />
   </div>
 </template>

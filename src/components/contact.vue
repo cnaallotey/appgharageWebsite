@@ -12,7 +12,7 @@
     <form action="https://getform.io/f/fbd05d3c-87b8-4954-a1b7-8e5158a5f530" method="POST" name=”EmailForm” class="max-w-screen-lg mx-auto py-10 px-5 md:px-10 space-y-10 rounded" style="background-color: #22343D;">
     <p class=" font-bold text-center text-white" style="letter-spacing:0.1px; font-size: 24px">Send a message</p>
     <input type="text" placeholder="Your name" v-model="fullName" name="name" class="px-3 py-3 bg-white w-full focus:outline-none">
-    <input type="email" placeholder="Your Email Address" v-model="email" name="email" class="px-3 py-3 bg-white w-full focus:outline-none">
+    <input type="email" placeholder="Your Email Address" v-model="email" name="email" pattern="/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/" class="px-3 py-3 bg-white w-full focus:outline-none">
     <textarea type="text" placeholder="Enter your message" v-model="message" name="message" class="px-3 py-3 bg-white w-full focus:outline-none h-64"></textarea>
     <button type="submit" class="w-full md:w-32 py-3 font-semibold text-white rounded-md" style="background-color: #b00000;" @click="sendMail()">Send</button>
     

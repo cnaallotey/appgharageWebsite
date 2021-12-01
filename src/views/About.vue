@@ -1,5 +1,5 @@
 <template>
-  <div class="about space-y-10 md:space-y-28">
+  <div class="about space-y-20 md:space-y-28">
     <aboutcompVue/>
     <ctaVue/>
   </div>

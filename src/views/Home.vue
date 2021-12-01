@@ -1,5 +1,5 @@
 <template>
-  <div class="home space-y-10 md:space-y-20">
+  <div class="home space-y-20 md:space-y-20">
   <homepageVue/>
   <ctaVue class="animate__fadeInUp"/>
     
