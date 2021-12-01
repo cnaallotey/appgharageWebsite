@@ -1,7 +1,7 @@
 <template>
   <div class="home space-y-20 md:space-y-20">
   <productsVue/>
-  <ctaVue/>
+  <ctaVue ctaimg="productsv.svg"/>
     
   </div>
 </template>

@@ -1,7 +1,7 @@
 <template>
   <div class="about space-y-20 md:space-y-28">
     <aboutcompVue/>
-    <ctaVue/>
+    <ctaVue ctaimg="aboutsv.svg"/>
   </div>
 </template>
 

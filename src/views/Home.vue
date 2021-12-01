@@ -1,7 +1,7 @@
 <template>
   <div class="home space-y-20 md:space-y-20">
   <homepageVue/>
-  <ctaVue class="animate__fadeInUp"/>
+  <ctaVue class="animate__fadeInUp" ctaimg="ctaimage.svg"/>
     
   </div>
 </template>
