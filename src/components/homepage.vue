@@ -31,7 +31,7 @@
     <div class="w-full px-8 md:px-0 flex flex-col space-y-3 items-center justify-start">
     <div class=" rounded-full bg-gray-100"><img src="../assets/customer.svg" class="h-14 m-6 transform hover:scale-110" alt=""> </div>
     <p class=" font-bold tracking-normal text-xl text-gray-900 text-center">Customer Focused</p>
-    <p class=" font-light text-sm text-gray-500 text-center tracking-normal leading-normal">AppGharage has the best developers and consultants to bring your sofware nd web solutions to life</p>
+    <p class=" font-light text-sm text-gray-500 text-center tracking-normal leading-normal">At AppGharage the customer always comes first. We prioritze making customer satisfaction a reality</p>
     </div>
   </div>
 
@@ -40,7 +40,7 @@
     <div class="w-full px-8 md:px-0 flex flex-col space-y-3 items-center justify-start">
     <div class=" rounded-full bg-gray-100"><img src="../assets/innovative.svg" class="h-10 mx-6 my-8" alt=""> </div>
     <p class=" font-bold tracking-normal text-xl text-gray-900 text-center">Innovative Solutions</p>
-    <p class=" font-light text-sm text-gray-500 text-center tracking-normal leading-normal">AppGharage has the best developers and consultants to bring your sofware nd web solutions to life</p>
+    <p class=" font-light text-sm text-gray-500 text-center tracking-normal leading-normal">In AppGharage we build solutons that are a focused on making your business less stresful but more productive</p>
     </div>
   </div>
 
@@ -49,7 +49,7 @@
     <div class="w-full px-8 md:px-0 flex flex-col space-y-3 items-center justify-start ">
     <div class=" rounded-full bg-gray-100"><img src="../assets/support.svg" class="h-12 mx-6 my-7" alt=""> </div>
     <p class=" font-bold tracking-normal text-xl text-gray-900 text-center">24x7 Friendly Support</p>
-    <p class=" font-light text-sm text-gray-500 text-center tracking-normal leading-normal">AppGharage has the best developers and consultants to bring your sofware nd web solutions to life</p>
+    <p class=" font-light text-sm text-gray-500 text-center tracking-normal leading-normal">With AppGharage you are in safe hands. Our relationship never ends. So we always assist in anyway we can with any challenges</p>
     </div>
   </div>
 
@@ -59,7 +59,7 @@
 <h1 class="font-semibold tracking-normal font-gray-700 text-center text-3xl md:text-4xl" style="">Our Services</h1>
 <div class="space-y-10 md:space-y-0">
 <div class="flex flex-col md:flex-row space-y-10 md:space-y-0 space-x-0 md:space-x-20">
-<div class="w-full md:w-1/2 px-14"><img src="../assets/screen.png" class="h-full" alt=""></div>
+<div class="w-full md:w-1/2 px-14"><img src="../assets/screen.png" class=" h-96" alt=""></div>
 <div class="w-full h-auto md:w-1/2 space-y-6 flex flex-col justify-center pl-0 md:pl-5 lg:pl-20">
 <h3 class=" font-semibold tracking-normal text-gray-900 " style="font-size: 24px;">Product Engineering</h3>
 <div class="flex flex-row space-x-2 items-center">

@@ -2,7 +2,7 @@
         <div class="sticky top-0 z-20 w-full nav-fixed " :class="[open ? 'bg-white shadow-md' : 'bg-none shadow-none']"   >
         <section class="relative max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0">
         <div class="w-full py-1 flex items-center justify-between">
-        <img src="../assets/finallogoappGharage.png" class=" h-16" alt="logo"> 
+        <img src="../assets/finallogoappGharage.png" class=" h-12 md:h-16 " alt="logo"> 
         <div class="hidden lg:flex space-x-7 items-center "><ul class="navlinks inline-flex font-medium space-x-7 cursor-pointer">
         <router-link to="/" class=" hover:border-b-2 border-red-700" > <li class="border-b-2 border-transparent font-medium hover:border-red-800 transistion ease-linear delay-100">Home</li></router-link>
         <router-link to="/products"> <li class="border-b-2 font-medium border-transparent hover:border-red-800">Products</li> </router-link>

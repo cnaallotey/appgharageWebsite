@@ -1,5 +1,5 @@
 <template>
-  <div class="home space-y-10 md:space-y-28">
+  <div class="home space-y-10 md:space-y-20">
   <contactVue/>
   <ctaVue/>
     
