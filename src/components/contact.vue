@@ -12,15 +12,23 @@
     <form class="max-w-screen-lg mx-auto py-10 px-5 md:px-10 space-y-10 rounded" style="background-color: #22343D;">
     <p class=" font-bold text-center text-white" style="letter-spacing:0.1px; font-size: 24px">Send a message</p>
     <input type="text" placeholder="Your name" v-model="fullName" class="px-3 py-3 bg-white w-full focus:outline-none">
-    <input type="email" placeholder="Your Email Address" v-model="email" class="px-3 py-3 bg-white w-full focus:outline-none">
+    <input type="email" placeholder="Your Email Address" v-model="email" @keyup="validate()" class="px-3 py-3 bg-white w-full focus:ring-2 focus:outline-none  " :class="[!emailValidation ? 'focus:ring-2 focus:ring-red-600' : 'focus:ring-2 focus:ring-green-600']">
     <textarea type="text" placeholder="Enter your message" v-model="message" class="px-3 py-3 bg-white w-full focus:outline-none h-64"></textarea>
     <button class="w-full md:w-32 py-3 font-semibold text-white rounded-md" style="background-color: #b00000; " @click.prevent="contact()">Send</button>
     
     </form>
 </div>
-    <Success v-if="success"/>
-    <Error v-if="error"/>    
-
+    <transition 
+            enter-active-class="animate__animated animate__backInUp animate__faster"
+            leave-active-class="animate__animated animate__fadeOutDown">
+        <Success v-if="success"/>
+    </transition>
+    <transition
+            enter-active-class="animate__animated animate__backInUp animate__faster"
+            leave-active-class="animate__animated animate__fadeOutDown">
+        <Error v-if="error"/> 
+    </transition>
+    
 </div>
 
 </template>
@@ -38,11 +46,19 @@ export default {
             email: "",
             message: "",
             error: false,
-            success: false
+            success: false,
+            emailValidation:true
         };
     },
     methods: {
+        validate: function(){
+            var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+            if (this.email.match(validRegex))
+           {this.emailValidation=true}
+            else{this.emailValidation=false}
+        },
         contact: function () {
+            if(this.fullName!="" && this.emailValidation===true && this.email!='' && this.message!= ''){
             axios.post("https://getform.io/f/fbd05d3c-87b8-4954-a1b7-8e5158a5f530", {
                 name: this.fullName,
                 email: this.email,
@@ -56,7 +72,8 @@ export default {
                 this.error = true;
                 setTimeout(() => { this.error = false; }, 3000);
             });
-            
+            }
+            else{alert('fill all spaces and enter a valid Email Address ')}
         },
         sendMail: function () {
             axios.post("/sendmail", {

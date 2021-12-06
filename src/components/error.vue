@@ -29,7 +29,7 @@
      
     <div class="inline-block align-bottom overflow-hidden mb-5 transform sm:max-w-lg sm:w-full">
         <div
-         class="bg-red-200 px-6 py-2 my-4 rounded-md text-sm flex items-center justify-center w-96 mx-auto"
+         class="bg-red-200 px-6 py-2 my-4 rounded-md text-xs md:text-sm flex items-center justify-center w-full md:w-96 mx-auto"
          
          >
       <svg

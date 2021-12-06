@@ -29,8 +29,8 @@
         </button>
           <transition 
             name="custom-classes-transition"
-            enter-active-class="animate__animated animate__slideInRight"
-            leave-active-class="animate__animated animate__slideOutRight">
+            enter-active-class="animate__animated animate__slideInRight animate__faster"
+            leave-active-class="animate__animated animate__slideOutRight animate__faster">
         <div v-if="open" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute right-0 w-full mt-2 origin-top-right rounded-md z-10 shadow-lg">
           <div class="px-5 py-2 space-y-2 bg-white shadow dark-mode:bg-gray-800">
           <router-link to="/" class="flex px-4 py-3 mt-2 navlinks font-medium bg-transparent dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-red-700 focus:text-red-700 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="#"> 
