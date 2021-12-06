@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-  
   <contactVue class=" mt-10 mb-20"/>
   <ctaVue/>
 
@@ -11,7 +10,6 @@
 <script>
 // @ is an alias to /src
 import contactVue from "../components/contact.vue"
-
 import ctaVue from "../components/cta.vue"
 
 
