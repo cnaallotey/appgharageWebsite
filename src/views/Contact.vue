@@ -1,7 +1,9 @@
 <template>
-  <div class="home space-y-20 md:space-y-20">
-  <contactVue/>
+  <div class="home">
+  
+  <contactVue class=" mt-10 mb-20"/>
   <ctaVue/>
+
     
   </div>
 </template>
@@ -9,14 +11,16 @@
 <script>
 // @ is an alias to /src
 import contactVue from "../components/contact.vue"
+
 import ctaVue from "../components/cta.vue"
+
 
 
 export default {
   name: 'Home',
   components: {
     contactVue,
-    ctaVue
+    ctaVue,
   },
    created() {
     if ('scrollRestoration' in history) {

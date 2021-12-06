@@ -1,7 +1,8 @@
 <template>
-  <div class="home space-y-20 md:space-y-20">
-  <productsVue/>
+  <div class="home">
+  <productsVue class=" mt-10 mb-20"/>
   <ctaVue ctaimg="productsv.svg"/>
+
     
   </div>
 </template>
@@ -16,7 +17,7 @@ export default {
   name: 'Home',
   components: {
     productsVue,
-    ctaVue
+    ctaVue,
   },
    created() {
     if ('scrollRestoration' in history) {

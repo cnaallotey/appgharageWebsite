@@ -1,13 +1,15 @@
 <template>
-  <div class="home space-y-20 md:space-y-20">
-  <homepageVue/>
+  <div class="home">
+  <homepageVue class=" mt-10 mb-20"/>
   <ctaVue class="animate__fadeInUp" ctaimg="ctaimage.svg"/>
+  
     
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
+
 import homepageVue from "../components/homepage.vue"
 import ctaVue from "../components/cta.vue"
 
@@ -16,7 +18,7 @@ export default {
   name: 'Home',
   components: {
     homepageVue,
-    ctaVue
+    ctaVue,
   },
    created() {
     if ('scrollRestoration' in history) {

@@ -1,11 +1,13 @@
 <template>
-  <div class="about space-y-20 md:space-y-28">
-    <aboutcompVue/>
+  <div class="about">
+    <aboutcompVue class=" mt-10 mb-20"/>
     <ctaVue ctaimg="aboutsv.svg"/>
+
   </div>
 </template>
 
 <script>
+
 import aboutcompVue from "../components/aboutcomp.vue";
 import ctaVue from "../components/cta.vue";
 

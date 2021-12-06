@@ -1,5 +1,5 @@
 <template>
-        <div class="sticky top-0 z-20 w-full nav-fixed " :class="[open ? 'bg-white shadow-md' : 'bg-none shadow-none']"   >
+  <div class="sticky top-0 z-20 w-full nav-fixed " :class="[open ? 'bg-white shadow-md' : 'bg-none shadow-none']"   >
         <section class="relative max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0">
         <div class="w-full py-1 flex items-center justify-between">
         <img src="../assets/finallogoappGharage.png" class=" h-12 md:h-16 " alt="logo"> 
@@ -63,18 +63,27 @@
 
 <script>
 export default {
-  props:{
-    isscroll:{
-      type:Boolean
-    } 
-  },
+  
     data(){
         return{
             open:false,
             drop:false,
+            
         }
     },
+    created() {
     
+// window.onscroll = () => {
+//   console.log(window.scrollY)
+//     if (window.scrollY > 50) {
+//         this.isscroll=true;
+//     } else {
+//         this.isscroll=false;
+//     }
+// };
+  },
+
+
     
 }
 
@@ -84,5 +93,6 @@ export default {
 .navlinks{
 font-size: 16px;
 }
+
 
 </style>

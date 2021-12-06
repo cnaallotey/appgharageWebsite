@@ -8,17 +8,17 @@
 <div class=" flex flex-col-reverse lg:flex-row lg:space-y-0 items-center">
 <div class="w-full lg:w-3/5 space-y-5 ">
 <h1 class=" font-black tracking-normal text-gray-900 text-4xl md:text-6xl lg:heading animate__bounceIn text-center lg:text-left">Premium Software Solutions for Your Business</h1>
-<div class="pr-0 md:pr-20"><p class="font-normal text-gray-500 text-base md:text-lg lg:herocaption text-center lg:text-left px-10 lg:px-0">AppGharage is Your technology partner for innovative and impactful digital solutions.</p>
+<div class="pr-0 md:pr-40"><p class="font-normal text-gray-500 text-base md:text-lg lg:herocaption text-center lg:text-left px-10 lg:px-0">AppGharage is Your technology partner for innovative and impactful digital solutions.</p>
 </div></div>
 <div class="w-full lg:w-2/5 mb-10 lg:mb-0"> <img src="../assets/heroimg.svg" class="w-full px-5 lg:px-0 " alt=""></div>
 </div>
 </div>
-<div class="w-full space-y-10 pt-10">
+<div class="w-full space-y-10">
 <h1 class="font-semibold tracking-normal text-gray-900 text-center text-3xl md:text-4xl" style="">Why Choose Us?</h1>
 <div class="flex flex-wrap -mx-3 overflow-hidden space-y-10 md:space-y-0">
 
-  <div class=" px-3 w-full md:w-1/2 overflow-hidden lg:w-1/4 xl:w-1/4">
-    <div class="w-full px-8 md:px-0 flex flex-col space-y-3 items-center justify-start transform hover:border-b-2 cursor-pointer">
+  <div class=" px-3 w-full md:w-1/2 overflow-hidden lg:w-1/4 xl:w-1/4 ">
+    <div class="w-full px-8 md:px-0 flex flex-col space-y-3 items-center justify-start transform cursor-pointer pb-5 border-b-4 border-transparent hover:border-red-600 transition ease-linear delay-100">
     <div class=" rounded-full bg-gray-100"><img src="../assets/pro.svg" class="h-14 m-6" alt=""> </div>
     <p class=" font-bold tracking-normal text-xl text-gray-900 text-center">Experienced Professionals</p>
     <p class=" font-light text-sm text-gray-500 text-center tracking-normal leading-normal">AppGharage has the best developers and consultants to bring your sofware nd web solutions to life</p>
@@ -28,8 +28,8 @@
 
   <div class="my-3 px-3 w-full md:w-1/2 overflow-hidden lg:w-1/4 xl:w-1/4 ">
     <!-- Column Content -->
-    <div class="w-full px-8 md:px-0 flex flex-col space-y-3 items-center justify-start">
-    <div class=" rounded-full bg-gray-100"><img src="../assets/customer.svg" class="h-14 m-6 transform hover:scale-110" alt=""> </div>
+    <div class="w-full px-8 md:px-0 flex flex-col space-y-3 items-center justify-start transform cursor-pointer pb-5 border-b-4 border-transparent hover:border-red-600 transition ease-linear delay-100">
+    <div class=" rounded-full bg-gray-100"><img src="../assets/customer.svg" class="h-14 m-6" alt=""> </div>
     <p class=" font-bold tracking-normal text-xl text-gray-900 text-center">Customer Focused</p>
     <p class=" font-light text-sm text-gray-500 text-center tracking-normal leading-normal">At AppGharage the customer always comes first. We prioritze making customer satisfaction a reality</p>
     </div>
@@ -37,7 +37,7 @@
 
   <div class="my-3 px-3 w-full md:w-1/2 overflow-hidden lg:w-1/4 xl:w-1/4">
     <!-- Column Content -->
-    <div class="w-full px-8 md:px-0 flex flex-col space-y-3 items-center justify-start">
+    <div class="w-full px-8 md:px-0 flex flex-col space-y-3 items-center justify-start transform cursor-pointer pb-5 border-b-4 border-transparent hover:border-red-600 transition ease-linear delay-100">
     <div class=" rounded-full bg-gray-100"><img src="../assets/innovative.svg" class="h-10 mx-6 my-8" alt=""> </div>
     <p class=" font-bold tracking-normal text-xl text-gray-900 text-center">Innovative Solutions</p>
     <p class=" font-light text-sm text-gray-500 text-center tracking-normal leading-normal">In AppGharage we build solutons that are a focused on making your business less stresful but more productive</p>
@@ -46,7 +46,7 @@
 
   <div class="my-3 px-3 w-full md:w-1/2 overflow-hidden lg:w-1/4 xl:w-1/4">
     <!-- Column Content -->
-    <div class="w-full px-8 md:px-0 flex flex-col space-y-3 items-center justify-start ">
+    <div class="w-full px-8 md:px-0 flex flex-col space-y-3 items-center justify-start transform cursor-pointer pb-5 border-b-4 border-transparent hover:border-red-600 transition ease-linear delay-100 ">
     <div class=" rounded-full bg-gray-100"><img src="../assets/support.svg" class="h-12 mx-6 my-7" alt=""> </div>
     <p class=" font-bold tracking-normal text-xl text-gray-900 text-center">24x7 Friendly Support</p>
     <p class=" font-light text-sm text-gray-500 text-center tracking-normal leading-normal">With AppGharage you are in safe hands. Our relationship never ends. So we always assist in anyway we can with any challenges</p>
@@ -145,7 +145,7 @@
 </div>
 
 <div class="w-full space-y-10 md:space-y-10"> 
-<h1 class="font-semibold tracking-normal font-gray-900 text-center text-3xl md:text-4xl" style=";">Our Products</h1>
+<h1 class="font-semibold tracking-normal font-gray-900 text-center text-3xl md:text-4xl" style="">Our Products</h1>
 <div class="flex flex-col md:flex-row space-x-0 md:space-x-20 space-y-10 md:space-y-0">
         <div class="w-full md:w-1/2 px-5"><img src="../assets/Macbook Pro.png" class="w-full" alt=""/></div>
         <div class="w-full md:w-1/2 pr-5 pl-0 lg:pl-20 space-y-5 flex flex-col justify-center">
