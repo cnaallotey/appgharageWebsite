@@ -34,24 +34,51 @@
         >
           Send a message
         </p>
-        <input
-          type="text"
-          placeholder="Your name"
-          v-model="fullName"
-          class="px-3 py-3 bg-white w-full focus:outline-none"
-        />
+        <div class="w-full bg-white flex items-center ">
+          <input
+            type="text"
+            placeholder="Your name (first name and Last name only)"
+            v-model="fullName"
+            class="px-3 py-3 bg-white w-full focus:outline-none"
+            @keyup="validatename()"
+          />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-8 w-8 text-green-500 mr-2"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+            v-if="fullnameValidation"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          
+        </div>
+        <div class="w-full bg-white flex items-center" >
         <input
           type="email"
           placeholder="Your Email Address"
           v-model="email"
-          @keyup="validate()"
+          @keyup="validateEmail()"
           class="px-3 py-3 bg-white w-full focus:ring-2 focus:outline-none"
-          :class="[
-            !emailValidation
-              ? 'focus:ring-2 focus:ring-red-600'
-              : 'focus:ring-2 focus:ring-green-600',
-          ]"
         />
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-8 w-8 text-green-500 mr-2"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+            v-if="emailValidation"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </div>
         <textarea
           type="text"
           placeholder="Enter your message"
@@ -95,11 +122,22 @@ export default {
       message: "",
       error: false,
       success: false,
-      emailValidation: true,
+      emailValidation: false,
+      fullnameValidation: false,
+      fullnameValidationError:false
     };
   },
   methods: {
-    validate: function () {
+    validatename: function () {
+      var validName = /^[a-zA-Z]+ [a-zA-Z]+$/;
+      if (this.fullName.match(validName)) {
+        this.fullnameValidation = true;
+      } else {
+        this.fullnameValidation = false;
+      }
+    },
+
+    validateEmail: function () {
       var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
       if (this.email.match(validRegex)) {
         this.emailValidation = true;
@@ -109,9 +147,8 @@ export default {
     },
     contact: function () {
       if (
-        this.fullName != "" &&
+        this.fullnameValidation===true &&
         this.emailValidation === true &&
-        this.email != "" &&
         this.message != ""
       ) {
         axios
@@ -123,6 +160,7 @@ export default {
           .then(() => {
             this.success = true;
             this.fullName = this.email = this.message = "";
+            this.fullnameValidation=this.emailValidation=false;
             setTimeout(() => {
               this.success = false;
             }, 3000);

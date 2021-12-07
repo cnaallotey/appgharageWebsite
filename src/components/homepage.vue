@@ -15,7 +15,7 @@
             >
               Premium Software Solutions for Your Business
             </h1>
-            <div class="pr-0 md:pr-40">
+            <div class="pr-0 lg:pr-40">
               <p
                 class="font-normal text-gray-500 text-base md:text-lg lg:herocaption text-center lg:text-left px-10 lg:px-0"
               >

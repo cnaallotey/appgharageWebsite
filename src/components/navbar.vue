@@ -7,7 +7,7 @@
       <div class="w-full py-1 flex items-center justify-between">
         <div class="flex space-x-2 items-center">
           <img src="../assets/logoonly.png" class="h-12 md:h-16" alt="logo" />
-          <p class="font-bold text-xl md:text-2xl">AppGharage</p>
+          <p class="font-bold text-xl md:text-2xl hidden md:contents">AppGharage</p>
         </div>
 
         <div class="hidden lg:flex space-x-7 items-center">
