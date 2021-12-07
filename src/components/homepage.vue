@@ -19,7 +19,7 @@
               <p
                 class="font-normal text-gray-500 text-base md:text-lg lg:herocaption text-center lg:text-left px-10 lg:px-0"
               >
-                AppGharage is Your technology partner for innovative and impactful digital
+                AppGharage is your technology partner for innovative and impactful digital
                 solutions.
               </p>
             </div>
@@ -36,10 +36,10 @@
         >
           Why Choose Us?
         </h1>
-        <div class="flex flex-wrap -mx-3 overflow-hidden space-y-10 md:space-y-0">
+        <div class="flex flex-wrap -mx-3 overflow-hidden space-y-5 md:space-y-0">
           <div class="px-3 w-full md:w-1/2 overflow-hidden lg:w-1/4 xl:w-1/4">
             <div
-              class="w-full px-8 md:px-0 flex flex-col space-y-3 items-center justify-start transform cursor-pointer pb-5 border-b-4 border-transparent hover:border-red-600 transition ease-linear delay-100"
+              class="w-full px-8 md:px-0 flex flex-col space-y-3 items-center justify-start transform cursor-pointer pb-0 md:pb-5 border-b-0 md:border-b-4 border-transparent hover:border-red-600 transition ease-linear delay-100"
             >
               <div class="rounded-full bg-gray-100">
                 <img src="../assets/pro.svg" class="h-14 m-6" alt="" />
@@ -50,8 +50,8 @@
               <p
                 class="font-light text-sm text-gray-500 text-center tracking-normal leading-normal"
               >
-                AppGharage has the best developers and consultants to bring your sofware
-                nd web solutions to life
+                AppGharage has the best developers and consultants to bring your software
+                and web solutions to life
               </p>
             </div>
           </div>
@@ -59,7 +59,7 @@
           <div class="my-3 px-3 w-full md:w-1/2 overflow-hidden lg:w-1/4 xl:w-1/4">
             <!-- Column Content -->
             <div
-              class="w-full px-8 md:px-0 flex flex-col space-y-3 items-center justify-start transform cursor-pointer pb-5 border-b-4 border-transparent hover:border-red-600 transition ease-linear delay-100"
+              class="w-full px-8 md:px-0 flex flex-col space-y-3 items-center justify-start transform cursor-pointer pb-0 md:pb-5 border-b-0 md:border-b-4 border-transparent hover:border-red-600 transition ease-linear delay-100"
             >
               <div class="rounded-full bg-gray-100">
                 <img src="../assets/customer.svg" class="h-14 m-6" alt="" />
@@ -70,7 +70,7 @@
               <p
                 class="font-light text-sm text-gray-500 text-center tracking-normal leading-normal"
               >
-                At AppGharage the customer always comes first. We prioritze making
+                At AppGharage the customer always comes first. We prioritize making
                 customer satisfaction a reality
               </p>
             </div>
@@ -79,7 +79,7 @@
           <div class="my-3 px-3 w-full md:w-1/2 overflow-hidden lg:w-1/4 xl:w-1/4">
             <!-- Column Content -->
             <div
-              class="w-full px-8 md:px-0 flex flex-col space-y-3 items-center justify-start transform cursor-pointer pb-5 border-b-4 border-transparent hover:border-red-600 transition ease-linear delay-100"
+              class="w-full px-8 md:px-0 flex flex-col space-y-3 items-center justify-start transform cursor-pointer pb-0 md:pb-5 border-b-0 md:border-b-4 border-transparent hover:border-red-600 transition ease-linear delay-100"
             >
               <div class="rounded-full bg-gray-100">
                 <img src="../assets/innovative.svg" class="h-10 mx-6 my-8" alt="" />
@@ -90,8 +90,8 @@
               <p
                 class="font-light text-sm text-gray-500 text-center tracking-normal leading-normal"
               >
-                In AppGharage we build solutons that are a focused on making your business
-                less stresful but more productive
+                In AppGharage we build solutions that are a focused on making your
+                business less stressful but more productive
               </p>
             </div>
           </div>
@@ -99,7 +99,7 @@
           <div class="my-3 px-3 w-full md:w-1/2 overflow-hidden lg:w-1/4 xl:w-1/4">
             <!-- Column Content -->
             <div
-              class="w-full px-8 md:px-0 flex flex-col space-y-3 items-center justify-start transform cursor-pointer pb-5 border-b-4 border-transparent hover:border-red-600 transition ease-linear delay-100"
+              class="w-full px-8 md:px-0 flex flex-col space-y-3 items-center justify-start transform cursor-pointer pb-0 md:pb-5 border-b-0 md:border-b-4 border-transparent hover:border-red-600 transition ease-linear delay-100"
             >
               <div class="rounded-full bg-gray-100">
                 <img src="../assets/support.svg" class="h-12 mx-6 my-7" alt="" />
@@ -124,217 +124,227 @@
         >
           Our Services
         </h1>
-        <div class="space-y-10 md:space-y-0">
+        <div class="space-y-10 md:space-y-20">
           <div
-            class="flex flex-col md:flex-row space-y-10 md:space-y-0 space-x-0 md:space-x-20"
+            class="flex flex-col md:flex-row items-start space-y-5 md:space-y-0 space-x-0 md:space-x-20"
           >
-            <div class="w-full md:w-1/2 px-14">
-              <img src="../assets/screen.png" class="h-auto md:h-80 w-auto" alt="" />
+            <div class="w-full md:w-1/2">
+              <img src="../assets/screen.png" class="w-3/4 md:w-1/2 mx-auto" alt="" />
             </div>
-            <div
-              class="w-full h-auto md:w-1/2 space-y-6 flex flex-col justify-center pl-0 md:pl-5 lg:pl-20"
-            >
-              <h3
-                class="font-semibold tracking-normal text-gray-900"
-                style="font-size: 24px"
-              >
-                Product Engineering
-              </h3>
-              <div class="flex flex-row space-x-2 items-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  style="color: #b00000"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
+            <div class="w-full md:w-1/2 flex justify-center lg:justify-start">
+              <div class="h-auto w-auto space-y-5 flex flex-col items-center md:items-start">
+                <h3
+                  class="font-semibold tracking-normal text-gray-900"
+                  style="font-size: 24px"
                 >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-                <p class="tracking-normal text-gray-500" style="font-size: 16px">
-                  Data Science
-                </p>
-              </div>
-              <div class="flex flex-row space-x-2 items-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  style="color: #b00000"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-                <p class="tracking-normal text-gray-500" style="font-size: 16px">
-                  User Experience Design
-                </p>
-              </div>
-              <div class="flex flex-row space-x-2 items-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  style="color: #b00000"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-                <p class="tracking-normal text-gray-500" style="font-size: 16px">
-                  User Interface Design
-                </p>
+                  Product Engineering
+                </h3>
+                <div class="space-y-3 flex flex-col">
+                  <div class="flex flex-row space-x-2 items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-5 w-5"
+                      style="color: #b00000"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <p class="tracking-normal text-gray-500" style="font-size: 16px">
+                      Data Science
+                    </p>
+                  </div>
+                  <div class="flex flex-row space-x-2 items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-5 w-5"
+                      style="color: #b00000"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <p class="tracking-normal text-gray-500" style="font-size: 16px">
+                      User Experience Design
+                    </p>
+                  </div>
+                  <div class="flex flex-row space-x-2 items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-5 w-5"
+                      style="color: #b00000"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <p class="tracking-normal text-gray-500" style="font-size: 16px">
+                      User Interface Design
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
           <div
-            class="flex flex-col md:flex-row-reverse space-y-10 md:space-y-0 space-x-0 md:space-x-20"
+            class="flex flex-col md:flex-row-reverse items-start space-y-10 md:space-y-0 space-x-0 md:space-x-20"
           >
-            <div class="w-full md:w-1/2 px-14">
-              <img src="../assets/digitaltransformation.svg" class="h-full" alt="" />
+            <div class="w-full md:w-1/2">
+              <img
+                src="../assets/digitaltransformation.svg"
+                class="w-3/4 md:w-1/2 mx-auto lg:mx-0"
+                alt=""
+              />
             </div>
-            <div
-              class="w-full h-auto md:w-1/2 space-y-6 flex flex-col justify-center pl-0 md:pl-20 lg:pl-40"
-            >
-              <h3
-                class="font-semibold tracking-normal text-gray-900"
-                style="font-size: 24px"
-              >
-                Digital Transformation
-              </h3>
-              <div class="flex flex-row space-x-2 items-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  style="color: #b00000"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
+            <div class="w-full md:w-1/2 flex justify-center lg:justify-start">
+              <div class="h-auto w-auto space-y-5 flex flex-col items-center md:items-start">
+                <h3
+                  class="font-semibold tracking-normal text-gray-900"
+                  style="font-size: 24px"
                 >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-                <p class="tracking-normal text-gray-500" style="font-size: 16px">
-                  Product Development
-                </p>
-              </div>
-              <div class="flex flex-row space-x-2 items-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  style="color: #b00000"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-                <p class="tracking-normal text-gray-500" style="font-size: 16px">
-                  Application Modernization
-                </p>
-              </div>
-              <div class="flex flex-row space-x-2 items-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  style="color: #b00000"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-                <p class="tracking-normal text-gray-500" style="font-size: 16px">
-                  Application Development
-                </p>
+                  Product Transformation
+                </h3>
+                <div class="space-y-3 flex flex-col">
+                  <div class="flex flex-row space-x-2 items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-5 w-5"
+                      style="color: #b00000"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <p class="tracking-normal text-gray-500" style="font-size: 16px">
+                      Product Development
+                    </p>
+                  </div>
+                  <div class="flex flex-row space-x-2 items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-5 w-5"
+                      style="color: #b00000"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <p class="tracking-normal text-gray-500" style="font-size: 16px">
+                      Application Modernization
+                    </p>
+                  </div>
+                  <div class="flex flex-row space-x-2 items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-5 w-5"
+                      style="color: #b00000"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <p class="tracking-normal text-gray-500" style="font-size: 16px">
+                      Application Development
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
           <div
-            class="flex flex-col md:flex-row space-y-10 md:space-y-0 space-x-0 md:space-x-20"
+            class="flex flex-col md:flex-row items-start space-y-10 md:space-y-0 space-x-0 md:space-x-20"
           >
-            <div class="w-full md:w-1/2 px-14">
-              <img src="../assets/consultancy.svg" class="h-full" alt="" />
+            <div class="w-full md:w-1/2">
+              <img src="../assets/consultancy.svg" class="w-3/4 md:w-1/2 mx-auto" alt="" />
             </div>
-            <div
-              class="w-full h-auto md:w-1/2 space-y-6 flex flex-col justify-center pl-0 md:pl-5 lg:pl-20"
-            >
-              <h3
-                class="font-semibold tracking-normal text-gray-900"
-                style="font-size: 24px"
-              >
-                IT Consultancy Services
-              </h3>
-              <div class="flex flex-row space-x-2 items-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  style="color: #b00000"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
+            <div class="w-full md:w-1/2 flex justify-center lg:justify-start">
+              <div class="h-auto w-auto space-y-5 flex flex-col items-center md:items-start">
+                <h3
+                  class="font-semibold tracking-normal text-gray-900"
+                  style="font-size: 24px"
                 >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-                <p class="tracking-normal text-gray-500" style="font-size: 16px">
-                  Devops
-                </p>
-              </div>
-              <div class="flex flex-row space-x-2 items-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  style="color: #b00000"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-                <p class="tracking-normal text-gray-500" style="font-size: 16px">
-                  Business Automation
-                </p>
-              </div>
-              <div class="flex flex-row space-x-2 items-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  style="color: #b00000"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-                <p class="tracking-normal text-gray-500" style="font-size: 16px">
-                  IT Outsourcing
-                </p>
+                  IT Consultancy Services
+                </h3>
+                <div class="space-y-3 flex flex-col">
+                  <div class="flex flex-row space-x-2 items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-5 w-5"
+                      style="color: #b00000"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <p class="tracking-normal text-gray-500" style="font-size: 16px">
+                      Devops
+                    </p>
+                  </div>
+                  <div class="flex flex-row space-x-2 items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-5 w-5"
+                      style="color: #b00000"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <p class="tracking-normal text-gray-500" style="font-size: 16px">
+                      Business Automation
+                    </p>
+                  </div>
+                  <div class="flex flex-row space-x-2 items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-5 w-5"
+                      style="color: #b00000"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <p class="tracking-normal text-gray-500" style="font-size: 16px">
+                      IT Outsourcing
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -355,16 +365,16 @@
             <img src="../assets/Macbook Pro.png" class="w-full" alt="" />
           </div>
           <div
-            class="w-full md:w-1/2 pr-5 pl-0 lg:pl-20 space-y-5 flex flex-col justify-center"
+            class="w-full md:w-1/2 pl-0 space-y-5 flex flex-col justify-center"
           >
             <h2
-              class="font-semibold tracking-normal leading-normal text-gray-900"
+              class="font-semibold tracking-normal leading-normal text-center md:text-left text-gray-900"
               style="font-size: 24px"
             >
               Ghana Vehicle Import Duty Estimater
             </h2>
             <p
-              class="font-normal tracking-normal text-gray-500 leading-normal"
+              class="font-normal tracking-normal text-gray-500 text-center md:text-left leading-normal"
               style="font-size: 16px"
             >
               Our Web App makes it possible to check the import duty and vehicle
@@ -374,7 +384,7 @@
 
             <a
               href="https://ghanadutycalculator.com/estimates"
-              class="w-48 text-center py-3 font-normal cursor-pointer text-white rounded-md"
+              class="w-48 text-center py-3 font-normal cursor-pointer mx-auto md:mx-0 text-white rounded-md"
               style="background-color: #b00000; font-size: 14px"
               >Visit Website</a
             >
