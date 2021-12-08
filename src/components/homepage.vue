@@ -124,7 +124,7 @@
         >
           Our Services
         </h1>
-        <div class="space-y-10 md:space-y-20">
+        <div class=" max-w-screen-lg mx-auto space-y-10 md:space-y-20">
           <div
             class="flex flex-col md:flex-row items-start space-y-5 md:space-y-0 space-x-0 md:space-x-20"
           >
