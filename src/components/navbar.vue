@@ -5,10 +5,10 @@
   >
     <section class="relative max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0">
       <div class="w-full py-1 flex items-center justify-between">
-        <div class="flex items-center">
+        <router-link to="/" class="flex items-center select-none cursor-pointer">
           <img src="../assets/logoonly.png" class="h-12 md:h-16" alt="logo" />
           <p class="font-bold text-gray-700 text-lg md:text-2xl">AppGharage</p>
-        </div>
+        </router-link>
 
         <div class="hidden lg:flex space-x-7 items-center">
           <ul class="navlinks inline-flex font-medium space-x-7 cursor-pointer">

@@ -24,7 +24,7 @@
             >
           </div>
           <div class="flex items-center w-full md:w-1/3 py-5">
-            <img :src="require(`../assets/${ctaimg}`)" class="w-full" alt="" />
+            <img :src="require(`../assets/${ctaimg}`)" class="" alt="" style="height:338px;" />
           </div>
         </div>
       </div>

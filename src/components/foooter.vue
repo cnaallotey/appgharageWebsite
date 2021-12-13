@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="w-full bg-black py-20 mt-20">
+    <div class="w-full bg-black py-10 mt-20">
       <div class="max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0">
         <div class="w-full flex flex-col lg:flex-row space-y-10 lg:space-y-0">
           <div class="w-full lg:w-1/4 space-y-3">
@@ -23,7 +23,10 @@
             </div>
           </div>
           <div class="w-full lg:w-2/4 space-y-2 pr-20 pt-0 lg:pt-3">
-            <h2 class="text-white font-medium tracking-normal" style="font-size: 20px">
+            <h2
+              class="text-white font-medium tracking-normal opacity-80"
+              style="font-size: 20px"
+            >
               Resources
             </h2>
             <div class="flex flex-wrap -mx-3 overflow-hidden">
@@ -31,9 +34,11 @@
                 <!-- Column Content -->
                 <router-link
                   to="/about"
-                  class="text-white tracking-normal font-normal hover:text-red-500 hover:underline cursor-pointer"
+                  class="text-white tracking-normal font-normal group transform hover:text-red-500 hover:underline cursor-pointer"
                   style="font-size: 16px"
-                  >About Us</router-link
+                >
+                  <span class="hidden transform group-hover:contents">\\</span> About
+                  Us</router-link
                 >
               </div>
 
@@ -91,8 +96,8 @@
       </div>
     </div>
     <div
-      class="bg-black font-normal tracking-normal text-center text-white py-7"
-      style="font-size: 16px"
+      class="bg-black font-normal tracking-normal text-center text-gray-100 py-7"
+      style="font-size: 14px"
     >
       Copyright AppGharage ©2021
     </div>

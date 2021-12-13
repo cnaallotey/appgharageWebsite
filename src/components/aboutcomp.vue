@@ -28,14 +28,13 @@
         <img src="../assets/mission 1.svg" class="w-8 md:w-14" alt="" />
         <div class="space-y-3">
           <h3
-            class="font-medium text-gray-900"
-            style="letter-spacing: 0.2px; font-size: 24px"
+            class="font-semibold tracking-normal text-center md:text-left text-gray-900" style="font-size: 24px"
           >
             Our Mission
           </h3>
           <p
-            class="font-medium text-gray-500 leading-normal text-base md:text-lg"
-            style="letter-spacing: 0.2px"
+            class="font-normal tracking-normal text-center md:text-left text-gray-500 leading-normal"
+          style="font-size: 16px"
           >
             We are committed to impacting brands and businesses by enabling their software
             journeys through strategic consulting services using the best technologies.
@@ -46,14 +45,13 @@
         <img src="../assets/future 1.svg" class="w-8 md:w-14" alt="" />
         <div class="space-y-3">
           <h3
-            class="font-medium text-gray-900"
-            style="letter-spacing: 0.2px; font-size: 24px"
+            class="font-semibold tracking-normal text-center md:text-left text-gray-900" style="font-size: 24px"
           >
             Our Vision
           </h3>
           <p
-            class="font-medium text-gray-500 leading-normal text-base md:text-lg"
-            style="letter-spacing: 0.2px"
+            class="font-normal tracking-normal text-center md:text-left text-gray-500 leading-normal"
+          style="font-size: 16px"
           >
             Our Vision is to connect businesses and customers using state of the art web
             technologies that will make our company the world’s premier software company
