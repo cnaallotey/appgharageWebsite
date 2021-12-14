@@ -24,7 +24,7 @@
       </div>
     </div>
     <div class="flex flex-col md:flex-row space-x-0 md:space-x-5 space-y-5 md:space-y-0">
-      <div class="w-full md:w-1/2 flex flex-row items-start space-x-5">
+      <div class="w-full md:w-1/2 flex flex-col md:flex-row items-center md:items-start space-x-0 md:space-x-5">
         <img src="../assets/mission 1.svg" class="w-8 md:w-14" alt="" />
         <div class="space-y-3">
           <h3
@@ -41,7 +41,7 @@
           </p>
         </div>
       </div>
-      <div class="w-full md:w-1/2 flex flex-row items-start space-x-5">
+      <div class="w-full md:w-1/2 flex flex-col items-center md:flex-row md:items-start space-x-0 md:space-x-5">
         <img src="../assets/future 1.svg" class="w-8 md:w-14" alt="" />
         <div class="space-y-3">
           <h3
