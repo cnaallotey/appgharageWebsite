@@ -24,16 +24,16 @@
       </div>
     </div>
     <div class="flex flex-col md:flex-row space-x-0 md:space-x-5 space-y-5 md:space-y-0">
-      <div class="w-full md:w-1/2 flex flex-col md:flex-row items-center md:items-start space-x-0 md:space-x-5">
-        <img src="../assets/mission 1.svg" class="w-8 md:w-14" alt="" />
+      <div class="w-full md:w-1/2 flex flex-row items-start space-x-5">
+        <img src="../assets/mission 1.svg" class="w-8  md:w-14" alt="" />
         <div class="space-y-3">
           <h3
-            class="font-semibold tracking-normal text-center md:text-left text-gray-900" style="font-size: 24px"
+            class="font-semibold tracking-normal text-left text-gray-900" style="font-size: 24px"
           >
             Our Mission
           </h3>
           <p
-            class="font-normal tracking-normal text-center md:text-left text-gray-500 leading-normal"
+            class="font-normal tracking-normal text-left text-gray-500 leading-normal"
           style="font-size: 16px"
           >
             We are committed to impacting brands and businesses by enabling their software
@@ -41,16 +41,16 @@
           </p>
         </div>
       </div>
-      <div class="w-full md:w-1/2 flex flex-col items-center md:flex-row md:items-start space-x-0 md:space-x-5">
+      <div class="w-full md:w-1/2 flex flex-row items-start space-x-5">
         <img src="../assets/future 1.svg" class="w-8 md:w-14" alt="" />
         <div class="space-y-3">
           <h3
-            class="font-semibold tracking-normal text-center md:text-left text-gray-900" style="font-size: 24px"
+            class="font-semibold tracking-normal text-left text-gray-900" style="font-size: 24px"
           >
             Our Vision
           </h3>
           <p
-            class="font-normal tracking-normal text-center md:text-left text-gray-500 leading-normal"
+            class="font-normal tracking-normal text-left text-gray-500 leading-normal"
           style="font-size: 16px"
           >
             Our Vision is to connect businesses and customers using state of the art web
