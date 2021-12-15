@@ -59,9 +59,9 @@
           <div class="my-3 px-3 w-full md:w-1/2 overflow-hidden lg:w-1/4 xl:w-1/4">
             <!-- Column Content -->
             <div
-              class="w-full px-8 md:px-0 flex flex-col space-y-3 items-center justify-start transform cursor-pointer pb-0 md:pb-5 border-b-0 md:border-b-4 border-transparent hover:border-red-600 transition ease-linear delay-100"
+              class="w-full px-8 md:px-0 flex flex-col space-y-3 items-center justify-start transform cursor-pointer group pb-0 md:pb-5 border-b-0 md:border-b-4 border-transparent hover:border-red-600 transition ease-linear delay-100"
             >
-              <div class="rounded-full bg-gray-100">
+              <div class="rounded-full bg-gray-100 ">
                 <img src="../assets/customer.svg" class="h-14 m-6" alt="" />
               </div>
               <p class="font-bold tracking-normal text-xl text-gray-900 text-center">
