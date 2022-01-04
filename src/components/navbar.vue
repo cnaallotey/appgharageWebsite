@@ -12,27 +12,23 @@
 
         <div class="hidden lg:flex space-x-7 items-center">
           <ul class="navlinks inline-flex font-medium space-x-7 cursor-pointer">
-            <router-link to="/" class="hover:border-b-2 border-red-700">
-              <li
-                class="border-b-2 border-transparent font-medium hover:border-red-800 transistion ease-linear delay-100 focus:text-red-700"
-              >
-                Home
-              </li></router-link
+            <li
+              class="border-b-2 border-transparent font-medium hover:border-red-800 transistion ease-linear delay-100 focus:text-red-700"
             >
-            <router-link to="/products">
-              <li
-                class="border-b-2 font-medium border-transparent hover:border-red-800 focus:text-red-700"
-              >
-                Products
-              </li>
-            </router-link>
-            <router-link to="/about">
-              <li
-                class="border-b-2 font-medium border-transparent hover:border-red-800 focus:text-red-700"
-              >
-                About
-              </li>
-            </router-link>
+              <router-link to="/" class="hover:border-b-2 border-red-700">
+                Home
+              </router-link>
+            </li>
+            <li
+              class="border-b-2 font-medium border-transparent hover:border-red-800 focus:text-red-700"
+            >
+              <router-link to="/products"> Products </router-link>
+            </li>
+            <li
+              class="border-b-2 font-medium border-transparent hover:border-red-800 focus:text-red-700"
+            >
+              <router-link to="/about"> About </router-link>
+            </li>
           </ul>
           <router-link
             to="/contact"
