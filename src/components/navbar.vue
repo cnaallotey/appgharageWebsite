@@ -42,7 +42,7 @@
           >
         </div>
 
-        <a class="navbar-burger self-center lg:hidden" @click="open = !open">
+        <div class="navbar-burger self-center lg:hidden" @click="open = !open">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             v-if="!open"
@@ -71,7 +71,7 @@
               clip-rule="evenodd"
             />
           </svg>
-        </a>
+        </div>
       </div>
     </section>
     <div class="relative lg:hidden -mt-2 z-10">
