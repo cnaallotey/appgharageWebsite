@@ -1,25 +1,25 @@
 <template>
-  <div class="w-full">
-    <div class="max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0">
+  <div class="w-full mx-auto px-5 md:px-10 xl:px-0">
+    <div class="max-w-screen-lg mx-auto px-5 md:px-10 xl:px-0 rounded-md shadow-xl border">
       <div
         class="rounded-2xl px-5 md:px-14 py-10 md:py-0"
-        style="background-color: #e0e0e0"
+        style="background-color: #fff;"
+        
       >
         <div
-          class="flex flex-col md:flex-row items-start md:items-center space-y-10 md:space-y-0"
+          class="flex flex-col-reverse md:flex-row items-start md:items-center space-y-10 md:space-y-0"
         >
           <div
             class="w-full md:w-2/3 space-y-7 md:py-14 h-full flex flex-col justify-center"
           >
             <h1
-              class="font-semibold text-gray-900 text-center md:text-left text-4xl md:text-5xl leading-tight"
+              class="fmt-2 md:text-4xl leading-normal text-center md:text-left font-bold tracking-tight text-gray-800 text-4xl"
             >
-              We're here to make your business awesome
+              We're here to make your Business <span class="text-red-700">Awesome</span> 
             </h1>
             <router-link
               to="/contact"
-              class="w-56 mx-auto md:mx-0 text-white text-center py-3 font-normal rounded-md text-sm"
-              style="background-color: #b00000"
+              class="w-56 mx-auto md:mx-0 font-medium text-center py-3 rounded-none text-base bg-white text-red-600 border-2 border-red-700"
               >Get in touch with us</router-link
             >
           </div>

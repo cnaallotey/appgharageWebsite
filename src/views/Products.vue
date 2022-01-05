@@ -2,7 +2,7 @@
   <div class="home">
     <Navbar
       class="nav-fix filter"
-      :class="[isscroll ? 'bg-white drop-shadow-md ' : 'bg-transparent drop-shadow-none']"
+      :class="[isscroll ? 'bg-white drop-shadow ' : 'bg-transparent drop-shadow-none']"
     />
     <productsVue class="mt-10 mb-20" />
     <ctaVue ctaimg="productsv.svg" />

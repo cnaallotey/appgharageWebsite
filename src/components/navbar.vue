@@ -1,7 +1,7 @@
 <template>
   <div
     class="sticky top-0 z-20 w-full nav-fixed"
-    :class="[open ? 'bg-white shadow-md' : 'bg-none shadow-none']"
+    :class="[open ? 'bg-white shadow' : 'bg-none shadow-none']"
   >
     <section class="relative max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0">
       <div class="w-full py-1 flex items-center justify-between">
@@ -13,19 +13,19 @@
         <div class="hidden lg:flex space-x-7 items-center">
           <ul class="navlinks inline-flex font-medium space-x-7 cursor-pointer">
             <li
-              class="border-b-2 border-transparent font-medium hover:border-red-800 transistion ease-linear delay-100 focus:text-red-700"
+              class="border-b-2 border-transparent text-base text-gray-500 hover:border-red-800 transistion ease-linear delay-100 focus:text-red-700"
             >
               <router-link to="/" class="hover:border-b-2 border-red-700">
                 Home
               </router-link>
             </li>
             <li
-              class="border-b-2 font-medium border-transparent hover:border-red-800 focus:text-red-700"
+              class="border-b-2 font-medium border-transparent hover:border-red-800 focus:text-red-700 text-base text-gray-500"
             >
-              <router-link to="/products"> Products </router-link>
+              <router-link to="/products"> Projects </router-link>
             </li>
             <li
-              class="border-b-2 font-medium border-transparent hover:border-red-800 focus:text-red-700"
+              class="border-b-2 font-medium text-base text-gray-500 border-transparent hover:border-red-800 focus:text-red-700"
             >
               <router-link to="/about"> About </router-link>
             </li>
@@ -146,7 +146,7 @@
                   d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"
                 />
               </svg>
-              Products</router-link
+              Projects</router-link
             >
             <router-link
               to="/about"

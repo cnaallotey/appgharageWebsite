@@ -2,9 +2,9 @@
   <div class="about">
     <Navbar
       class="nav-fix filter"
-      :class="[isscroll ? 'bg-white drop-shadow-md ' : 'bg-transparent drop-shadow-none']"
+      :class="[isscroll ? 'bg-white drop-shadow ' : 'bg-transparent drop-shadow-none']"
     />
-    <aboutcompVue class="mt-10 mb-20" />
+    <aboutcompVue class="mt-10 mb-32" />
     <ctaVue ctaimg="aboutsv.svg" />
     <Foooter />
   </div>
