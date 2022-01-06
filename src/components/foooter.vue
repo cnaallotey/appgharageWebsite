@@ -24,7 +24,7 @@
           </div>
           <div class="flex flex-1">
           <div class="w-full lg:w-2/4 space-y-6 pr-0 md:pr-20 pt-0 lg:pt-3">
-            <h2 class="text-red-100 text-lg leading-6 font-medium opacity-80">
+            <h2 class="text-red-100 text-lg leading-6 font-medium ">
               Useful Links
             </h2>
             <div class="flex flex-col overflow-hidden space-y-4 text-white">
@@ -99,7 +99,7 @@
             </div>
           </div>
           <div class="w-full lg:w-2/4 space-y-6 pr-0 md:pr-20 pt-0 lg:pt-3">
-            <h2 class="text-red-100 text-lg leading-6 font-medium opacity-80">Socials</h2>
+            <h2 class="text-red-100 text-lg leading-6 font-medium ">Socials</h2>
             <div class="flex flex-col overflow-hidden space-y-4 text-white">
               <div class="flex items-center">
               <i class="fa fa-facebook-official" aria-hidden="true"></i>
@@ -114,7 +114,7 @@
             </div>
           </div></div>
           <div class="space-y-6 pt-0 lg:pt-3 w-full lg:w-1/4">
-            <h2 class="text-red-100 text-lg leading-6 font-medium opacity-80">
+            <h2 class="text-red-100 text-lg leading-6 font-medium ">
               Office location
             </h2>
             <div class="space-y-3">
@@ -169,7 +169,7 @@
                   />
                 </svg>
                 <p class="font-thin tracking-normal text-center text-gray-100 text-sm">
-                  0548797248
+                  (+233) 054 - 879 - 7248
                 </p>
               </div>
             </div>

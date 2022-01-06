@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="py-12 bg-transparent">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class=" bg-transparent">
+      <div class="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8">
         <div class="lg:text-center">
           <h2 class="text-base text-red-700 font-semibold tracking-wide uppercase">
             our services

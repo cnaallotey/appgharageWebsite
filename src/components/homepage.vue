@@ -1,12 +1,12 @@
 <template>
   <div class="relative z-10">
-    <div class="absolute z-0 top-0 right-0 w-1/3 -mt-56 lg:-mt-56">
+    <div class="absolute z-0 top-0 right-0 w-1/3 -mt-96 lg:-mt-56">
       <!--<img src="../assets/Rectangle.png" class="w-full" alt="" />-->
-      <div class=" bg-red-100 rounded-bl-full" style="height:900px; width:800px" ></div>
+      <div class=" bg-red-100 rounded-bl-full" style="min-height:900px; min-width:800px" ></div>
     </div>
 
     <div
-      class="relative max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0 space-y-20 md:space-y-32 z-10"
+      class="relative max-w-screen-xl mx-auto px-10 md:px-10 xl:px-0 space-y-8 md:space-y-32 z-10"
     >
       <div class="w-full overflow-hidden">
         <div class="flex flex-col-reverse lg:flex-row lg:space-y-0 items-center">
@@ -36,8 +36,8 @@
    
 
       <div class="w-full space-y-10 md:space-y-10">
-        <div class="py-12 bg-white">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class=" bg-white">
+      <div class="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8">
         <div class="lg:text-center">
           <h2 class="text-base text-red-700 font-semibold tracking-wide uppercase">
             Latest Projects
@@ -57,7 +57,7 @@
             <img src="../assets/Macbook Pro.png" class="w-full" alt="" />
           </div>
           <div
-            class="w-full md:w-1/2 pl-0 space-y-5 flex flex-col justify-center"
+            class="w-full md:w-1/2 pl-0 space-y-2 flex flex-col justify-center"
           >
             <h2
               class="font-semibold tracking-normal leading-normal text-left text-gray-900"
@@ -66,7 +66,7 @@
               Ghana Vehicle Import Duty Estimater
             </h2>
             <p
-              class="font-normal tracking-normal text-gray-500 text-left leading-normal text-base"
+              class="font-normal tracking-normal text-gray-500 text-left leading-normal text-base pb-1"
             
             >
               Our Web App makes it possible to check the import duty and vehicle
@@ -76,7 +76,7 @@
 
             <a
               href="https://ghanadutycalculator.com/estimates" target="_blank"
-              class="w-48 text-center py-3 font-normal cursor-pointer  text-white rounded-md"
+              class="w-full md:w-48 text-center py-3 font-normal cursor-pointer  text-white rounded-md"
               style="background-color: #b00000; font-size: 14px"
               >Visit Website</a
             >

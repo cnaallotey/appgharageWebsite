@@ -17,11 +17,11 @@
       <div
         class="w-full md:w-1/2 pr-0 md:pr-5 space-y-5 flex flex-col justify-center"
       >
-        <h2 class="font-semibold tracking-normal text-center md:text-left text-gray-900" style="font-size: 24px">
+        <h2 class="font-semibold tracking-normal text-left text-gray-900" style="font-size: 24px">
           Ghana Vehicle Import Duty Estimater
         </h2>
         <p
-          class="font-normal tracking-normal text-center md:text-left text-gray-500 leading-normal"
+          class="font-normal tracking-normal text-left text-gray-500 leading-normal"
           style="font-size: 16px"
         >
           Our Web App makes it possible to check the import duty and vehicle information
@@ -31,7 +31,7 @@
 
         <a
           href="https://ghanadutycalculator.com/estimates"
-          class="w-48 text-center mx-auto md:mx-0 py-3 font-normal text-white rounded-md"
+          class="w-full md:w-48 text-center mx-auto md:mx-0 py-3 font-normal text-white rounded-md"
           style="background-color: #b00000; font-size: 14px"
           >Visit Website</a
         >
