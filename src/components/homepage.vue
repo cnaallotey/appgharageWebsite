@@ -1,12 +1,12 @@
 <template>
-  <div class="relative z-10">
-    <div class="absolute z-0 top-0 right-0 w-1/3 -mt-96 lg:-mt-56">
+  <div class="relative z-10 overflow-visible">
+    <div class="absolute z-0 top-0 right-0 w-1/3 -mt-96 overflow-hidden lg:-mt-56">
       <!--<img src="../assets/Rectangle.png" class="w-full" alt="" />-->
       <div class=" bg-red-100 rounded-bl-full" style="min-height:900px; min-width:800px" ></div>
     </div>
 
     <div
-      class="relative max-w-screen-xl mx-auto px-10 md:px-10 xl:px-0 space-y-8 md:space-y-32 z-10"
+      class="relative max-w-screen-xl mx-auto px-10 md:px-10 xl:px-0 space-y-8 md:space-y-32 z-10 overflow-hidden"
     >
       <div class="w-full overflow-hidden">
         <div class="flex flex-col-reverse lg:flex-row lg:space-y-0 items-center">
