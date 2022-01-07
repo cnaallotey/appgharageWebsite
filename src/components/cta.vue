@@ -12,7 +12,8 @@
             class="w-full md:w-2/3 space-y-7 md:py-14 h-full flex flex-col justify-center"
           >
             <h1
-              class="mt-2 text-center md:text-left text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+              class="font-semibold tracking-normal font-gray-700 text-left leading-none"
+              style="font-size: 40px"
             >
               We are here to make your Business <span class="">Awesome</span>
             </h1>
@@ -22,7 +23,7 @@
               >Get in touch with us</router-link
             >
           </div>
-          <div class="flex items-center w-full md:w-1/3 py-5">
+          <div class="flex items-center w-full md:w-1/3 py-5 md:py-10">
             <img src="../assets/ctaimage.svg" class="mx-auto" alt="" />
           </div>
         </div>

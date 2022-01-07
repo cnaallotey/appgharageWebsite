@@ -3,14 +3,15 @@
     <div class="bg-transparent">
       <div class="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8">
         <div class="lg:text-center">
-          <h2 class="text-base text-red-700 font-semibold tracking-wide uppercase">
-            our services
-          </h2>
-          <p
-            class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+          <h1
+            class="font-semibold tracking-normal font-gray-700 text-center"
+            style="line-height: 60px; font-size: 40px"
           >
-            We provide a wide range of services
-          </p>
+            Our services
+          </h1>
+          <h2 class="text-base text-red-700 font-semibold tracking-wide uppercase">
+            We offer a wide range of services
+          </h2>
         </div>
       </div>
     </div>

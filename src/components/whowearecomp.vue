@@ -3,14 +3,15 @@
     <div class="bg-white">
       <div class="max-w-7xl mx-auto px-0">
         <div class="lg:text-center">
-          <h2 class="text-base text-red-700 font-semibold tracking-wide uppercase">
-            why choose us?
-          </h2>
-          <p
-            class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+          <h1
+            class="font-semibold tracking-normal font-gray-700 text-center"
+            style="line-height: 60px; font-size: 40px"
           >
-            What makes AppGharage better
-          </p>
+            Why choose us?
+          </h1>
+          <h2 class="text-base text-red-700 font-semibold tracking-wide uppercase">
+            What makes appgharage better
+          </h2>
         </div>
 
         <div class="flex flex-wrap -mx-3 overflow-hidden space-y-10 md:space-y-0 mt-10">
