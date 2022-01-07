@@ -101,14 +101,16 @@
                 Socials
               </h2>
               <div class="flex flex-col overflow-hidden space-y-4 text-white">
-                <div class="flex items-center">
-                  <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                <div class="flex items-center space-x-2">
+                  <img src="../assets/facebooknew.svg" class="w-5 h-5" alt="facebook" />
                   <p class="text-sm font-light hover:text-red-500">Facebook</p>
                 </div>
-                <div class="flex items-center">
+                <div class="flex items-center space-x-2">
+                  <img src="../assets/twitter (3).svg" class="w-5 h-5" alt="twitter" />
                   <p class="text-sm font-light hover:text-red-500">Twitter</p>
                 </div>
-                <div class="flex items-center">
+                <div class="flex items-center space-x-2">
+                  <img src="../assets/linkedin.svg" class="w-5 h-5" alt="" />
                   <p class="text-sm font-light hover:text-red-500">LinkdIn</p>
                 </div>
               </div>
@@ -116,75 +118,76 @@
           </div>
           <div class="space-y-6 pt-0 lg:pt-3 w-full lg:w-1/4">
             <h2 class="text-white text-base uppercase leading-6 font-medium">
-              Office location
+              Get in touch
             </h2>
-            <div class="space-y-3">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.195323841637!2d-0.19806997347822614!3d5.68488772800608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd6343057ac424b31!2zNcKwNDEnMDYuNyJOIDDCsDExJzQ0LjgiVw!5e0!3m2!1sen!2sgh!4v1641394351477!5m2!1sen!2sgh"
-                width="600"
-                height="450"
-                class="w-full h-32 rounded-lg"
-                style="border: 0"
-                loading="lazy"
-              ></iframe>
-              <p class="text-white text-sm font-light italic text-left">
-                26 Bimpong st, Agbogba
-              </p>
+            <div class="space-y-3 text-white">
+              <div class="font-light text-sm flex items-center space-x-2">
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.5"
+                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.5"
+                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                    /></svg></span
+                ><span>26 Bimpong Street, Agbogba, Accra</span>
+              </div>
+              <div class="font-light text-sm flex items-center space-x-2">
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.5"
+                      d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                    /></svg
+                ></span>
+                <span>(+233) 054 - 879 - 7248</span>
+              </div>
+              <div class="font-light text-sm flex items-center space-x-2">
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.5"
+                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                    /></svg
+                ></span>
+                <span>appgharage@gmail.com</span>
+              </div>
             </div>
           </div>
         </div>
-        <div class="w-full mt-10 border-b-0 border-gray-700 md:border-b">
-          <div class="flex flex-wrap -mx-4 overflow-hidden text-white">
-            <div class="my-4 px-4 w-1/2 overflow-hidden md:w-1/3 lg:w-1/3 xl:w-1/3">
-              <!-- Column Content -->
-              <div class="flex items-center justify-center space-x-3">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
-                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                  />
-                </svg>
-                <p class="font-thin tracking-normal text-center text-gray-100 text-sm">
-                  appgharage@gmail.com
-                </p>
-              </div>
-            </div>
-
-            <div class="my-4 px-4 w-1/2 overflow-hidden md:w-1/3 lg:w-1/3 xl:w-1/3">
-              <!-- Column Content -->
-              <div class="flex items-center justify-center space-x-3">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"
-                  />
-                </svg>
-                <p class="font-thin tracking-normal text-center text-gray-100 text-sm">
-                  (+233) 054 - 879 - 7248
-                </p>
-              </div>
-            </div>
-
-            <div class="my-4 px-4 w-full overflow-hidden md:w-1/3 lg:w-1/3 xl:w-1/3">
-              <!-- Column Content -->
-              <div class="flex items-center justify-center">
-                <p class="font-thin tracking-normal text-center text-gray-100 text-sm">
-                  Copyright © 2021 AppGharage. All rights reserved.
-                </p>
-              </div>
-            </div>
+        <div class="w-full mt-10 border-b-0 border-gray-700 md:border-b pb-4">
+          <div class="flex items-center justify-center">
+            <p class="font-thin tracking-normal text-center text-gray-100 text-sm">
+              Copyright © AppGharage. All rights reserved.
+            </p>
           </div>
         </div>
       </div>

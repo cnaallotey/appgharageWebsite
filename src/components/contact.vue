@@ -54,6 +54,14 @@
               Agbogba, Accra</span
             >
           </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.195323841637!2d-0.19806997347822614!3d5.68488772800608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd6343057ac424b31!2zNcKwNDEnMDYuNyJOIDDCsDExJzQ0LjgiVw!5e0!3m2!1sen!2sgh!4v1641394351477!5m2!1sen!2sgh"
+            width="600"
+            height="450"
+            class="w-full h-32 rounded-lg"
+            style="border: 0"
+            loading="lazy"
+          ></iframe>
           <div class="flex items-start space-x-5 text-base font-medium">
             <span
               ><svg
@@ -105,7 +113,7 @@
           </div>
         </div>
         <form class="w-fll md:w-1/2 py-10 px-0 md:px-10 space-y-10 bg-white">
-          <p class="font-bold text-center text-gray-900 tracking-tight text-xl">
+          <p class="text-xl leading-6 font-medium text-gray-900 text-center md:text-left">
             Send a message
           </p>
           <div>
