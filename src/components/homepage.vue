@@ -9,7 +9,7 @@
     </div>
 
     <div
-      class="relative max-w-screen-xl mx-auto px-10 md:px-10 xl:px-0 space-y-8 md:space-y-32 z-10 overflow-hidden"
+      class="relative max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0 space-y-8 md:space-y-32 z-10 overflow-hidden"
     >
       <div class="w-full overflow-hidden">
         <div class="flex flex-col-reverse lg:flex-row lg:space-y-0 items-center">
@@ -55,7 +55,7 @@
         <div
           class="flex flex-col md:flex-row space-x-0 md:space-x-20 space-y-10 md:space-y-0"
         >
-          <div class="w-full md:w-1/2 px-5 bg-gray-100 pt-10 rounded-3xl">
+          <div class="w-full md:w-1/2 px-5 rounded-3xl">
             <img src="../assets/Macbook Pro.png" class="w-full" alt="" />
           </div>
           <div class="w-full md:w-1/2 pl-0 flex flex-col justify-center">

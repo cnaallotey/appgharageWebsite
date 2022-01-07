@@ -5,10 +5,17 @@
         <div class="w-full flex flex-col lg:flex-row space-y-10 lg:space-y-0">
           <div class="w-full lg:w-1/4 space-y-3">
             <div class="flex items-end space-x-1">
-              <img src="../assets/logoonly.png" class="h-24" alt="" />
+              <img src="../assets/logoonly.png" class="h-16" alt="" />
               <p class="text-lg leading-6 font-medium text-white mb-4">AppGharage</p>
             </div>
-            <!-- <div class="flex space-x-3">
+            <div class="text-white font-light text-sm mb-6">
+              <p class="pb-2">
+                AppGharage a Software and Business solutions Company that offers
+                technological services and consultancy services to small scale businesses
+                and corporate organizations.
+              </p>
+            </div>
+            <div class="flex space-x-3 mt-2">
               <div class="rounded-full bg-white">
                 <img src="../assets/instagram.png" class="h-7 m-2" alt="" />
               </div>
@@ -18,10 +25,10 @@
               <div class="rounded-full bg-white flex items-center">
                 <img src="../assets/Vector.png" class="h-6 m-2" alt="" />
               </div>
-            </div>-->
+            </div>
           </div>
           <div class="flex flex-1">
-            <div class="w-full lg:w-2/4 space-y-6 pr-0 md:pr-20 pt-0 lg:pt-3">
+            <div class="w-full lg:w-2/4 space-y-6 pr-0 md:pr-20 pt-0 lg:pt-3 mx-auto">
               <h2 class="text-white text-base leading-6 font-medium uppercase">
                 Useful Links
               </h2>
@@ -110,7 +117,8 @@
                 </div>
               </div>
             </div>
-            <div class="w-full lg:w-2/4 space-y-6 pr-0 md:pr-20 pt-0 lg:pt-3">
+
+            <!--<div class="w-full lg:w-2/4 space-y-6 pr-0 md:pr-20 pt-0 lg:pt-3">
               <h2 class="text-white text-base uppercase leading-6 font-medium">
                 Socials
               </h2>
@@ -128,7 +136,7 @@
                   <p class="text-sm font-light hover:text-red-500">LinkdIn</p>
                 </div>
               </div>
-            </div>
+            </div>-->
           </div>
           <div class="space-y-6 pt-0 lg:pt-3 w-full lg:w-1/4">
             <h2 class="text-white text-base uppercase leading-6 font-medium">
@@ -197,7 +205,7 @@
             </div>
           </div>
         </div>
-        <div class="w-full mt-10 border-b-0 border-gray-700 md:border-b pb-4">
+        <div class="w-full mt-10 border-b-0 border-gray-700">
           <div class="flex items-center justify-center">
             <p class="font-thin tracking-normal text-center text-gray-100 text-sm">
               Copyright © AppGharage. All rights reserved.
