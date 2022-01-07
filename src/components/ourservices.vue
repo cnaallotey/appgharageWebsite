@@ -9,21 +9,19 @@
           >
             Our services
           </h1>
-          <h2 class="text-xl text-gray-500">
-            We offer a wide range of services
-          </h2>
+          <h2 class="text-xl text-gray-500">We offer a wide range of services</h2>
         </div>
       </div>
     </div>
     <div class="mt-10">
-      <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
-        <div class="relative p-5 border rounded-lg shadow-md">
+      <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-4 md:gap-x-8 md:gap-y-10">
+        <div class="relative p-5 rounded-lg shadow-md">
           <dt>
             <div
-              class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-red-600 text-white"
+              class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white"
             >
               <!-- Heroicon name: outline/globe-alt -->
-              <img src="../assets/website 1.svg" class="w-6 h-6" alt="" />
+              <img src="../assets/website 1.svg" class="w-full" alt="" />
             </div>
             <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
               Websites and App Development
@@ -35,13 +33,13 @@
           </dd>
         </div>
 
-        <div class="relative p-5 border rounded-lg shadow-md">
+        <div class="relative p-5 rounded-lg shadow-md">
           <dt>
             <div
-              class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-red-600 text-white"
+              class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white"
             >
               <!-- Heroicon name: outline/scale -->
-              <img src="../assets/Vector.svg" class="w-6 h-6" alt="ui and ux" />
+              <img src="../assets/Vector.svg" class="w-full" alt="ui and ux" />
             </div>
             <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Visual Design</p>
           </dt>
@@ -52,13 +50,13 @@
           </dd>
         </div>
 
-        <div class="relative p-5 border rounded-lg shadow-md">
+        <div class="relative p-5 rounded-lg shadow-md">
           <dt>
             <div
-              class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-red-600 text-white"
+              class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white"
             >
               <!-- Heroicon name: outline/lightning-bolt -->
-              <img src="../assets/code (1) 1.svg" class="w-6 h-6" alt="" />
+              <img src="../assets/code (1) 1.svg" class="w-full" alt="" />
             </div>
             <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
               Software Development
@@ -71,13 +69,13 @@
           </dd>
         </div>
 
-        <div class="relative p-5 border rounded-lg shadow-md">
+        <div class="relative p-5 rounded-lg shadow-md">
           <dt>
             <div
-              class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-red-600 text-white"
+              class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white"
             >
               <!-- Heroicon name: outline/annotation -->
-              <img src="../assets/business 1.svg" class="w-6 h-6" alt="" />
+              <img src="../assets/business 1.svg" class="w-full" alt="" />
             </div>
             <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
               Consultancy Services
