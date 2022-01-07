@@ -4,12 +4,14 @@
       <div class="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8">
         <div class="lg:text-center">
           <h1
-            class="font-semibold tracking-normal font-gray-700 text-center"
+            class="font-semibold tracking-normal font-gray-700 text-left md:text-center"
             style="line-height: 60px; font-size: 40px"
           >
             Our services
           </h1>
-          <h2 class="text-xl text-gray-500">We offer a wide range of services</h2>
+          <h2 class="text-xl text-gray-500 text-left md:text-center">
+            We offer a wide range of services
+          </h2>
         </div>
       </div>
     </div>

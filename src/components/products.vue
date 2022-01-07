@@ -4,7 +4,7 @@
       class="font-bold text-gray-700 text-left"
       style="font-size: 40px; letter-spacing: 0.2px"
     >
-      Products
+      Latest Projects
     </h1>
     <div class="flex flex-col md:flex-row">
       <div class="w-full md:w-1/2 p-5">

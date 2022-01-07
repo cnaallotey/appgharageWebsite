@@ -29,6 +29,11 @@
       </div>-->
       <div class="max-w-screen-xl mx-auto flex flex-col md:flex-row py-10 px-5 md:px-0">
         <div class="w-full md:w-1/2 py-10 px-10 space-y-5 bg-white text-gray-500">
+          <p
+            class="font-semibold text-2xl tracking-normal text-gray-700 text-center md:text-left underline"
+          >
+            Get in Touch
+          </p>
           <div class="flex items-start space-x-5 text-base font-medium">
             <span
               ><svg
@@ -114,7 +119,7 @@
           </div>
         </div>
         <form class="w-fll md:w-1/2 py-10 px-0 md:px-10 space-y-5 bg-white">
-          <p class="text-xl leading-6 font-medium text-gray-900 text-center md:text-left">
+          <p class="font-semibold text-2xl tracking-normal text-gray-700 text-center">
             Send a message
           </p>
           <div>
@@ -187,7 +192,7 @@
             ></textarea>
           </div>
           <button
-            class="w-full md:w-48 py-3 font-medium text-white rounded-md text-base flex items-center justify-center space-x-2"
+            class="w-full py-3 font-medium text-white rounded-md text-base flex items-center justify-center space-x-2"
             style="background-color: #b00000"
             @click.prevent="contact()"
           >

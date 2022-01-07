@@ -12,7 +12,7 @@
             class="w-full md:w-2/3 space-y-7 md:py-14 h-full flex flex-col justify-center"
           >
             <h1
-              class="font-semibold text-gray-700"
+              class="font-semibold text-gray-700 text-center md:text-left"
               style="font-size: 53px; line-height: 53px"
             >
               We are here to make your Business <span class="">Awesome</span>

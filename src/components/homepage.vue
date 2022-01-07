@@ -42,7 +42,7 @@
           <div class="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8">
             <div class="lg:text-center">
               <h1
-                class="font-semibold tracking-normal font-gray-700 text-center"
+                class="font-semibold tracking-normal font-gray-700 text-left md:text-center"
                 style="line-height: 60px; font-size: 40px"
               >
                 Projects
@@ -58,7 +58,10 @@
             <img src="../assets/Macbook Pro.png" class="w-full" alt="" />
           </div>
           <div class="w-full md:w-1/2 pl-0 flex flex-col justify-center">
-            <h2 class="text-xl leading-6 font-medium text-gray-900 mb-2">
+            <h2
+              class="font-semibold tracking-normal text-gray-700"
+              style="font-size: 24px"
+            >
               Ghana Vehicle Import Duty Estimater
             </h2>
             <p
