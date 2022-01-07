@@ -32,7 +32,7 @@
           </ul>
           <router-link
             to="/contact"
-            class="px-6 py-3 font-medium text-base navlinks text-white rounded-sm hover:shadow-md"
+            class="px-6 py-3 font-medium text-base navlinks text-white rounded-md hover:shadow-md"
             style="background-color: #b00000"
             >Contact Us</router-link
           >

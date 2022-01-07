@@ -12,14 +12,14 @@
             class="w-full md:w-2/3 space-y-7 md:py-14 h-full flex flex-col justify-center"
           >
             <h1
-              class="font-semibold tracking-normal font-gray-700 text-left leading-none"
-              style="font-size: 40px"
+              class="font-semibold text-gray-700"
+              style="font-size: 53px; line-height: 53px"
             >
               We are here to make your Business <span class="">Awesome</span>
             </h1>
             <router-link
               to="/contact"
-              class="w-full md:w-56 mx-auto md:mx-0 font-medium text-center py-3 rounded-none text-base bg-red-700 text-white"
+              class="w-full md:w-56 mx-auto md:mx-0 font-medium text-center rounded-md py-3 text-base bg-red-700 text-white"
               >Get in touch with us</router-link
             >
           </div>

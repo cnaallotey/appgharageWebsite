@@ -9,9 +9,7 @@
           >
             Why choose us?
           </h1>
-          <h2 class="text-base text-red-700 font-semibold tracking-wide uppercase">
-            What makes appgharage better
-          </h2>
+          <h2 class="text-xl text-gray-500">What makes AppGharage better.</h2>
         </div>
 
         <div class="flex flex-wrap -mx-3 overflow-hidden space-y-10 md:space-y-0 mt-10">

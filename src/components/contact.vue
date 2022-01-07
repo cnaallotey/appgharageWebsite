@@ -8,8 +8,8 @@
               contact us
             </h2>
             <p
-              class="font-semibold tracking-normal font-gray-700 text-center"
-              style="line-height: 60px; font-size: 40px"
+              class="font-bold text-gray-900 text-center"
+              style="font-size: 40px; letter-spacing: 0.2px"
             >
               Need our Services?
             </p>
@@ -27,7 +27,7 @@
           <img src="../assets/Vector.png" class="h-6 m-2" alt="" />
         </div>
       </div>-->
-      <div class="max-w-screen-lg mx-auto flex flex-col md:flex-row py-10 px-5 md:px-10">
+      <div class="max-w-screen-xl mx-auto flex flex-col md:flex-row py-10 px-5 md:px-0">
         <div class="w-full md:w-1/2 py-10 px-10 space-y-5 bg-white text-gray-500">
           <div class="flex items-start space-x-5 text-base font-medium">
             <span
@@ -187,7 +187,7 @@
             ></textarea>
           </div>
           <button
-            class="w-full md:w-32 py-3 font-medium text-white rounded-sm text-base flex items-center justify-center space-x-2"
+            class="w-full md:w-48 py-3 font-medium text-white rounded-md text-base flex items-center justify-center space-x-2"
             style="background-color: #b00000"
             @click.prevent="contact()"
           >

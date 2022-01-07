@@ -7,8 +7,8 @@
             About
           </h2>
           <h1
-            class="font-semibold tracking-tight font-gray-700 text-left"
-            style="line-height: 60px; font-size: 40px"
+            class="font-bold text-gray-900 text-left"
+            style="font-size: 40px; letter-spacing: 0.2px"
           >
             Who we are
           </h1>

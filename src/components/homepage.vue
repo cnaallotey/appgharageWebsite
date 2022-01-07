@@ -47,9 +47,7 @@
               >
                 Projects
               </h1>
-              <h2 class="text-base text-red-700 font-semibold tracking-wide uppercase">
-                Here are some of our latest projects
-              </h2>
+              <h2 class="text-xl text-gray-500">Here are some of our latest projects</h2>
             </div>
           </div>
         </div>
@@ -74,7 +72,7 @@
             <a
               href="https://ghanadutycalculator.com/estimates"
               target="_blank"
-              class="w-full md:w-48 text-center py-3 font-medium text-base cursor-pointer text-white rounded-sm flex items-center justify-center"
+              class="w-full md:w-48 text-center py-3 font-medium text-base cursor-pointer text-white rounded-md flex items-center justify-center"
               style="background-color: #b00000"
               ><span>Visit Website</span></a
             >

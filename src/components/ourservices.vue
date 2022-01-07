@@ -9,7 +9,7 @@
           >
             Our services
           </h1>
-          <h2 class="text-base text-red-700 font-semibold tracking-wide uppercase">
+          <h2 class="text-xl text-gray-500">
             We offer a wide range of services
           </h2>
         </div>

@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <div class="w-full bg-black py-20 mt-32">
+    <div class="w-full bg-black pt-20 mt-32">
       <div class="max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0">
         <div class="w-full flex flex-col lg:flex-row space-y-10 lg:space-y-0">
           <div class="w-full lg:w-1/4 space-y-3">
@@ -206,7 +206,9 @@
           </div>
         </div>
         <div class="w-full mt-10 border-b-0 border-gray-700">
-          <div class="flex items-center justify-center">
+          <div
+            class="flex items-center justify-center mt-20 pt-5 pb-10 border-t border-gray-800"
+          >
             <p class="font-thin tracking-normal text-center text-gray-100 text-sm">
               Copyright © AppGharage. All rights reserved.
             </p>
