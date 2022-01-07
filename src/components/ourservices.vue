@@ -15,82 +15,81 @@
         </div>
       </div>
     </div>
-    <div class="mt-10 flex flex-wrap -mx-5 overflow-hidden">
-      <div class="my-5 md:my-0 px-5 w-full overflow-hidden md:w-1/4 lg:w-1/4 xl:w-1/4">
-        <!-- Column Content -->
-        <div
-          class="space-y-2 p-8 h-full transition delay-100 group rounded-md shadow-none border border-gray-200 hover:bg-gray-50 hover:shadow-md cursor-default select-none"
-        >
-          <img
-            src="../assets/visualdesign.svg"
-            class="p-6 transform scale-100 group-hover:scale-110"
-            alt="visual"
-          />
-          <p
-            class="text-lg leading-6 font-medium text-blue-700 transition-colors delay-100"
-          >
-            Website and App Development
-          </p>
-          <p class="text-base text-gray-500">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit
-            perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
-          </p>
+    <div class="mt-10">
+      <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+        <div class="relative p-5 border rounded-lg shadow-md">
+          <dt>
+            <div
+              class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-red-600 text-white"
+            >
+              <!-- Heroicon name: outline/globe-alt -->
+              <img src="../assets/website 1.svg" class="w-6 h-6" alt="" />
+            </div>
+            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
+              Websites and App Development
+            </p>
+          </dt>
+          <dd class="mt-2 ml-16 text-base text-gray-500">
+            Websites are an essential tool for your business to establish their
+            credibility and build trust with your customers.
+          </dd>
         </div>
-      </div>
 
-      <div class="my-5 md:my-0 px-5 w-full overflow-hidden md:w-1/4 lg:w-1/4 xl:w-1/4">
-        <!-- Column Content -->
-        <div
-          class="space-y-2 p-8 h-full transition delay-100 group rounded-md shadow-none border border-gray-200 hover:bg-gray-50 hover:shadow-md cursor-default select-none"
-        >
-          <img src="../assets/design.svg" class="p-6" alt="visual" />
-          <p
-            class="text-lg leading-6 font-medium text-blue-700 transition-colors delay-100"
-          >
-            Visual Design
-          </p>
-          <p class="text-base text-gray-500">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit
-            perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
-          </p>
+        <div class="relative p-5 border rounded-lg shadow-md">
+          <dt>
+            <div
+              class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-red-600 text-white"
+            >
+              <!-- Heroicon name: outline/scale -->
+              <img src="../assets/Vector.svg" class="w-6 h-6" alt="ui and ux" />
+            </div>
+            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Visual Design</p>
+          </dt>
+          <dd class="mt-2 ml-16 text-base text-gray-500">
+            Ui/Ux is important to your company because it tries to fulfill the user's
+            needs when using your product. It aims to provide positive experiences that
+            keep a user loyal to the product or brand.
+          </dd>
         </div>
-      </div>
 
-      <div class="my-5 md:my-0 px-5 w-full overflow-hidden md:w-1/4 lg:w-1/4 xl:w-1/4">
-        <!-- Column Content -->
-        <div
-          class="space-y-2 p-8 h-full transition delay-100 group rounded-md shadow-none border border-gray-200 hover:bg-gray-50 hover:shadow-md cursor-default select-none"
-        >
-          <img src="../assets/software.svg" class="p-6" alt="visual" />
-          <p
-            class="text-lg leading-6 font-medium text-blue-700 transition-colors delay-100"
-          >
-            Software Development
-          </p>
-          <p class="text-base text-gray-500">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit
-            perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
-          </p>
+        <div class="relative p-5 border rounded-lg shadow-md">
+          <dt>
+            <div
+              class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-red-600 text-white"
+            >
+              <!-- Heroicon name: outline/lightning-bolt -->
+              <img src="../assets/code (1) 1.svg" class="w-6 h-6" alt="" />
+            </div>
+            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
+              Software Development
+            </p>
+          </dt>
+          <dd class="mt-2 ml-16 text-base text-gray-500">
+            A software is important for automation of the organisation's tasks as well as
+            reporting the progress or lags in the organisation's activities. This improves
+            company's efficiency and effectiveness of the company's activities.
+          </dd>
         </div>
-      </div>
 
-      <div class="my-5 md:my-0 px-5 w-full overflow-hidden md:w-1/4 lg:w-1/4 xl:w-1/4">
-        <!-- Column Content -->
-        <div
-          class="space-y-2 p-8 h-full transition delay-100 group rounded-md shadow-none border border-gray-200 hover:bg-gray-50 hover:shadow-md cursor-default select-none"
-        >
-          <img src="../assets/consultancys.svg" class="p-6" alt="visual" />
-          <p
-            class="text-lg leading-6 font-medium text-blue-700 transition-colors delay-100"
-          >
-            Consultancy Services
-          </p>
-          <p class="text-base text-gray-500">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit
-            perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
-          </p>
+        <div class="relative p-5 border rounded-lg shadow-md">
+          <dt>
+            <div
+              class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-red-600 text-white"
+            >
+              <!-- Heroicon name: outline/annotation -->
+              <img src="../assets/business 1.svg" class="w-6 h-6" alt="" />
+            </div>
+            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
+              Consultancy Services
+            </p>
+          </dt>
+          <dd class="mt-2 ml-16 text-base text-gray-500">
+            We provide the needed expertise in helping clients maximise their use of
+            technology for their business. We help transform the way you use your
+            technology.
+          </dd>
         </div>
-      </div>
+      </dl>
     </div>
   </div>
 </template>
