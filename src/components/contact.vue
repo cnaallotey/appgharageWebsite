@@ -1,19 +1,21 @@
 <template>
   <div class="max-w-screen-xl mx-auto px-5 xl:px-0">
     <div class="w-full space-y-10">
-      <h1
-        class="font-bold text-gray-900 text-center"
-        style="font-size: 40px; letter-spacing: 0.2px"
-      >
-        Contact Us
-      </h1>
-      <p
-        class="font-normal text-center text-sm text-gray-700"
-        style="line-height: 28px; letter-spacing: 0.2px"
-      >
-        Need Our Services? <br />Get in touch with us.
-      </p>
-      <div class="flex space-x-3 justify-center">
+      <div class="bg-transparent">
+        <div class="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8">
+          <div class="lg:text-center">
+            <h2 class="text-base text-red-700 font-semibold tracking-wide uppercase">
+              contact us
+            </h2>
+            <p
+              class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+            >
+              Need our Services?
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--<div class="flex space-x-3 justify-center">
         <div class="rounded-full bg-gray-100">
           <img src="../assets/instagram.png" class="h-7 m-2" alt="" />
         </div>
@@ -23,76 +25,182 @@
         <div class="rounded-full bg-gray-100 flex items-center">
           <img src="../assets/Vector.png" class="h-6 m-2" alt="" />
         </div>
+      </div>-->
+      <div class="max-w-screen-lg mx-auto flex flex-col md:flex-row py-10 px-5 md:px-10">
+        <div class="w-full md:w-1/2 py-10 px-10 space-y-10 bg-gray-100 text-gray-500">
+          <div class="flex items-start space-x-5 text-base font-medium">
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                /></svg></span
+            ><span
+              >26 Bimpong Street,<br />
+              Agbogba, Accra</span
+            >
+          </div>
+          <div class="flex items-start space-x-5 text-base font-medium">
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                /></svg></span
+            ><span>(+233) 054 - 879 - 7248</span>
+          </div>
+          <div class="flex items-start space-x-5 text-base font-medium">
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                /></svg></span
+            ><span>appgharage@gmail.com</span>
+          </div>
+          <div>
+            <p class="uppercase text-lg leading-6 font-semibold text-gray-900">Socials</p>
+            <div class="flex items-center space-x-5 text-base font-medium mt-4">
+              <span><img src="../assets/facebook1.png" class="w-6" alt="" /></span
+              ><span>faceboook</span>
+            </div>
+            <div class="flex items-center space-x-5 text-base font-medium mt-2">
+              <span><img src="../assets/linkedin.png" class="w-6" alt="" /></span
+              ><span>LinkedIn</span>
+            </div>
+            <div class="flex items-center space-x-5 text-base font-medium mt-2">
+              <span><img src="../assets/twitter2.png" class="w-6" alt="" /></span
+              ><span>Twitter</span>
+            </div>
+          </div>
+        </div>
+        <form class="w-fll md:w-1/2 py-10 px-0 md:px-10 space-y-10 bg-white">
+          <p class="font-bold text-center text-gray-900 tracking-tight text-xl">
+            Send a message
+          </p>
+          <div>
+            <label for="price" class="block text-sm font-medium text-gray-700 mb-2"
+              >Full name</label
+            >
+            <div
+              class="w-full bg-white flex items-center rounded-md border-2 border-gray-200"
+            >
+              <input
+                type="text"
+                placeholder="John Doe"
+                v-model="fullName"
+                class="px-3 py-3 bg-white w-full focus:outline-none"
+                @keyup="validatename()"
+              />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-8 w-8 text-green-500 mr-2"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                v-if="fullnameValidation"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+          <div>
+            <label for="price" class="block text-sm font-medium text-gray-700 mb-2"
+              >Email Address</label
+            >
+            <div
+              class="w-full bg-white flex items-center rounded-md border-2 border-gray-200"
+            >
+              <input
+                type="email"
+                placeholder="john@example.com"
+                v-model="email"
+                @keyup="validateEmail()"
+                class="px-3 py-3 bg-white w-full focus:ring-2 focus:outline-none"
+              />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-8 w-8 text-green-500 mr-2"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                v-if="emailValidation"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+          <div>
+            <label for="price" class="block text-sm font-medium text-gray-700 mb-2"
+              >Enter your message</label
+            >
+            <textarea
+              type="text"
+              placeholder=""
+              v-model="message"
+              class="px-3 py-3 bg-white w-full focus:outline-none h-64 rounded-md border-2 border-gray-200"
+            ></textarea>
+          </div>
+          <button
+            class="w-full md:w-32 py-3 font-medium text-white rounded-sm text-base flex items-center justify-center space-x-2"
+            style="background-color: #b00000"
+            @click.prevent="contact()"
+          >
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5 transform rotate-45 mb-1"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                  d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
+                /></svg
+            ></span>
+            <span>Send</span>
+          </button>
+        </form>
       </div>
-      <form
-        class="max-w-screen-lg mx-auto py-10 px-5 md:px-10 space-y-10 rounded"
-        style="background-color: #22343d"
-      >
-        <p
-          class="font-bold text-center text-white"
-          style="letter-spacing: 0.1px; font-size: 24px"
-        >
-          Send a message
-        </p>
-        <div class="w-full bg-white flex items-center ">
-          <input
-            type="text"
-            placeholder="Your name (first name and Last name only)"
-            v-model="fullName"
-            class="px-3 py-3 bg-white w-full focus:outline-none"
-            @keyup="validatename()"
-          />
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-8 w-8 text-green-500 mr-2"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-            v-if="fullnameValidation"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-              clip-rule="evenodd"
-            />
-          </svg>
-          
-        </div>
-        <div class="w-full bg-white flex items-center" >
-        <input
-          type="email"
-          placeholder="Your Email Address"
-          v-model="email"
-          @keyup="validateEmail()"
-          class="px-3 py-3 bg-white w-full focus:ring-2 focus:outline-none"
-        />
-        <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-8 w-8 text-green-500 mr-2"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-            v-if="emailValidation"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-              clip-rule="evenodd"
-            />
-          </svg>
-        </div>
-        <textarea
-          type="text"
-          placeholder="Enter your message"
-          v-model="message"
-          class="px-3 py-3 bg-white w-full focus:outline-none h-64"
-        ></textarea>
-        <button
-          class="w-full md:w-32 py-3 font-semibold text-white rounded-md"
-          style="background-color: #b00000"
-          @click.prevent="contact()"
-        >
-          Send
-        </button>
-      </form>
     </div>
     <transition
       enter-active-class="animate__animated animate__backInUp animate__faster"
@@ -124,7 +232,7 @@ export default {
       success: false,
       emailValidation: false,
       fullnameValidation: false,
-      fullnameValidationError:false
+      fullnameValidationError: false,
     };
   },
   methods: {
@@ -147,7 +255,7 @@ export default {
     },
     contact: function () {
       if (
-        this.fullnameValidation===true &&
+        this.fullnameValidation === true &&
         this.emailValidation === true &&
         this.message != ""
       ) {
@@ -160,7 +268,7 @@ export default {
           .then(() => {
             this.success = true;
             this.fullName = this.email = this.message = "";
-            this.fullnameValidation=this.emailValidation=false;
+            this.fullnameValidation = this.emailValidation = false;
             setTimeout(() => {
               this.success = false;
             }, 3000);

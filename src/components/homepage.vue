@@ -2,7 +2,10 @@
   <div class="relative z-10 overflow-visible">
     <div class="absolute z-0 top-0 right-0 w-1/3 -mt-96 overflow-hidden lg:-mt-56">
       <!--<img src="../assets/Rectangle.png" class="w-full" alt="" />-->
-      <div class=" bg-red-100 rounded-bl-full" style="min-height:900px; min-width:800px" ></div>
+      <div
+        class="bg-red-100 rounded-bl-full"
+        style="min-height: 900px; min-width: 800px"
+      ></div>
     </div>
 
     <div
@@ -30,44 +33,37 @@
           </div>
         </div>
       </div>
-      
-      <ourservicesVue/>
-      <whowearecompVue/>
-   
+
+      <ourservicesVue />
+      <whowearecompVue />
 
       <div class="w-full space-y-10 md:space-y-10">
-        <div class=" bg-white">
-      <div class="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8">
-        <div class="lg:text-center">
-          <h2 class="text-base text-red-700 font-semibold tracking-wide uppercase">
-            Latest Projects
-          </h2>
-          <p
-            class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
-          >
-            Here are some of our projects
-          </p>
+        <div class="bg-white">
+          <div class="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8">
+            <div class="lg:text-center">
+              <h2 class="text-base text-red-700 font-semibold tracking-wide uppercase">
+                Latest Projects
+              </h2>
+              <p
+                class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+              >
+                Here are some of our projects
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
         <div
           class="flex flex-col md:flex-row space-x-0 md:space-x-20 space-y-10 md:space-y-0"
         >
-          <div class="w-full md:w-1/2 px-5">
+          <div class="w-full md:w-1/2 px-5 bg-gray-100 pt-10 rounded-3xl">
             <img src="../assets/Macbook Pro.png" class="w-full" alt="" />
           </div>
-          <div
-            class="w-full md:w-1/2 pl-0 space-y-2 flex flex-col justify-center"
-          >
-            <h2
-              class="font-semibold tracking-normal leading-normal text-left text-gray-900"
-              style="font-size: 24px"
-            >
+          <div class="w-full md:w-1/2 pl-0 flex flex-col justify-center">
+            <h2 class="text-xl leading-6 font-medium text-gray-900 mb-2">
               Ghana Vehicle Import Duty Estimater
             </h2>
             <p
-              class="font-normal tracking-normal text-gray-500 text-left leading-normal text-base pb-1"
-            
+              class="font-normal tracking-normal text-gray-500 text-left leading-normal text-base pb-1 mb-2"
             >
               Our Web App makes it possible to check the import duty and vehicle
               information about any vehicle you would like to import into Ghana stress
@@ -75,11 +71,24 @@
             </p>
 
             <a
-              href="https://ghanadutycalculator.com/estimates" target="_blank"
-              class="w-full md:w-48 text-center py-3 font-normal cursor-pointer  text-white rounded-md"
-              style="background-color: #b00000; font-size: 14px"
-              >Visit Website</a
-            >
+              href="https://ghanadutycalculator.com/estimates"
+              target="_blank"
+              class="w-full md:w-40 text-center py-2 font-medium text-base cursor-pointer text-white rounded-sm flex items-center justify-center"
+              style="background-color: #b00000"
+              ><span>Visit Website</span
+              ><span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                    clip-rule="evenodd"
+                  /></svg></span
+            ></a>
           </div>
         </div>
       </div>
@@ -91,13 +100,11 @@
 import ourservicesVue from "./ourservices.vue";
 import whowearecompVue from "./whowearecomp.vue";
 export default {
-  components:{
-    ourservicesVue, whowearecompVue
-  }
-}
-
-
-
+  components: {
+    ourservicesVue,
+    whowearecompVue,
+  },
+};
 </script>
 
 <style>

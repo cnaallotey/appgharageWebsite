@@ -6,9 +6,7 @@
           <div class="w-full lg:w-1/4 space-y-3">
             <div class="flex items-end space-x-1">
               <img src="../assets/logoonly.png" class="h-24" alt="" />
-              <p class="text-lg leading-6 font-medium text-white mb-4 opacity-80">
-                AppGharage
-              </p>
+              <p class="text-lg leading-6 font-medium text-white mb-4">AppGharage</p>
             </div>
             <!-- <div class="flex space-x-3">
               <div class="rounded-full bg-white">
@@ -23,98 +21,101 @@
             </div>-->
           </div>
           <div class="flex flex-1">
-          <div class="w-full lg:w-2/4 space-y-6 pr-0 md:pr-20 pt-0 lg:pt-3">
-            <h2 class="text-red-100 text-lg leading-6 font-medium ">
-              Useful Links
-            </h2>
-            <div class="flex flex-col overflow-hidden space-y-4 text-white">
-              <div class="flex items-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-                <router-link to="/" class="text-sm font-light hover:text-red-500"
-                  >Home</router-link
-                >
+            <div class="w-full lg:w-2/4 space-y-6 pr-0 md:pr-20 pt-0 lg:pt-3">
+              <h2 class="text-white text-base leading-6 font-medium uppercase">
+                Useful Links
+              </h2>
+              <div class="flex flex-col overflow-hidden space-y-4 text-white">
+                <div class="flex items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <router-link to="/" class="text-sm font-light hover:text-red-500"
+                    >Home</router-link
+                  >
+                </div>
+                <div class="flex items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <router-link to="about" class="text-sm font-light hover:text-red-500"
+                    >About</router-link
+                  >
+                </div>
+                <div class="flex items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <router-link to="products" class="text-sm font-light hover:text-red-500"
+                    >Projects</router-link
+                  >
+                </div>
+                <div class="flex items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <router-link to="contact" class="text-sm font-light hover:text-red-500"
+                    >Contact</router-link
+                  >
+                </div>
               </div>
-              <div class="flex items-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-                <router-link to="about" class="text-sm font-light hover:text-red-500"
-                  >About</router-link
-                >
-              </div>
-              <div class="flex items-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-                <router-link to="products" class="text-sm font-light hover:text-red-500"
-                  >Projects</router-link
-                >
-              </div>
-              <div class="flex items-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-                <router-link to="contact" class="text-sm font-light hover:text-red-500"
-                  >Contact</router-link
-                >
+            </div>
+            <div class="w-full lg:w-2/4 space-y-6 pr-0 md:pr-20 pt-0 lg:pt-3">
+              <h2 class="text-white text-base uppercase leading-6 font-medium">
+                Socials
+              </h2>
+              <div class="flex flex-col overflow-hidden space-y-4 text-white">
+                <div class="flex items-center">
+                  <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                  <p class="text-sm font-light hover:text-red-500">Facebook</p>
+                </div>
+                <div class="flex items-center">
+                  <p class="text-sm font-light hover:text-red-500">Twitter</p>
+                </div>
+                <div class="flex items-center">
+                  <p class="text-sm font-light hover:text-red-500">LinkdIn</p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="w-full lg:w-2/4 space-y-6 pr-0 md:pr-20 pt-0 lg:pt-3">
-            <h2 class="text-red-100 text-lg leading-6 font-medium ">Socials</h2>
-            <div class="flex flex-col overflow-hidden space-y-4 text-white">
-              <div class="flex items-center">
-              <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                <p class="text-sm font-light hover:text-red-500">Facebook</p>
-              </div>
-              <div class="flex items-center">
-                <p class="text-sm font-light hover:text-red-500">Twitter</p>
-              </div>
-              <div class="flex items-center">
-                <p class="text-sm font-light hover:text-red-500">LinkdIn</p>
-              </div>
-            </div>
-          </div></div>
           <div class="space-y-6 pt-0 lg:pt-3 w-full lg:w-1/4">
-            <h2 class="text-red-100 text-lg leading-6 font-medium ">
+            <h2 class="text-white text-base uppercase leading-6 font-medium">
               Office location
             </h2>
             <div class="space-y-3">
@@ -139,14 +140,16 @@
               <div class="flex items-center justify-center space-x-3">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
+                  class="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
                 >
                   <path
-                    fill-rule="evenodd"
-                    d="M14.243 5.757a6 6 0 10-.986 9.284 1 1 0 111.087 1.678A8 8 0 1118 10a3 3 0 01-4.8 2.401A4 4 0 1114 10a1 1 0 102 0c0-1.537-.586-3.07-1.757-4.243zM12 10a2 2 0 10-4 0 2 2 0 004 0z"
-                    clip-rule="evenodd"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                   />
                 </svg>
                 <p class="font-thin tracking-normal text-center text-gray-100 text-sm">

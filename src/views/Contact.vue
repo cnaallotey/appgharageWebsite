@@ -5,7 +5,7 @@
       :class="[isscroll ? 'bg-white drop-shadow ' : 'bg-transparent drop-shadow-none']"
     />
     <contactVue class="mt-10 mb-20" />
-    <ctaVue />
+   
     <Foooter />
   </div>
 </template>
@@ -13,7 +13,7 @@
 <script>
 // @ is an alias to /src
 import contactVue from "../components/contact.vue";
-import ctaVue from "../components/cta.vue";
+
 import Navbar from "../components/navbar.vue";
 import Foooter from "../components/foooter.vue";
 
@@ -21,7 +21,7 @@ export default {
   name: "Home",
   components: {
     contactVue,
-    ctaVue,
+    
     Navbar,
     Foooter,
   },
