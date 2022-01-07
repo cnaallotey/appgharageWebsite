@@ -55,7 +55,7 @@
                   stroke-width="2"
                   d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                 /></svg></span
-            ><span
+            ><span class="text-gray-900"
               >26 Bimpong Street,<br />
               Agbogba, Accra</span
             >
@@ -64,7 +64,7 @@
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.195323841637!2d-0.19806997347822614!3d5.68488772800608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd6343057ac424b31!2zNcKwNDEnMDYuNyJOIDDCsDExJzQ0LjgiVw!5e0!3m2!1sen!2sgh!4v1641394351477!5m2!1sen!2sgh"
             width="600"
             height="450"
-            class="w-full h-32 rounded-lg"
+            class="w-full h-40 rounded-lg"
             style="border: 0"
             loading="lazy"
           ></iframe>
@@ -83,7 +83,7 @@
                   stroke-width="2"
                   d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                 /></svg></span
-            ><span>(+233) 054 - 879 - 7248</span>
+            ><span class="text-gray-900">(+233) 054 - 879 - 7248</span>
           </div>
           <div class="flex items-start space-x-5 text-base font-medium">
             <span
@@ -100,21 +100,21 @@
                   stroke-width="2"
                   d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                 /></svg></span
-            ><span>appgharage@gmail.com</span>
+            ><span class="text-gray-900">appgharage@gmail.com</span>
           </div>
           <div class="pt-5">
             <p class="uppercase text-lg leading-6 font-semibold text-gray-900">Socials</p>
             <div class="flex items-center space-x-5 text-base font-medium mt-4">
               <span><img src="../assets/facebook1.png" class="w-6" alt="" /></span
-              ><span>faceboook</span>
+              ><span class="text-gray-900">faceboook</span>
             </div>
             <div class="flex items-center space-x-5 text-base font-medium mt-2">
               <span><img src="../assets/linkedin.png" class="w-6" alt="" /></span
-              ><span>LinkedIn</span>
+              ><span class="text-gray-900">LinkedIn</span>
             </div>
             <div class="flex items-center space-x-5 text-base font-medium mt-2">
               <span><img src="../assets/twitter2.png" class="w-6" alt="" /></span
-              ><span>Twitter</span>
+              ><span class="text-gray-900">Twitter</span>
             </div>
           </div>
         </div>
