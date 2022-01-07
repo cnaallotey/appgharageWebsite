@@ -13,135 +13,77 @@
           </p>
         </div>
 
-        <div class="mt-10">
-          <dl
-            class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-12 md:gap-y-10"
-          >
-            <div class="relative">
-              <dt>
-                <div
-                  class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-red-600 text-white"
-                >
-                  <!-- Heroicon name: outline/globe-alt -->
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z"
-                    />
-                  </svg>
-                </div>
-                <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
-                  Goal oriented
-                </p>
-              </dt>
-              <dd class="mt-2 ml-16 text-base text-gray-500">
+        <div class="flex flex-wrap -mx-3 overflow-hidden space-y-10 md:space-y-0 mt-10">
+          <div class="px-3 w-full md:w-1/2 overflow-hidden lg:w-1/4 xl:w-1/4">
+            <div
+              class="w-full px-14 md:px-0 flex flex-col space-y-3 items-center justify-start border-b-5"
+            >
+              <div class="rounded-full bg-gray-100">
+                <img src="../assets/pro.svg" class="h-14 m-6" alt="" />
+              </div>
+              <p class="font-bold tracking-normal text-xl text-gray-700 text-center">
+                Goal Oriented
+              </p>
+              <p class="text-base text-gray-500 text-center">
                 We have a team of experienced professionals who work hard to achieve the
                 best results to satisfy our customers and their customers.
-              </dd>
+              </p>
             </div>
+          </div>
 
-            <div class="relative">
-              <dt>
-                <div
-                  class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-red-600 text-white"
-                >
-                  <!-- Heroicon name: outline/scale -->
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
-                </div>
-                <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
-                  Customer Focused
-                </p>
-              </dt>
-              <dd class="mt-2 ml-16 text-base text-gray-500">
+          <div class="my-3 px-3 w-full md:w-1/2 overflow-hidden lg:w-1/4 xl:w-1/4">
+            <!-- Column Content -->
+            <div
+              class="w-full px-14 md:px-0 flex flex-col space-y-3 items-center justify-start"
+            >
+              <div class="rounded-full bg-gray-100">
+                <img src="../assets/customer.svg" class="h-14 m-6" alt="" />
+              </div>
+              <p class="font-bold tracking-normal text-xl text-gray-700 text-center">
+                Customer Focused
+              </p>
+              <p class="text-base text-gray-500 text-center">
                 At AppGharage the customer always comes first. We prioritize making
-                customer satisfaction a reality
-              </dd>
+                customer satisfaction a reality.
+              </p>
             </div>
+          </div>
 
-            <div class="relative">
-              <dt>
-                <div
-                  class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-red-600 text-white"
-                >
-                  <!-- Heroicon name: outline/lightning-bolt -->
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
-                    />
-                  </svg>
-                </div>
-                <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
-                  Innovative Solutions
-                </p>
-              </dt>
-              <dd class="mt-2 ml-16 text-base text-gray-500">
+          <div class="my-3 px-3 w-full md:w-1/2 overflow-hidden lg:w-1/4 xl:w-1/4">
+            <!-- Column Content -->
+            <div
+              class="w-full px-14 md:px-0 flex flex-col space-y-3 items-center justify-start"
+            >
+              <div class="rounded-full bg-gray-100">
+                <img src="../assets/innovative.svg" class="h-9 mx-6 my-8" alt="" />
+              </div>
+              <p class="font-bold tracking-normal text-xl text-gray-700 text-center">
+                Innovative Solutions
+              </p>
+              <p class="text-base text-gray-500 text-center">
                 In AppGharage we build solutions that are a focused on making your
-                business less stressful but more productive
-              </dd>
+                business less stressful but more productive.
+              </p>
             </div>
+          </div>
 
-            <div class="relative">
-              <dt>
-                <div
-                  class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-red-600 text-white"
-                >
-                  <!-- Heroicon name: outline/annotation -->
-                  <svg
-                    class="h-6 w-6"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    aria-hidden="true"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"
-                    />
-                  </svg>
-                </div>
-                <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
-                  24/7 Friendly Support
-                </p>
-              </dt>
-              <dd class="mt-2 ml-16 text-base text-gray-500">
+          <div class="my-3 px-3 w-full md:w-1/2 overflow-hidden lg:w-1/4 xl:w-1/4">
+            <!-- Column Content -->
+            <div
+              class="w-full px-14 md:px-0 flex flex-col space-y-3 items-center justify-start"
+            >
+              <div class="rounded-full bg-gray-100">
+                <img src="../assets/support.svg" class="h-12 mx-6 my-7" alt="" />
+              </div>
+              <p class="font-bold tracking-normal text-xl text-gray-700 text-center">
+                24x7 Friendly Support
+              </p>
+              <p class="text-base text-gray-500 text-center">
                 With AppGharage you are in safe hands. Our relationship never ends. So we
-                always assist in anyway we can with any challenges
-              </dd>
+                always assist in anyway we can with any challenges.
+              </p>
             </div>
-          </dl>
+          </div>
         </div>
       </div>
     </div>
