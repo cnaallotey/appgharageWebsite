@@ -20,7 +20,7 @@
               class="w-full px-14 md:px-0 flex flex-col space-y-3 items-center justify-start border-b-5"
             >
               <div class="rounded-full bg-gray-100">
-                <img src="../assets/pro.svg" class="h-14 m-6" alt="" />
+                <img src="../assets/goals.svg" class="h-14 m-6" alt="" />
               </div>
               <p class="font-bold tracking-normal text-xl text-gray-700 text-center">
                 Goal Oriented

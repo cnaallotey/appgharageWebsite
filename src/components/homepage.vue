@@ -45,10 +45,10 @@
                 class="font-semibold tracking-normal font-gray-700 text-center"
                 style="line-height: 60px; font-size: 40px"
               >
-                Latest Projects
+                Projects
               </h1>
               <h2 class="text-base text-red-700 font-semibold tracking-wide uppercase">
-                Here are some of our projects
+                Here are some of our latest projects
               </h2>
             </div>
           </div>

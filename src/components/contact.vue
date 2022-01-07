@@ -8,7 +8,8 @@
               contact us
             </h2>
             <p
-              class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+              class="font-semibold tracking-normal font-gray-700 text-center"
+              style="line-height: 60px; font-size: 40px"
             >
               Need our Services?
             </p>
@@ -27,7 +28,7 @@
         </div>
       </div>-->
       <div class="max-w-screen-lg mx-auto flex flex-col md:flex-row py-10 px-5 md:px-10">
-        <div class="w-full md:w-1/2 py-10 px-10 space-y-10 bg-gray-100 text-gray-500">
+        <div class="w-full md:w-1/2 py-10 px-10 space-y-5 bg-white text-gray-500">
           <div class="flex items-start space-x-5 text-base font-medium">
             <span
               ><svg
@@ -96,7 +97,7 @@
                 /></svg></span
             ><span>appgharage@gmail.com</span>
           </div>
-          <div>
+          <div class="pt-5">
             <p class="uppercase text-lg leading-6 font-semibold text-gray-900">Socials</p>
             <div class="flex items-center space-x-5 text-base font-medium mt-4">
               <span><img src="../assets/facebook1.png" class="w-6" alt="" /></span
@@ -112,7 +113,7 @@
             </div>
           </div>
         </div>
-        <form class="w-fll md:w-1/2 py-10 px-0 md:px-10 space-y-10 bg-white">
+        <form class="w-fll md:w-1/2 py-10 px-0 md:px-10 space-y-5 bg-white">
           <p class="text-xl leading-6 font-medium text-gray-900 text-center md:text-left">
             Send a message
           </p>
