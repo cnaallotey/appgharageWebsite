@@ -26,7 +26,9 @@
                 Useful Links
               </h2>
               <div class="flex flex-col overflow-hidden space-y-4 text-white">
-                <div class="flex items-center">
+                <div
+                  class="flex items-center group transform hover:translate-x-2 delay-100 transition-transform"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     class="h-5 w-5"
@@ -39,11 +41,13 @@
                       clip-rule="evenodd"
                     />
                   </svg>
-                  <router-link to="/" class="text-sm font-light hover:text-red-500"
+                  <router-link to="/" class="text-sm font-light group-hover:text-red-500"
                     >Home</router-link
                   >
                 </div>
-                <div class="flex items-center">
+                <div
+                  class="flex items-center group transform hover:translate-x-2 delay-100 transition-transform"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     class="h-5 w-5"
@@ -56,11 +60,15 @@
                       clip-rule="evenodd"
                     />
                   </svg>
-                  <router-link to="about" class="text-sm font-light hover:text-red-500"
+                  <router-link
+                    to="about"
+                    class="text-sm font-light group-hover:text-red-500"
                     >About</router-link
                   >
                 </div>
-                <div class="flex items-center">
+                <div
+                  class="flex items-center group transform hover:translate-x-2 delay-100 transition-transform"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     class="h-5 w-5"
@@ -73,11 +81,15 @@
                       clip-rule="evenodd"
                     />
                   </svg>
-                  <router-link to="products" class="text-sm font-light hover:text-red-500"
+                  <router-link
+                    to="products"
+                    class="text-sm font-light group-hover:text-red-500"
                     >Projects</router-link
                   >
                 </div>
-                <div class="flex items-center">
+                <div
+                  class="flex items-center group transform hover:translate-x-2 delay-100 transition-transform"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     class="h-5 w-5"
@@ -90,7 +102,9 @@
                       clip-rule="evenodd"
                     />
                   </svg>
-                  <router-link to="contact" class="text-sm font-light hover:text-red-500"
+                  <router-link
+                    to="contact"
+                    class="text-sm font-light group-hover:text-red-500"
                     >Contact</router-link
                   >
                 </div>
