@@ -17,7 +17,7 @@
     </div>
     <div class="mt-10">
       <dl
-        class="space-y-10 md:space-y-0 md:grid md:grid-cols-4 md:gap-x-8 md:gap-y-10 p-1"
+        class="space-y-10 md:space-y-0 md:grid md:grid-cols-4 md:gap-x-8 gap-y-12 md:gap-y-10 p-1"
       >
         <div class="relative p-5 rounded-lg shadow-lg border-t-2 border-gray-100">
           <dt>

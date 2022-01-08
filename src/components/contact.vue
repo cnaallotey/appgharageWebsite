@@ -8,7 +8,7 @@
               contact us
             </h2>
             <p
-              class="font-bold text-gray-900 text-center"
+              class="font-bold text-gray-900 text-left md:text-center"
               style="font-size: 40px; letter-spacing: 0.2px"
             >
               Need our Services?
@@ -28,9 +28,11 @@
         </div>
       </div>-->
       <div class="max-w-screen-xl mx-auto flex flex-col md:flex-row py-10 px-5 md:px-0">
-        <div class="w-full md:w-1/2 py-10 px-10 space-y-5 bg-white text-gray-500">
+        <div
+          class="w-full md:w-1/2 py-0 md:py-10 px-0 md:px-10 space-y-5 bg-white text-gray-500"
+        >
           <p
-            class="font-semibold text-2xl tracking-normal text-gray-700 text-center md:text-left underline"
+            class="font-semibold text-2xl tracking-normal text-gray-700 text-left underline"
           >
             Get in Touch
           </p>
@@ -119,7 +121,9 @@
           </div>
         </div>
         <form class="w-fll md:w-1/2 py-10 px-0 md:px-10 space-y-5 bg-white">
-          <p class="font-semibold text-2xl tracking-normal text-gray-700 text-center">
+          <p
+            class="font-semibold text-2xl tracking-normal text-gray-700 text-left md:text-center"
+          >
             Send a message
           </p>
           <div>
