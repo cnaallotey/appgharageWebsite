@@ -6,7 +6,7 @@
     >
       <div class="rounded-2xl py-10 md:py-0">
         <div
-          class="flex flex-col-reverse md:flex-row items-start px-0 md:px-10 md:items-center space-y-10 md:space-y-0"
+          class="flex flex-col-reverse md:flex-row items-start px-0 md:px-10 md:items-center"
         >
           <div
             class="w-full md:w-2/3 space-y-7 md:py-14 h-full flex flex-col justify-center"
@@ -23,8 +23,8 @@
               >Get in touch with us</router-link
             >
           </div>
-          <div class="flex items-center w-full md:w-1/3 py-5 md:py-10">
-            <img src="../assets/ctaimage.svg" class="mx-auto" alt="" />
+          <div class="flex items-center w-full md:w-1/3 py-0 md:py-10">
+            <img src="../assets/ctaimage.svg" class="mx-auto hidden md:block" alt="" />
           </div>
         </div>
       </div>

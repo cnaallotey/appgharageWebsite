@@ -9,13 +9,13 @@
     </div>
 
     <div
-      class="relative max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0 space-y-8 md:space-y-32 z-10 overflow-hidden"
+      class="relative max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0 space-y-16 md:space-y-24 z-10 overflow-hidden"
     >
       <div class="w-full overflow-hidden">
         <div class="flex flex-col-reverse lg:flex-row lg:space-y-0 items-center">
           <div class="w-full lg:w-3/5 space-y-5">
             <h1
-              class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"
+              class="text-6xl tracking-tight font-extrabold text-gray-900 sm:text-6xl md:text-6xl"
             >
               Premium Software Solutions for Your Business
             </h1>
@@ -29,7 +29,11 @@
             </div>
           </div>
           <div class="w-full lg:w-2/5 mb-10 lg:mb-0">
-            <img src="../assets/heroimg.svg" class="w-full px-5 lg:px-0" alt="" />
+            <img
+              src="../assets/heroimg.svg"
+              class="w-full px-5 lg:px-0 hidden md:block"
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -38,7 +42,7 @@
       <whowearecompVue />
 
       <div class="w-full space-y-10 md:space-y-10">
-        <div class="bg-white">
+        <div class="bg-transparent">
           <div class="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8">
             <div class="lg:text-center">
               <h1
@@ -54,7 +58,7 @@
         <div
           class="flex flex-col md:flex-row space-x-0 md:space-x-20 space-y-10 md:space-y-0"
         >
-          <div class="w-full md:w-1/2 px-5 rounded-3xl">
+          <div class="w-full md:w-1/2 px-16 md:px-5 rounded-3xl">
             <img src="../assets/Macbook Pro.png" class="w-full" alt="" />
           </div>
           <div class="w-full md:w-1/2 pl-0 flex flex-col justify-center">
