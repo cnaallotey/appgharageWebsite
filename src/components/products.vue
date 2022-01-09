@@ -14,9 +14,10 @@
         Here are the products we have successfully built
       </p>
     </div>
+
     <div class="flex flex-col md:flex-row">
-      <div class="w-full md:w-1/2 p-5">
-        <img src="../assets/Macbook Pro.png" class="w-full" alt="" />
+      <div class="w-full md:w-1/2 h-56 p-5 flex justify-end">
+        <img src="../assets/Macbook Pro.png" class="h-full" alt="" />
       </div>
       <div
         class="w-full md:w-1/2 pr-5 pl-0 lg:pl-20 space-y-5 flex flex-col justify-center"
