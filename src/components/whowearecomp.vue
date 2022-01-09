@@ -4,7 +4,7 @@
       <div class="max-w-7xl mx-auto px-0">
         <div class="lg:text-center">
           <h1
-            class="font-semibold tracking-normal font-gray-700 text-left md:text-center"
+            class="font-semibold tracking-normal font-gray-900 text-left md:text-center"
             style="line-height: 60px; font-size: 40px"
           >
             Why choose us?
@@ -22,7 +22,7 @@
               <div class="rounded-full bg-gray-100">
                 <img src="../assets/goals.svg" class="h-14 m-6" alt="" />
               </div>
-              <p class="font-bold tracking-normal text-xl text-gray-700 text-center">
+              <p class="font-bold tracking-normal text-xl text-gray-900 text-center">
                 Goal Oriented
               </p>
               <p class="text-base text-gray-500 text-center">
@@ -40,7 +40,7 @@
               <div class="rounded-full bg-gray-100">
                 <img src="../assets/customer.svg" class="h-14 m-6" alt="" />
               </div>
-              <p class="font-bold tracking-normal text-xl text-gray-700 text-center">
+              <p class="font-bold tracking-normal text-xl text-gray-900 text-center">
                 Customer Focused
               </p>
               <p class="text-base text-gray-500 text-center">
@@ -56,9 +56,9 @@
               class="w-full px-14 md:px-0 flex flex-col space-y-3 items-center justify-start"
             >
               <div class="rounded-full bg-gray-100">
-                <img src="../assets/innovative.svg" class="h-9 mx-6 my-8" alt="" />
+                <img src="../assets/innovative.svg" class="h-10 mx-6 my-8" alt="" />
               </div>
-              <p class="font-bold tracking-normal text-xl text-gray-700 text-center">
+              <p class="font-bold tracking-normal text-xl text-gray-900 text-center">
                 Innovative Solutions
               </p>
               <p class="text-base text-gray-500 text-center">
@@ -76,7 +76,7 @@
               <div class="rounded-full bg-gray-100">
                 <img src="../assets/support.svg" class="h-12 mx-6 my-7" alt="" />
               </div>
-              <p class="font-bold tracking-normal text-xl text-gray-700 text-center">
+              <p class="font-bold tracking-normal text-xl text-gray-900 text-center">
                 24x7 Friendly Support
               </p>
               <p class="text-base text-gray-500 text-center">
