@@ -7,7 +7,7 @@
       <div class="w-full py-1 flex items-center justify-between">
         <router-link to="/" class="flex items-center select-none cursor-pointer">
           <img src="../assets/logoonly.png" class="h-12 md:h-16" alt="logo" />
-          <p class="font-bold text-gray-700 text-lg md:text-2xl">AppGharage</p>
+          <p class="font-bold text-gray-900 text-lg md:text-2xl">AppGharage</p>
         </router-link>
 
         <div class="hidden lg:flex space-x-7 items-center">

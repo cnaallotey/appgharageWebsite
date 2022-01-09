@@ -46,7 +46,7 @@
           <div class="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8">
             <div class="lg:text-center">
               <h1
-                class="font-semibold tracking-normal font-gray-700 text-left md:text-center"
+                class="font-semibold tracking-normal font-gray-900 text-left md:text-center"
                 style="line-height: 60px; font-size: 40px"
               >
                 Projects
@@ -63,7 +63,7 @@
           </div>
           <div class="w-full md:w-1/2 pl-0 flex flex-col justify-center">
             <h2
-              class="font-semibold tracking-normal text-gray-700"
+              class="font-semibold tracking-normal text-gray-900"
               style="font-size: 24px"
             >
               Ghana Vehicle Import Duty Estimater
