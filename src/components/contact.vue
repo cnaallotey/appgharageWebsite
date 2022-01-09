@@ -122,7 +122,7 @@
         </div>
         <form class="w-fll md:w-1/2 py-10 px-0 md:px-10 space-y-5 bg-white">
           <p
-            class="font-semibold text-2xl md:text-3xl tracking-tight text-gray-700 text-left md:text-center"
+            class="font-semibold text-2xl md:text-3xl tracking-tight text-gray-700 text-left"
           >
             Send a message
           </p>
