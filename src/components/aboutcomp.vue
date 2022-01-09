@@ -12,17 +12,17 @@
           >
             Who We Are
           </h1>
+          <p
+            class="font-medium text-gray-500 tracking-normal"
+            style="letter-spacing: 0.2px; font-size: 18px"
+          >
+            AppGharage is a software and business solutions Company that offers
+            technological services and consultancy services to small scale businesses and
+            corporate organizations.
+          </p>
         </div>
-        <p
-          class="font-medium text-gray-900 tracking-normal"
-          style="letter-spacing: 0.2px; font-size: 18px"
-        >
-          AppGharage is a software and business solutions Company that offers
-          technological services and consultancy services to small scale businesses and
-          corporate organizations.
-        </p>
       </div>
-      <div class="w-full md:w-1/2 pl-0 lg:pl-20">
+      <div class="w-full md:w-1/2 pl-0 lg:pl-20 hidden md:flex">
         <img src="../assets/amico.svg" class="h-full" alt="" />
       </div>
     </div>
