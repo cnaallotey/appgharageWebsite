@@ -61,7 +61,7 @@
           class="flex flex-col md:flex-row space-x-0 md:space-x-20 space-y-10 md:space-y-0"
         >
           <div class="w-full md:w-1/2 px-16 md:px-5 rounded-3xl">
-            <img src="../assets/Macbook Pro.png" class="w-full" alt="" />
+            <img src="../assets/Macbook Pro.png" class="w-full px-10" alt="" />
           </div>
           <div class="w-full md:w-1/2 pl-0 flex flex-col justify-center">
             <h2
@@ -71,7 +71,7 @@
               Ghana Vehicle Import Duty Estimater
             </h2>
             <p
-              class="font-normal tracking-normal text-gray-500 text-left leading-normal text-base pb-1 mb-2"
+              class="font-normal tracking-normal text-gray-500 text-left leading-normal text-base pb-1 mb-2 mt-2"
             >
               Our Web App makes it possible to check the import duty and vehicle
               information about any vehicle you would like to import into Ghana stress

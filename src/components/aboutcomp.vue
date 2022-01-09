@@ -18,7 +18,10 @@
           >
             AppGharage is a software and business solutions Company that offers
             technological services and consultancy services to small scale businesses and
-            corporate organizations.
+            corporate organizations.We are world class developers who turn your ideas into
+            realities using simple and innovative approaches archive objective results.Our
+            Experience Design, Complex Engineering, and Agile Delivery gives you the best
+            software product for better business outcomes.
           </p>
         </div>
       </div>
