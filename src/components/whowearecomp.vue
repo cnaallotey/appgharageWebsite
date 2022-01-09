@@ -14,8 +14,8 @@
           </h2>
         </div>
 
-        <div class="flex flex-wrap -mx-3 overflow-hidden space-y-10 md:space-y-0 mt-10">
-          <div class="px-3 w-full md:w-1/2 overflow-hidden lg:w-1/4 xl:w-1/4">
+        <div class="flex flex-wrap -mx-3 overflow-hidden mt-10">
+          <div class="my-3 px-3 w-full md:w-1/2 overflow-hidden lg:w-1/4 xl:w-1/4">
             <div
               class="w-full px-14 md:px-0 flex flex-col space-y-3 items-center justify-start border-b-5"
             >

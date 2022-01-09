@@ -21,7 +21,7 @@
             </h1>
             <div class="pr-0 lg:pr-40">
               <p
-                class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
+                class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl md:mt-5 md:text-xl lg:mx-0"
               >
                 AppGharage is your technology partner for innovative and impactful digital
                 solutions.
@@ -51,7 +51,9 @@
               >
                 Projects
               </h1>
-              <h2 class="text-xl text-gray-500">Here are some of our latest projects</h2>
+              <h2 class="text-xl text-gray-500 text-left md:text-center">
+                Here are some of our latest projects
+              </h2>
             </div>
           </div>
         </div>
