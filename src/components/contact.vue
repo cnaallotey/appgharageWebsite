@@ -27,7 +27,7 @@
           <img src="../assets/Vector.png" class="h-6 m-2" alt="" />
         </div>
       </div>-->
-      <div class="max-w-screen-xl mx-auto flex flex-col md:flex-row py-10 px-5 md:px-0">
+      <div class="max-w-screen-xl mx-auto flex flex-col md:flex-row py-10 px-0 md:px-0">
         <div
           class="w-full md:w-1/2 py-0 md:py-10 px-0 md:px-10 space-y-5 bg-white text-gray-500"
         >

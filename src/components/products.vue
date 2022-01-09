@@ -21,7 +21,7 @@
       <div
         class="w-full md:w-1/2 pr-5 pl-0 lg:pl-20 space-y-5 flex flex-col justify-center"
       >
-        <h2 class="font-semibold tracking-normal text-gray-700" style="font-size: 24px">
+        <h2 class="font-semibold tracking-normal text-gray-900" style="font-size: 24px">
           Ghana Vehicle Import Duty Estimater
         </h2>
         <p
