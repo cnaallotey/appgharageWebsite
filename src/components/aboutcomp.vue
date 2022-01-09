@@ -3,14 +3,14 @@
     <div class="flex flex-col md:flex-row space-y-10 md:space-y-0">
       <div class="space-y-5 w-full md:w-1/2 flex flex-col justify-start">
         <div>
-          <h2 class="text-base text-red-700 font-semibold tracking-wide uppercase">
+          <h2 class="text-base text-red-700 font-semibold tracking-wide uppercase hidden">
             About
           </h2>
           <h1
             class="font-bold text-gray-900 text-left"
             style="font-size: 40px; letter-spacing: 0.2px"
           >
-            Who we are
+            Who We Are
           </h1>
         </div>
         <p

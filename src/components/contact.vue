@@ -32,7 +32,7 @@
           class="w-full md:w-1/2 py-0 md:py-10 px-0 md:px-10 space-y-5 bg-white text-gray-500"
         >
           <p
-            class="font-semibold text-2xl tracking-normal text-gray-700 text-left underline"
+            class="font-semibold text-2xl md:text-3xl tracking-normal text-gray-700 text-left underline"
           >
             Get in Touch
           </p>
@@ -122,7 +122,7 @@
         </div>
         <form class="w-fll md:w-1/2 py-10 px-0 md:px-10 space-y-5 bg-white">
           <p
-            class="font-semibold text-2xl tracking-normal text-gray-700 text-left md:text-center"
+            class="font-semibold text-2xl md:text-3xl tracking-tight text-gray-700 text-left md:text-center"
           >
             Send a message
           </p>

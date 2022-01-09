@@ -1,11 +1,19 @@
 <template>
   <div class="max-w-screen-xl mx-auto space-y-5 md:space-y-10 px-5 md:px-10 lg:px-0">
-    <h1
-      class="font-bold text-gray-900 text-left"
-      style="font-size: 40px; letter-spacing: 0.2px"
-    >
-      Latest Projects
-    </h1>
+    <div>
+      <h1
+        class="font-bold text-gray-900 text-left md:text-center"
+        style="font-size: 40px; letter-spacing: 0.2px"
+      >
+        Latest Projects
+      </h1>
+      <p
+        class="font-medium text-gray-500 tracking-normal text-left md:text-center"
+        style="letter-spacing: 0.2px; font-size: 18px"
+      >
+        Here are the products we have successfully built
+      </p>
+    </div>
     <div class="flex flex-col md:flex-row">
       <div class="w-full md:w-1/2 p-5">
         <img src="../assets/Macbook Pro.png" class="w-full" alt="" />

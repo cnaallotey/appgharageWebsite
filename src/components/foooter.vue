@@ -10,7 +10,7 @@
             </div>
             <div class="text-white font-light text-sm mb-6">
               <p class="pb-2">
-                AppGharage a Software and Business solutions Company that offers
+                AppGharage is a Software and Business solutions Company that offers
                 technological services and consultancy services to small scale businesses
                 and corporate organizations.
               </p>
