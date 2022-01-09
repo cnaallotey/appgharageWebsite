@@ -209,7 +209,7 @@
           <div
             class="flex items-center justify-center mt-20 pt-5 pb-10 border-t border-gray-800"
           >
-            <p class="font-thin tracking-normal text-center text-gray-100 text-sm">
+            <p class="font-thin tracking-wide text-center text-gray-100 text-sm">
               Copyright © AppGharage. All rights reserved.
             </p>
           </div>

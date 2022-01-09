@@ -19,76 +19,81 @@
       <dl
         class="space-y-10 md:space-y-0 md:grid md:grid-cols-4 md:gap-x-8 gap-y-12 md:gap-y-10 p-1"
       >
-        <div class="relative p-5 rounded-lg shadow-lg border-t-2 border-gray-100">
+        <div class="relative px-5 py-10 rounded-lg shadow-lg border-t-2 border-gray-100">
           <dt>
             <div
-              class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white"
+              class="absolute flex items-center justify-center h-10 w-10 rounded-md bg-white text-white"
             >
               <!-- Heroicon name: outline/globe-alt -->
-              <img src="../assets/website 1.svg" class="w-full" alt="" />
+              <img src="../assets/creative 1.svg" class="w-full" alt="" />
             </div>
-            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
-              Websites and App Development
+            <p class="ml-12 text-lg leading-6 font-medium text-gray-900">
+              Website and App Development
             </p>
           </dt>
-          <dd class="mt-2 ml-16 text-base text-gray-500">
+          <dd class="mt-2 ml-12 text-base text-gray-500 text-left">
             Websites are an essential tool for your business to establish their
-            credibility and build trust with your customers.
+            credibility and build trust with your customers. Website also help give your
+            customers the impression that your business is reliable.
           </dd>
         </div>
 
-        <div class="relative p-5 rounded-lg shadow-lg border-t-2 border-gray-100">
+        <div class="relative px-5 py-10 rounded-lg shadow-lg border-t-2 border-gray-100">
           <dt>
             <div
-              class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white"
+              class="absolute flex items-center justify-center h-10 w-10 rounded-md bg-white text-white"
             >
               <!-- Heroicon name: outline/scale -->
-              <img src="../assets/Vector.svg" class="w-full" alt="ui and ux" />
+              <img src="../assets/pen 1 (1).svg" class="w-full" alt="ui and ux" />
             </div>
-            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Visual Design</p>
+            <p class="ml-12 text-lg leading-6 font-medium text-gray-900">
+              Visual <br />Design
+            </p>
           </dt>
-          <dd class="mt-2 ml-16 text-base text-gray-500">
+          <dd class="mt-2 ml-12 text-base text-gray-500">
             Ui/Ux is important to your company because it tries to fulfill the user's
             needs when using your product. It aims to provide positive experiences that
-            keep a user loyal to the product or brand.
+            keep a user loyal to your product or brand.
           </dd>
         </div>
 
-        <div class="relative p-5 rounded-lg shadow-lg border-t-2 border-gray-100">
+        <div class="relative px-5 py-10 rounded-lg shadow-lg border-t-2 border-gray-100">
           <dt class="">
             <div
-              class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white"
+              class="absolute flex items-center justify-center h-10 w-10 rounded-md bg-white text-white"
             >
               <!-- Heroicon name: outline/lightning-bolt -->
-              <img src="../assets/code (1) 1.svg" class="w-full" alt="" />
+              <img src="../assets/website (1) 1.svg" class="w-full" alt="" />
             </div>
-            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
-              Software Development
+            <p class="ml-12 text-lg leading-6 font-medium text-gray-900">
+              Software <br />
+              Development
             </p>
           </dt>
-          <dd class="mt-2 ml-16 text-base text-gray-500">
+          <dd class="mt-2 ml-12 text-base text-gray-500">
             A software is important for automation of the organisation's tasks as well as
             reporting the progress or lags in the organisation's activities. This improves
-            company's efficiency and effectiveness of the company's activities.
+            company's efficiency and growth.
           </dd>
         </div>
 
-        <div class="relative p-5 rounded-lg shadow-lg border-t-2 border-gray-100">
+        <div class="relative px-5 py-10 rounded-lg shadow-lg border-t-2 border-gray-100">
           <dt>
             <div
-              class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white"
+              class="absolute flex items-center justify-center h-10 w-10 rounded-md bg-white text-white"
             >
               <!-- Heroicon name: outline/annotation -->
-              <img src="../assets/business 1.svg" class="w-full" alt="" />
+              <img src="../assets/support2 1.svg" class="w-full" alt="" />
             </div>
-            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
-              Consultancy Services
+            <p class="ml-12 text-lg leading-6 font-medium text-gray-900">
+              Consultancy <br />
+              Services
             </p>
           </dt>
-          <dd class="mt-2 ml-16 text-base text-gray-500">
+          <dd class="mt-2 ml-12 text-base text-gray-500">
             We provide the needed expertise in helping clients maximise their use of
-            technology for their business. We help transform the way you use your
-            technology.
+            technology for their business. We help transform and maximize the way you use
+            your technology.
           </dd>
         </div>
       </dl>

@@ -1,7 +1,7 @@
 <template>
-  <div class="max-w-screen-xl mx-auto space-y-5 md:space-y-10 px-10 lg:px-0">
+  <div class="max-w-screen-xl mx-auto space-y-5 md:space-y-10 px-5 md:px-10 lg:px-0">
     <h1
-      class="font-bold text-gray-700 text-left"
+      class="font-bold text-gray-900 text-left"
       style="font-size: 40px; letter-spacing: 0.2px"
     >
       Latest Projects
