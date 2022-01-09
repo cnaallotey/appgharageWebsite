@@ -33,13 +33,14 @@
           space.
         </p>
         <div>
-          <router-link
-            to="Products"
+          <a
+            href="https://ghanadutycalculator.com/estimates"
+            target="_blank"
             class="px-10 py-3 font-normal text-base text-white rounded-md"
             style="background-color: #b00000"
           >
             Visit Website
-          </router-link>
+          </a>
         </div>
       </div>
     </div>
