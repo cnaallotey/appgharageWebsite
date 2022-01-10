@@ -15,11 +15,11 @@
       </p>
     </div>
 
-    <div class="flex flex-col md:flex-row">
+    <div class="flex flex-col md:flex-row w-full lg:w-4/6 mx-auto">
       <div class="w-full md:w-1/2 lg:1/4 flex justify-center">
-        <img src="../assets/Macbook Pro.png" class="h-auto px-10 md:px-0" alt="" />
+        <img src="../assets/Macbook Pro.png" class="w-auto h-auto" alt="" />
       </div>
-      <div class="w-full lg:w-1/2 pl-0 flex flex-col ml-0 md:ml-10">
+      <div class="w-full lg:w-1/2 pl-0 flex flex-col justify-between ml-0 md:ml-10">
         <h2
           class="font-semibold tracking-normal leading-none text-gray-900 mt-10 md:mt-0"
           style="font-size: 24px"

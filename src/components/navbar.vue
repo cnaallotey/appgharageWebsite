@@ -11,24 +11,28 @@
         </router-link>
 
         <div class="hidden lg:flex space-x-7 items-center">
-          <ul class="navlinks inline-flex font-medium space-x-7 cursor-pointer">
+          <ul class="navlinks inline-flex space-x-7 cursor-pointer">
             <li
               class="border-b-2 border-transparent text-base hover:border-red-800 transistion ease-linear delay-100 focus:text-red-700"
-              :class="[home ? 'text-red-700' : 'text-gray-700']"
+              :class="[home ? 'text-red-700 font-semibold' : 'text-gray-700 font-medium']"
             >
               <router-link to="/" class="hover:border-b-2 border-red-700">
                 Home
               </router-link>
             </li>
             <li
-              class="border-b-2 font-medium border-transparent hover:border-red-800 focus:text-red-700 text-base"
-              :class="[project ? 'text-red-700' : 'text-gray-700']"
+              class="border-b-2 border-transparent hover:border-red-800 focus:text-red-700 text-base"
+              :class="[
+                project ? 'text-red-700 font-semibold' : 'text-gray-700 font-medium',
+              ]"
             >
               <router-link to="/projects"> Projects </router-link>
             </li>
             <li
-              class="border-b-2 font-medium text-base border-transparent hover:border-red-800 focus:text-red-700"
-              :class="[about ? 'text-red-700' : 'text-gray-700']"
+              class="border-b-2 text-base border-transparent hover:border-red-800 focus:text-red-700"
+              :class="[
+                about ? 'text-red-700 font-semibold' : 'text-gray-700 font-medium',
+              ]"
             >
               <router-link to="/about"> About </router-link>
             </li>
