@@ -17,11 +17,11 @@
 
     <div class="flex flex-col md:flex-row">
       <div class="w-full md:w-1/4 h-auto flex justify-center">
-        <img src="../assets/Macbook Pro.png" class="h-full" alt="" />
+        <img src="../assets/Macbook Pro.png" class="h-full px-10 md:px-0" alt="" />
       </div>
       <div class="w-full lg:w-1/2 pl-0 flex flex-col ml-0 md:ml-10">
         <h2
-          class="font-semibold tracking-normal leading-none text-gray-900"
+          class="font-semibold tracking-normal leading-none text-gray-900 mt-10 md:mt-0"
           style="font-size: 24px"
         >
           Ghana Vehicle Import Duty Estimater

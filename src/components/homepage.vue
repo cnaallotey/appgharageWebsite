@@ -58,14 +58,14 @@
           </div>
         </div>
         <div
-          class="flex flex-col md:flex-row space-x-0 md:space-x-20 space-y-10 md:space-y-0"
+          class="flex flex-col md:flex-row space-x-0 lg:space-x-20 space-y-10 md:space-y-0"
         >
           <div class="w-full md:w-1/2 px-16 md:px-5 rounded-3xl">
             <img src="../assets/Macbook Pro.png" class="w-full px-10" alt="" />
           </div>
           <div class="w-full md:w-1/2 pl-0 flex flex-col justify-center">
             <h2
-              class="font-semibold tracking-normal text-gray-900"
+              class="font-semibold tracking-normal leading-none text-gray-900"
               style="font-size: 24px"
             >
               Ghana Vehicle Import Duty Estimater
