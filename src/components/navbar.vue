@@ -217,8 +217,13 @@ export default {
         this.project = true;
         this.about = false;
         break;
-      default:
+      case "Contact":
         this.home = false;
+        this.project = false;
+        this.about = false;
+        break;
+      default:
+        this.home = true;
         this.project = false;
         this.about = false;
     }
