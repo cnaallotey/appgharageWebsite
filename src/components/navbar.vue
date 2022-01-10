@@ -212,7 +212,7 @@ export default {
         this.project = false;
         this.about = true;
         break;
-      case "Projects":
+      case "projects":
         this.home = false;
         this.project = true;
         this.about = false;
