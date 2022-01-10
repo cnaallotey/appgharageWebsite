@@ -27,7 +27,7 @@
           <img src="../assets/Vector.png" class="h-6 m-2" alt="" />
         </div>
       </div>-->
-      <div class="max-w-screen-xl mx-auto flex flex-col md:flex-row py-10 px-0 md:px-0">
+      <div class="max-w-screen-xl mx-auto flex flex-col md:flex-row py-0 px-0 md:px-0">
         <div class="w-full md:w-1/2 py-0 px-0 md:px-10 space-y-5 bg-white text-gray-500">
           <p
             class="font-semibold text-2xl md:text-3xl tracking-normal text-gray-900 text-left underline"
@@ -118,7 +118,7 @@
             </div>
           </div>
         </div>
-        <form class="w-fll md:w-1/2 py-0 px-0 md:px-10 space-y-5 bg-white">
+        <form class="w-fll md:w-1/2 py-0 px-0 md:px-10 space-y-5 bg-white mt-10 md:mt-0">
           <p
             class="font-semibold text-2xl md:text-3xl tracking-tight text-gray-900 text-left"
           >
