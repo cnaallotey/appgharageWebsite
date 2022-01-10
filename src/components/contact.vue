@@ -3,7 +3,7 @@
     <div class="w-full space-y-10">
       <div class="bg-transparent">
         <div class="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8">
-          <div class="lg:text-center">
+          <div class="md:text-center">
             <h2 class="text-base text-red-700 font-semibold tracking-wide uppercase">
               contact us
             </h2>
