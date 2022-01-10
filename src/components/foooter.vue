@@ -89,7 +89,7 @@
                     />
                   </svg>
                   <router-link
-                    to="products"
+                    to="projects"
                     class="text-sm font-light group-hover:text-red-500"
                     >Projects</router-link
                   >

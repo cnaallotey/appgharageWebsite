@@ -24,7 +24,7 @@
               class="border-b-2 font-medium border-transparent hover:border-red-800 focus:text-red-700 text-base"
               :class="[project ? 'text-red-700' : 'text-gray-500']"
             >
-              <router-link to="/products"> Projects </router-link>
+              <router-link to="/projects"> Projects </router-link>
             </li>
             <li
               class="border-b-2 font-medium text-base border-transparent hover:border-red-800 focus:text-red-700"
@@ -133,7 +133,7 @@
               Home</router-link
             >
             <router-link
-              to="/products"
+              to="/projects"
               class="flex px-4 py-3 mt-2 navlinks font-medium bg-transparent dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-red-700 focus:text-red-700 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
               :class="[project ? 'text-red-700' : 'text-gray-500']"
             >
@@ -212,7 +212,7 @@ export default {
         this.project = false;
         this.about = true;
         break;
-      case "Products":
+      case "Projects":
         this.home = false;
         this.project = true;
         this.about = false;
