@@ -13,19 +13,22 @@
         <div class="hidden lg:flex space-x-7 items-center">
           <ul class="navlinks inline-flex font-medium space-x-7 cursor-pointer">
             <li
-              class="border-b-2 border-transparent text-base text-gray-500 hover:border-red-800 transistion ease-linear delay-100 focus:text-red-700"
+              class="border-b-2 border-transparent text-base hover:border-red-800 transistion ease-linear delay-100 focus:text-red-700"
+              :class="[home ? 'text-red-700' : 'text-gray-500']"
             >
               <router-link to="/" class="hover:border-b-2 border-red-700">
                 Home
               </router-link>
             </li>
             <li
-              class="border-b-2 font-medium border-transparent hover:border-red-800 focus:text-red-700 text-base text-gray-500"
+              class="border-b-2 font-medium border-transparent hover:border-red-800 focus:text-red-700 text-base"
+              :class="[project ? 'text-red-700' : 'text-gray-500']"
             >
               <router-link to="/products"> Projects </router-link>
             </li>
             <li
-              class="border-b-2 font-medium text-base text-gray-500 border-transparent hover:border-red-800 focus:text-red-700"
+              class="border-b-2 font-medium text-base border-transparent hover:border-red-800 focus:text-red-700"
+              :class="[about ? 'text-red-700' : 'text-gray-500']"
             >
               <router-link to="/about"> About </router-link>
             </li>
@@ -109,6 +112,7 @@
               to="/"
               class="flex px-4 py-3 mt-2 navlinks font-medium bg-transparent dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-red-700 focus:text-red-700 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
               href="#"
+              :class="[home ? 'text-red-700' : 'text-gray-500']"
             >
               <span>
                 <svg
@@ -131,6 +135,7 @@
             <router-link
               to="/products"
               class="flex px-4 py-3 mt-2 navlinks font-medium bg-transparent dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-red-700 focus:text-red-700 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+              :class="[project ? 'text-red-700' : 'text-gray-500']"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -151,7 +156,7 @@
             <router-link
               to="/about"
               class="flex px-4 py-3 mt-2 navlinks font-medium bg-transparent dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-red-700 focus:text-red-700 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-              href="#"
+              :class="[about ? 'text-red-700' : 'text-gray-500']"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -190,17 +195,38 @@ export default {
     return {
       open: false,
       drop: false,
+      home: false,
+      project: false,
+      about: false,
     };
   },
   created() {
-    // window.onscroll = () => {
-    //   console.log(window.scrollY)
-    //     if (window.scrollY > 50) {
-    //         this.isscroll=true;
-    //     } else {
-    //         this.isscroll=false;
-    //     }
-    // };
+    switch (this.$route.name) {
+      case "Home":
+        this.home = true;
+        this.project = false;
+        this.about = false;
+        break;
+      case "About":
+        this.home = false;
+        this.project = false;
+        this.about = true;
+        break;
+      case "Products":
+        this.home = false;
+        this.project = true;
+        this.about = false;
+        break;
+      default:
+        this.home = false;
+        this.project = false;
+        this.about = false;
+    }
+  },
+  computed: {
+    // routeName() {
+    //   return this.$route.name;
+    // },
   },
 };
 </script>
