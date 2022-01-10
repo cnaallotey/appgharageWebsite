@@ -19,7 +19,8 @@
             </h1>
             <router-link
               to="/contact"
-              class="w-full md:w-56 mx-auto lg:mx-0 font-medium text-center rounded-md py-3 text-base bg-red-700 text-white"
+              class="w-full md:w-56 mx-auto lg:mx-0 font-medium text-center rounded-md py-3 text-base text-white"
+              style="background-color: #b00000"
               >Get in touch with us</router-link
             >
           </div>

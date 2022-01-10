@@ -16,8 +16,8 @@
     </div>
 
     <div class="flex flex-col md:flex-row">
-      <div class="w-full md:w-1/4 h-auto flex justify-center">
-        <img src="../assets/Macbook Pro.png" class="h-full px-10 md:px-0" alt="" />
+      <div class="w-full md:w-1/2 lg:1/4 flex justify-center">
+        <img src="../assets/Macbook Pro.png" class="h-auto px-10 md:px-0" alt="" />
       </div>
       <div class="w-full lg:w-1/2 pl-0 flex flex-col ml-0 md:ml-10">
         <h2
