@@ -1,8 +1,8 @@
 <template>
   <div class="max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0 space-y-16 md:space-y-24">
     <div class="flex flex-col md:flex-row space-y-10 md:space-y-0">
-      <div class="space-y-5 w-full md:w-1/2 flex flex-col justify-start">
-        <div>
+      <div class="space-y-5 w-full md:w-1/2 flex flex-col">
+        <div class="my-0 md:my-auto">
           <h2 class="text-base text-red-700 font-semibold tracking-wide uppercase hidden">
             About
           </h2>
