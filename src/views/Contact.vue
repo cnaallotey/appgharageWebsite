@@ -4,8 +4,8 @@
       class="nav-fix filter"
       :class="[isscroll ? 'bg-white drop-shadow ' : 'bg-transparent drop-shadow-none']"
     />
-    <contactVue class="mt-10 mb-20" />
-   
+    <contactVue class="mt-10 mb-10" />
+
     <Foooter />
   </div>
 </template>
@@ -21,7 +21,7 @@ export default {
   name: "Home",
   components: {
     contactVue,
-    
+
     Navbar,
     Foooter,
   },

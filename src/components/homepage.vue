@@ -9,7 +9,7 @@
     </div>
 
     <div
-      class="relative max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0 space-y-10 md:space-y-24 z-10 overflow-hidden"
+      class="relative max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0 space-y-16 md:space-y-24 z-10 overflow-hidden"
     >
       <div class="w-full overflow-hidden">
         <div class="flex flex-col-reverse lg:flex-row lg:space-y-0 items-center">
@@ -70,7 +70,7 @@
               Ghana Vehicle Import Duty Estimater
             </h2>
             <p
-              class="font-normal tracking-normal text-gray-500 text-left leading-normal text-base pb-1 mb-2 mt-3"
+              class="font-normal tracking-normal text-gray-500 text-left leading-normal text-base pb-1 mb-3 mt-3"
             >
               Our Web App makes it possible to check the import duty and vehicle
               information about any vehicle you would like to import into Ghana stress

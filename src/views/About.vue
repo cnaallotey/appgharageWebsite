@@ -4,7 +4,7 @@
       class="nav-fix filter"
       :class="[isscroll ? 'bg-white drop-shadow ' : 'bg-transparent drop-shadow-none']"
     />
-    <aboutcompVue class="mt-10 mb-32" />
+    <aboutcompVue class="mt-10 mb-24" />
     <ctaVue ctaimg="aboutsv.svg" />
     <Foooter />
   </div>

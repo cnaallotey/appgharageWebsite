@@ -4,7 +4,7 @@
       class="nav-fix filter"
       :class="[isscroll ? 'bg-white drop-shadow ' : 'bg-transparent drop-shadow-none']"
     />
-    <homepageVue class="mt-10 mb-24" />
+    <homepageVue class="mt-10 mb-16 md:mb-24" />
     <ctaVue class="animate__fadeInUp" ctaimg="ctaimage.svg" />
     <Foooter />
   </div>

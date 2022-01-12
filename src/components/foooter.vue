@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <div class="w-full bg-black pt-20 mt-24">
+    <div class="w-full bg-black pt-16 mt-24">
       <div class="max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0">
         <div class="w-full flex flex-col lg:flex-row space-y-10 lg:space-y-0">
           <div class="w-full lg:w-1/4 space-y-3">
