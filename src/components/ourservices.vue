@@ -27,8 +27,8 @@
               <!-- Heroicon name: outline/globe-alt -->
               <img src="../assets/creative 1.svg" class="w-full" alt="" />
             </div>
-            <div class="flex flex-col justify-end h-full space-y-2">
-              <p class="ml-12 text-lg leading-6 font-medium text-gray-900">
+            <div class="flex flex-col justify-end h-full">
+              <p class="ml-12 text-lg leading-6 font-medium text-gray-900 mb-1">
                 Website and App Development
               </p>
               <p class="ml-12 text-base text-gray-500 text-left">

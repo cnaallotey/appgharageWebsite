@@ -30,7 +30,7 @@
       <div class="max-w-screen-xl mx-auto flex flex-col md:flex-row py-0 px-0 md:px-0">
         <div class="w-full md:w-1/2 py-0 px-0 md:px-10 space-y-5 bg-white text-gray-500">
           <p
-            class="font-semibold text-2xl md:text-3xl tracking-normal text-gray-900 text-left underline"
+            class="font-semibold text-2xl md:text-3xl tracking-normal text-gray-900 text-left"
           >
             Get in Touch
           </p>

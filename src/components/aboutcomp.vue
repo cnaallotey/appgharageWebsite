@@ -18,10 +18,10 @@
           >
             AppGharage is a software and business solutions Company that offers
             technological services and consultancy services to small scale businesses and
-            corporate organizations.We are world class developers who turn your ideas into
-            realities using simple and innovative approaches archive objective results.Our
-            Experience Design, Complex Engineering, and Agile Delivery gives you the best
-            software product for better business outcomes.
+            corporate organizations. We are world class developers who turn your ideas
+            into realities using simple and innovative approaches archive objective
+            results.Our Experience Design, Complex Engineering, and Agile Delivery gives
+            you the best software product for better business outcomes.
           </p>
         </div>
       </div>
@@ -32,7 +32,7 @@
     <div class="flex flex-col md:flex-row space-x-0 md:space-x-5 space-y-5 md:space-y-0">
       <div class="w-full md:w-1/2 flex flex-row items-start space-x-5">
         <img src="../assets/mission 1.svg" class="w-8 md:w-14" alt="" />
-        <div class="space-y-3">
+        <div class="space-y-2">
           <h3
             class="font-semibold tracking-normal text-left text-gray-900"
             style="font-size: 24px"
@@ -40,7 +40,7 @@
             Our Mission
           </h3>
           <p
-            class="font-normal tracking-normal text-left text-gray-500 leading-normal"
+            class="font-normal tracking-normal text-base text-left text-gray-500 leading-normal"
             style="font-size: 16px"
           >
             We are committed to impacting brands and businesses by enabling their software
@@ -50,7 +50,7 @@
       </div>
       <div class="w-full md:w-1/2 flex flex-row items-start space-x-5">
         <img src="../assets/future 1.svg" class="w-8 md:w-14" alt="" />
-        <div class="space-y-3">
+        <div class="space-y-2">
           <h3
             class="font-semibold tracking-normal text-left text-gray-900"
             style="font-size: 24px"
@@ -58,7 +58,7 @@
             Our Vision
           </h3>
           <p
-            class="font-normal tracking-normal text-left text-gray-500 leading-normal"
+            class="font-normal tracking-normal text-base text-left text-gray-500 leading-normal"
             style="font-size: 16px"
           >
             Our Vision is to connect businesses and customers using state of the art web
