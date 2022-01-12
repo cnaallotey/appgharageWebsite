@@ -13,7 +13,7 @@
             Who We Are
           </h1>
           <p
-            class="font-medium text-gray-500 tracking-normal mt-3"
+            class="font-normal text-lg text-gray-500 tracking-normal mt-3"
             style="letter-spacing: 0.2px; font-size: 18px"
           >
             AppGharage is a software and business solutions Company that offers

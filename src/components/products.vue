@@ -8,7 +8,7 @@
         Latest Projects
       </h1>
       <p
-        class="font-medium text-gray-500 tracking-normal text-left md:text-center"
+        class="font-normal text-lg text-gray-500 tracking-normal text-left md:text-center"
         style="letter-spacing: 0.2px; font-size: 18px"
       >
         Here are the products we have successfully built
