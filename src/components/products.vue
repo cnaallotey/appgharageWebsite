@@ -47,10 +47,10 @@
         <!-- Column Content -->
         <div class="bg-white pb-8">
           <div
-            class="h-full shadow rounded-none overflow-hidden"
+            class="h-full shadow rounded-lg overflow-hidden"
             style="background-image: url('../assets/screen.jpg')"
           >
-            <img src="../assets/screen.jpg" class="transform blur-lg" alt="" />
+            <img src="../assets/Layout 54.jpg" class="" alt="" />
           </div>
           <div class="w-full px-5">
             <h4
