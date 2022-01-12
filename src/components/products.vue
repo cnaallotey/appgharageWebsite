@@ -94,14 +94,6 @@
           </div>
         </div>
       </div>
-
-      <div class="my-5 px-5 w-full overflow-hidden md:w-1/2 lg:w-1/3 xl:w-1/3">
-        <!-- Column Content -->
-      </div>
-
-      <div class="my-5 px-5 w-full overflow-hidden md:w-1/2 lg:w-1/3 xl:w-1/3">
-        <!-- Column Content -->
-      </div>
     </div>
   </div>
 </template>
