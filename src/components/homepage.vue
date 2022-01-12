@@ -9,7 +9,7 @@
     </div>
 
     <div
-      class="relative max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0 space-y-16 md:space-y-24 z-10 overflow-hidden"
+      class="relative max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0 space-y-10 md:space-y-24 z-10 overflow-hidden"
     >
       <div class="w-full overflow-hidden">
         <div class="flex flex-col-reverse lg:flex-row lg:space-y-0 items-center">
@@ -21,7 +21,7 @@
             </h1>
             <div class="pr-0 lg:pr-40">
               <p
-                class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl md:mt-5 md:text-xl lg:mx-0"
+                class="mt-3 text-xl text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl md:mt-5 md:text-xl lg:mx-0"
               >
                 AppGharage is your technology partner for innovative and impactful digital
                 solutions.
@@ -46,12 +46,11 @@
           <div class="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8">
             <div class="lg:text-center">
               <h1
-                class="font-semibold tracking-normal font-gray-900 text-left md:text-center"
-                style="line-height: 60px; font-size: 40px"
+                class="font-semibold tracking-normal font-gray-900 text-left md:text-center text-4xl"
               >
                 Projects
               </h1>
-              <h2 class="text-xl text-gray-500 text-left md:text-center">
+              <h2 class="text-xl text-gray-500 text-left md:text-center mt-0 md:mt-2">
                 Here are some of our latest projects
               </h2>
             </div>
@@ -61,7 +60,7 @@
           class="flex flex-col md:flex-row space-x-0 lg:space-x-20 space-y-10 md:space-y-0"
         >
           <div class="w-full md:w-1/2 px-16 md:px-5 rounded-3xl">
-            <img src="../assets/Macbook Pro.png" class="w-full px-10" alt="" />
+            <img src="../assets/Macbook Pro.png" class="w-full px-0 lg:px-10" alt="" />
           </div>
           <div class="w-full md:w-1/2 pl-0 flex flex-col justify-center">
             <h2

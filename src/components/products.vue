@@ -47,7 +47,7 @@
         <!-- Column Content -->
         <div class="bg-white pb-8">
           <div
-            class="h-full border-2 border-gray-300 rounded-none overflow-hidden"
+            class="h-full shadow rounded-none overflow-hidden"
             style="background-image: url('../assets/screen.jpg')"
           >
             <img src="../assets/screen.jpg" class="transform blur-lg" alt="" />

@@ -4,17 +4,16 @@
       <div class="max-w-7xl mx-auto px-0">
         <div class="lg:text-center">
           <h1
-            class="font-semibold tracking-normal font-gray-900 text-left md:text-center"
-            style="line-height: 60px; font-size: 40px"
+            class="font-semibold tracking-normal font-gray-900 text-left md:text-center text-4xl"
           >
             Why choose us?
           </h1>
-          <h2 class="text-xl text-gray-500 text-left md:text-center">
+          <h2 class="text-xl text-gray-500 text-left md:text-center mt:0 md:mt-2">
             What makes AppGharage better.
           </h2>
         </div>
 
-        <div class="flex flex-wrap -mx-3 overflow-hidden mt-10">
+        <div class="flex flex-wrap -mx-3 overflow-hidden mt-5 md:mt-10">
           <div class="my-3 px-3 w-full md:w-1/2 overflow-hidden lg:w-1/4 xl:w-1/4">
             <div
               class="w-full px-14 md:px-0 flex flex-col space-y-3 items-center justify-start border-b-5"

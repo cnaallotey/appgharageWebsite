@@ -4,18 +4,17 @@
       <div class="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8">
         <div class="lg:text-center">
           <h1
-            class="font-semibold tracking-normal font-gray-700 text-left md:text-center"
-            style="line-height: 60px; font-size: 40px"
+            class="font-semibold tracking-normal font-gray-700 text-left md:text-center text-4xl"
           >
             Our services
           </h1>
-          <h2 class="text-xl text-gray-500 text-left md:text-center">
+          <h2 class="text-xl text-gray-500 text-left md:text-center mt:0 md:mt-2">
             We offer a wide range of services
           </h2>
         </div>
       </div>
     </div>
-    <div class="mt-10">
+    <div class="mt-5 md:mt-10">
       <dl
         class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 lg:grid-cols-4 md:gap-x-8 gap-y-12 md:gap-y-10 p-1"
       >
