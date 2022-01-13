@@ -80,7 +80,7 @@
             <a
               href="https://ghanadutycalculator.com/estimates"
               target="_blank"
-              class="w-full md:w-48 text-center py-3 font-medium text-base cursor-pointer text-white rounded-md flex items-center justify-center"
+              class="w-1/2 md:w-48 text-center py-3 mt-1 font-medium text-base cursor-pointer text-white rounded-md flex items-center justify-center"
               style="background-color: #b00000"
               ><span>Visit Website</span></a
             >

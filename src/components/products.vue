@@ -43,18 +43,18 @@
       </div>
     </div>
     <div class="flex flex-wrap -mx-5 overflow-hidden">
-      <div class="my-5 px-5 w-full overflow-hidden md:w-1/2 lg:w-1/3 xl:w-1/3">
+      <div class="my-5 px-5 w-full overflow-hidden md:w-full lg:w-1/2 xl:w-1/2">
         <!-- Column Content -->
-        <div class="bg-white pb-8">
+        <div class="bg-white pb-8 flex flex-col md:flex-row">
           <div
-            class="h-full shadow rounded-lg overflow-hidden"
+            class="h-full shadow overflow-hidden w-full md:w-96"
             style="background-image: url('../assets/screen.jpg')"
           >
             <img src="../assets/Layout 54.jpg" class="" alt="" />
           </div>
           <div class="w-full px-5">
             <h4
-              class="font-semibold tracking-normal leading-normal text-gray-900 mt-8 cursor-default"
+              class="font-semibold tracking-normal leading-normal text-gray-900 mt-8 md:mt-0 cursor-default"
               style="font-size: 24px"
               title="Ghana Vehicle Import Duty Estimater"
             >
@@ -84,7 +84,7 @@
               >
             </p>
             <button
-              class="text-white py-3 w-full md:w-1/2 mt-5 text-base font-normal rounded-md"
+              class="text-white py-3 w-1/2 md:w-1/2 mt-5 text-base font-normal rounded-md"
               style="background-color: #b00000"
               @click="dutyCalc()"
               title="ghanadutyestimater.com"
