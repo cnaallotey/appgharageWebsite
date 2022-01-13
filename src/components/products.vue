@@ -9,7 +9,7 @@
       </h1>
       <p
         class="font-normal text-lg text-gray-500 tracking-normal text-left md:text-center"
-        style="letter-spacing: 0.2px; font-size: 18px"
+        style="letter-spacing: 0.2px"
       >
         Here are the products we have successfully built
       </p>
@@ -17,7 +17,7 @@
 
     <div class="flex flex-col md:flex-row w-full lg:w-4/6 mx-auto hidden">
       <div class="w-full md:w-1/2 lg:1/4 flex justify-center">
-        <img src="../assets/Macbook Pro.png" class="w-auto h-auto" alt="" />
+        <img src="../assets/Layout 54.jpg" class="w-auto h-auto" alt="" />
       </div>
       <div class="w-full lg:w-1/2 pl-0 flex flex-col justify-between ml-0 md:ml-10">
         <h2
