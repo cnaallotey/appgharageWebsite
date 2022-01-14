@@ -87,7 +87,7 @@
               class="text-white py-3 w-1/2 md:w-1/2 mt-5 text-base font-normal rounded-md"
               style="background-color: #b00000"
               @click="dutyCalc()"
-              title="ghanadutyestimater.com"
+              title="ghanadutycalculater.com"
             >
               Visit Site
             </button>
