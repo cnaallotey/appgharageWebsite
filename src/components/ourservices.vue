@@ -77,8 +77,8 @@
                 Software Development
               </p>
               <p class="mt-2 ml-12 text-base text-gray-500">
-                A software is important for automation of the organisation's tasks as well
-                as reporting the progress or lags in the organisation's activities. This
+                A software is important for automation of your organisation's tasks as
+                well as reporting the progress or lags in your company activities. This
                 improves company's efficiency and growth.
               </p>
             </div>

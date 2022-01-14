@@ -18,7 +18,7 @@
         <div class="flex flex-wrap -mx-3 overflow-hidden mt-5 md:mt-10">
           <div class="my-3 px-3 w-full md:w-1/2 overflow-hidden lg:w-1/4 xl:w-1/4">
             <div
-              class="w-full px-14 md:px-0 flex flex-col space-y-3 items-center justify-start border-b-5"
+              class="w-full px-14 md:px-0 flex flex-col space-y-2 items-center justify-start border-b-5"
             >
               <div class="rounded-full bg-gray-100">
                 <img src="../assets/goals.svg" class="h-14 m-6" alt="" />
@@ -36,7 +36,7 @@
           <div class="my-3 px-3 w-full md:w-1/2 overflow-hidden lg:w-1/4 xl:w-1/4">
             <!-- Column Content -->
             <div
-              class="w-full px-14 md:px-0 flex flex-col space-y-3 items-center justify-start"
+              class="w-full px-14 md:px-0 flex flex-col space-y-2 items-center justify-start"
             >
               <div class="rounded-full bg-gray-100">
                 <img src="../assets/customer.svg" class="h-14 m-6" alt="" />
@@ -54,7 +54,7 @@
           <div class="my-3 px-3 w-full md:w-1/2 overflow-hidden lg:w-1/4 xl:w-1/4">
             <!-- Column Content -->
             <div
-              class="w-full px-14 md:px-0 flex flex-col space-y-3 items-center justify-start"
+              class="w-full px-14 md:px-0 flex flex-col space-y-2 items-center justify-start"
             >
               <div class="rounded-full bg-gray-100">
                 <img src="../assets/innovative.svg" class="h-10 mx-6 my-8" alt="" />
@@ -72,7 +72,7 @@
           <div class="my-3 px-3 w-full md:w-1/2 overflow-hidden lg:w-1/4 xl:w-1/4">
             <!-- Column Content -->
             <div
-              class="w-full px-14 md:px-0 flex flex-col space-y-3 items-center justify-start"
+              class="w-full px-14 md:px-0 flex flex-col space-y-2 items-center justify-start"
             >
               <div class="rounded-full bg-gray-100">
                 <img src="../assets/support.svg" class="h-12 mx-6 my-7" alt="" />
