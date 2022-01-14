@@ -109,7 +109,7 @@
           x-transition:leave="transition ease-in duration-75"
           x-transition:leave-start="transform opacity-100 scale-100"
           x-transition:leave-end="transform opacity-0 scale-95"
-          class="absolute right-0 w-full mt-2 origin-top-right rounded-md z-10 shadow-lg"
+          class="absolute right-0 w-full md:w-1/2 mt-2 origin-top-right rounded-md z-10 shadow-lg"
         >
           <div class="px-5 py-2 space-y-2 bg-white shadow dark-mode:bg-gray-800">
             <router-link

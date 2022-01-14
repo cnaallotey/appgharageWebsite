@@ -47,7 +47,7 @@
         <!-- Column Content -->
         <div class="bg-white pb-8 flex flex-col md:flex-row">
           <div
-            class="h-full shadow overflow-hidden w-full md:w-96"
+            class="h-full shadow md:shadow-none overflow-hidden w-full md:w-96"
             style="background-image: url('../assets/screen.jpg')"
           >
             <img src="../assets/Layout 54.jpg" class="" alt="" />

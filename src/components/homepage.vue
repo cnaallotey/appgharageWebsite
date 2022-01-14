@@ -15,7 +15,7 @@
         <div class="flex flex-col-reverse lg:flex-row lg:space-y-0 items-center">
           <div class="w-full lg:w-3/5 space-y-5">
             <h1
-              class="text-6xl tracking-tight font-extrabold text-gray-900 sm:text-6xl md:text-6xl"
+              class="text-6xl tracking-tight font-black text-gray-900 sm:text-6xl md:text-6xl"
             >
               Premium Software Solutions for Your Business
             </h1>
@@ -62,7 +62,7 @@
           class="flex flex-col md:flex-row space-x-0 lg:space-x-20 space-y-10 md:space-y-0"
         >
           <div class="w-full md:w-1/2 px-16 md:px-5 rounded-3xl">
-            <img src="../assets/Macbook Pro.png" class="w-full px-0 lg:px-10" alt="" />
+            <img src="../assets/@ Macbook Pro.png" class="w-full px-0 lg:px-10" alt="" />
           </div>
           <div class="w-full md:w-1/2 pl-0 flex flex-col justify-center">
             <h2
