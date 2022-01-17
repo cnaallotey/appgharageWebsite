@@ -28,7 +28,7 @@
             alt=""
           />
         </div>
-        <div class="w-full md:w-2/3 p-5 bg-gray-50">
+        <div class="w-full md:w-1/2 p-5 bg-gray-100">
           <h4
             class="font-semibold tracking-normal leading-normal text-gray-900 md:mt-0 cursor-default"
             style="font-size: 24px"
