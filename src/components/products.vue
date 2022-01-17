@@ -17,21 +17,20 @@
       </p>
     </div>
 
-    <div class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+    <div class="space-y-10 md:space-y-0 md:grid lg:grid-cols-2 md:gap-x-8 md:gap-y-10">
       <div
-        class="flex flex-col md:flex-row shadow-lg hover:shadow-xl transition-shadow ease-out delay-100 cursor-pointer"
+        class="flex flex-col md:flex-row shadow-md hover:shadow-lg transition-shadow ease-out delay-100 cursor-pointer"
       >
-        <div class="w-full md:w-1/3 h-full back bg-contain relative overflow-hidden">
+        <div class="w-full md:w-1/2 h-full back bg-contain relative overflow-hidden">
           <img
             src="../assets/dutyestimater.jpg"
-            class="h-full z-10 top-1"
-            width="400px"
+            class="h-full w-full z-10 top-1"
             alt=""
           />
         </div>
         <div class="w-full md:w-2/3 p-5 bg-gray-50">
           <h4
-            class="font-semibold tracking-normal leading-normal text-gray-900 mt-8 md:mt-0 cursor-default"
+            class="font-semibold tracking-normal leading-normal text-gray-900 md:mt-0 cursor-default"
             style="font-size: 24px"
             title="Ghana Vehicle Import Duty Estimater"
           >
@@ -49,7 +48,7 @@
             >
           </p>
           <button
-            class="text-white py-3 w-1/3 md:w-1/3 mt-5 text-base font-normal rounded-md"
+            class="text-white py-3 w-1/2 md:w-1/2 mt-5 text-base font-normal rounded-md"
             style="background-color: #b00000"
             @click="dutyCalc()"
             title="ghanadutycalculater.com"
