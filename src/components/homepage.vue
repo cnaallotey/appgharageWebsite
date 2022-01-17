@@ -72,7 +72,7 @@
               Ghana Vehicle Import Duty Estimater
             </h2>
             <p
-              class="font-normal tracking-normal text-gray-500 text-left leading-normal text-base pb-1 mb-2 mt-1"
+              class="font-normal tracking-normal text-gray-500 text-left leading-normal text-base pb-1 mb-4 mt-5"
             >
               Our Web App makes it possible to check the import duty and vehicle
               information about any vehicle you would like to import into Ghana stress
