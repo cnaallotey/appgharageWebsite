@@ -3,7 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      
+      backgroundImage:{
+        'product-background': "url('/src/assets/Layout 54.jpg')"
+      }
     },
   },
   variants: {
