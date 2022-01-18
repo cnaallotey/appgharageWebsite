@@ -1,7 +1,7 @@
 <template>
-  <div class="w-full mx-auto px-5 md:px-10 xl:px-0">
+  <div class="w-full mx-auto px-0 md:px-10 xl:px-0">
     <div
-      class="max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0 rounded-xl border"
+      class="max-w-screen-xl mx-auto px-5 md:px-10 xl:px-0 md:rounded-xl border"
       style="background-color: #e0e0e0"
     >
       <div class="rounded-2xl py-10 md:py-0">

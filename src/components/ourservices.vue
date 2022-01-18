@@ -20,7 +20,7 @@
       <dl
         class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 lg:grid-cols-4 gap-x-5 md:gap-x-8 p-1"
       >
-        <div class="relative px-5 py-10 rounded-lg shadow-lg border-t-2 border-gray-100">
+        <div class="relative px-5 py-10 rounded-2xl shadow-md border-t-2 border-gray-100">
           <div>
             <div
               class="absolute flex items-center justify-center h-10 w-10 rounded-md bg-white text-white"
@@ -42,7 +42,7 @@
         </div>
 
         <div
-          class="relative px-5 py-10 rounded-lg shadow-lg border-t-2 border-gray-100 h-auto"
+          class="relative px-5 py-10 rounded-2xl shadow-md border-t-2 border-gray-100 h-auto"
         >
           <div class="h-full">
             <div
@@ -64,7 +64,7 @@
           </div>
         </div>
 
-        <div class="relative px-5 py-10 rounded-lg shadow-lg border-t-2 border-gray-100">
+        <div class="relative px-5 py-10 rounded-2xl shadow-md border-t-2 border-gray-100">
           <div class="h-full">
             <div
               class="absolute flex items-center justify-center h-10 w-10 rounded-md bg-white text-white"
@@ -85,7 +85,7 @@
           </div>
         </div>
 
-        <div class="relative px-5 py-10 rounded-lg shadow-lg border-t-2 border-gray-100">
+        <div class="relative px-5 py-10 rounded-2xl shadow-md border-t-2 border-gray-100">
           <div class="h-full">
             <div
               class="absolute flex items-center justify-center h-10 w-10 rounded-md bg-white text-white"

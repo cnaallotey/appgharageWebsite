@@ -17,18 +17,18 @@
       </p>
     </div>
 
-    <div class="space-y-10 md:space-y-0 md:grid lg:grid-cols-2 md:gap-x-8 md:gap-y-10">
+    <div class="space-y-10 md:space-y-0 md:grid md:gap-x-8 md:gap-y-10">
       <div
-        class="flex flex-col md:flex-row shadow-md hover:shadow-lg transition-shadow ease-out delay-100 cursor-pointer"
+        class="w-full lg:w-2/3 mx-auto rounded-md overflow-hidden border-t border-gray-100 border-opacity-50 flex flex-col md:flex-row shadow-xl hover:shadow-lg transition-shadow ease-out delay-200 cursor-pointer"
       >
-        <div class="w-full md:w-1/2 h-full back bg-contain relative overflow-hidden">
+        <div class="w-full md:w-1/2 h-full overflow-hidden">
           <img
             src="../assets/dutyestimater.jpg"
-            class="h-full w-full z-10 top-1"
+            class="h-full w-full bg-red-800"
             alt=""
           />
         </div>
-        <div class="w-full md:w-1/2 p-5 bg-white">
+        <div class="w-full md:w-1/2 p-8 bg-white">
           <h4
             class="font-semibold tracking-normal leading-normal text-gray-900 md:mt-0 cursor-default"
             style="font-size: 24px"
