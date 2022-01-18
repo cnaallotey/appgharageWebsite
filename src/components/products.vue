@@ -30,7 +30,7 @@
         </div>
         <div class="w-full md:w-1/2 p-8 bg-white">
           <h4
-            class="font-semibold tracking-normal leading-normal text-gray-900 md:mt-0 cursor-default"
+            class="font-semibold tracking-tight leading-normal text-gray-900 md:mt-0 cursor-default"
             style="font-size: 24px"
             title="Ghana Vehicle Import Duty Estimater"
           >
