@@ -118,104 +118,106 @@
             </div>
           </div>
         </div>
-        <form class="w-fll md:w-1/2 py-0 px-0 md:px-10 space-y-5 bg-white mt-10 md:mt-0">
+        <div class="w-full md:w-1/2 mt-10 md:mt-0 lg:px-10">
           <p
             class="font-semibold text-2xl md:text-3xl tracking-tight text-gray-900 text-left"
           >
             Send a message
           </p>
-          <div>
-            <label for="price" class="block text-sm font-medium text-gray-700 mb-2"
-              >Full name</label
-            >
-            <div
-              class="w-full bg-white flex items-center rounded-md border-2 border-gray-200"
-            >
-              <input
+          <form class="w-full p-5 space-y-5 bg-gray-100 mt-5 rounded-lg">
+            <div>
+              <label for="price" class="block text-sm font-medium text-gray-700 mb-2"
+                >Full name</label
+              >
+              <div
+                class="w-full bg-white flex items-center rounded-md border-2 border-gray-200"
+              >
+                <input
+                  type="text"
+                  placeholder="John Doe"
+                  v-model="fullName"
+                  class="px-3 py-3 bg-white w-full rounded-md focus:outline-none"
+                  @keyup="validatename()"
+                />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8 text-green-500 mr-2"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  v-if="fullnameValidation"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div>
+              <label for="price" class="block text-sm font-medium text-gray-700 mb-2"
+                >Email Address</label
+              >
+              <div
+                class="w-full bg-white flex items-center rounded-md border-2 border-gray-200"
+              >
+                <input
+                  type="email"
+                  placeholder="john@example.com"
+                  v-model="email"
+                  @keyup="validateEmail()"
+                  class="px-3 py-3 bg-white w-full rounded-md focus:ring-2 focus:outline-none"
+                />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8 text-green-500 mr-2"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  v-if="emailValidation"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div>
+              <label for="price" class="block text-sm font-medium text-gray-700 mb-2"
+                >Enter your message</label
+              >
+              <textarea
                 type="text"
-                placeholder="John Doe"
-                v-model="fullName"
-                class="px-3 py-3 bg-white w-full focus:outline-none"
-                @keyup="validatename()"
-              />
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-8 w-8 text-green-500 mr-2"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                v-if="fullnameValidation"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                  clip-rule="evenodd"
-                />
-              </svg>
+                placeholder=""
+                v-model="message"
+                class="px-3 py-3 bg-white w-full focus:outline-none h-64 rounded-md border-2 border-gray-200"
+              ></textarea>
             </div>
-          </div>
-          <div>
-            <label for="price" class="block text-sm font-medium text-gray-700 mb-2"
-              >Email Address</label
+            <button
+              class="w-full py-3 font-medium text-white rounded-md text-base flex items-center justify-center space-x-2"
+              style="background-color: #b00000"
+              @click.prevent="contact()"
             >
-            <div
-              class="w-full bg-white flex items-center rounded-md border-2 border-gray-200"
-            >
-              <input
-                type="email"
-                placeholder="john@example.com"
-                v-model="email"
-                @keyup="validateEmail()"
-                class="px-3 py-3 bg-white w-full focus:ring-2 focus:outline-none"
-              />
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-8 w-8 text-green-500 mr-2"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                v-if="emailValidation"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                  clip-rule="evenodd"
-                />
-              </svg>
-            </div>
-          </div>
-          <div>
-            <label for="price" class="block text-sm font-medium text-gray-700 mb-2"
-              >Enter your message</label
-            >
-            <textarea
-              type="text"
-              placeholder=""
-              v-model="message"
-              class="px-3 py-3 bg-white w-full focus:outline-none h-64 rounded-md border-2 border-gray-200"
-            ></textarea>
-          </div>
-          <button
-            class="w-full py-3 font-medium text-white rounded-md text-base flex items-center justify-center space-x-2"
-            style="background-color: #b00000"
-            @click.prevent="contact()"
-          >
-            <span
-              ><svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5 transform rotate-45 mb-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="1.5"
-                  d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
-                /></svg
-            ></span>
-            <span>Send</span>
-          </button>
-        </form>
+              <span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 transform rotate-45 mb-1"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
+                  /></svg
+              ></span>
+              <span>Send</span>
+            </button>
+          </form>
+        </div>
       </div>
     </div>
     <transition
