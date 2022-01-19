@@ -20,14 +20,7 @@
                 Home
               </router-link>
             </li>
-            <li
-              class="border-b-2 border-transparent hover:border-red-800 focus:text-red-700 text-base"
-              :class="[
-                project ? 'text-red-700 font-semibold' : 'text-gray-700 font-medium',
-              ]"
-            >
-              <router-link to="/projects"> Projects </router-link>
-            </li>
+
             <li
               class="border-b-2 text-base border-transparent hover:border-red-800 focus:text-red-700"
               :class="[
@@ -35,6 +28,14 @@
               ]"
             >
               <router-link to="/about"> About </router-link>
+            </li>
+            <li
+              class="border-b-2 border-transparent hover:border-red-800 focus:text-red-700 text-base"
+              :class="[
+                project ? 'text-red-700 font-semibold' : 'text-gray-700 font-medium',
+              ]"
+            >
+              <router-link to="/projects"> Projects </router-link>
             </li>
           </ul>
           <router-link
@@ -135,6 +136,26 @@
                 </svg>
               </span>
               Home</router-link
+            ><router-link
+              to="/about"
+              class="flex px-4 py-3 mt-2 navlinks font-medium bg-transparent dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-red-700 focus:text-red-700 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+              :class="[about ? 'text-red-700' : 'text-gray-500']"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 mr-2"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                  d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+              About</router-link
             >
             <router-link
               to="/projects"
@@ -157,27 +178,7 @@
               </svg>
               Projects</router-link
             >
-            <router-link
-              to="/about"
-              class="flex px-4 py-3 mt-2 navlinks font-medium bg-transparent dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-red-700 focus:text-red-700 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-              :class="[about ? 'text-red-700' : 'text-gray-500']"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 mr-2"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="1.5"
-                  d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-              About</router-link
-            >
+
             <router-link to="/contact">
               <button
                 class="text-white w-full mt-4 mb-2 rounded-sm transition ease-linear delay-75 py-3 font-medium text-base text-center navlinks"
