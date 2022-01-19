@@ -20,7 +20,7 @@
             <div
               class="w-full px-14 md:px-0 flex flex-col space-y-2 items-center justify-start border-b-5"
             >
-              <div class="rounded-full bg-gray-100">
+              <div class="rounded-t-full rounded-br-full bg-gray-100">
                 <img src="../assets/goals.svg" class="h-14 m-6" alt="" />
               </div>
               <p class="font-bold tracking-normal text-xl text-gray-900 text-center">
@@ -38,7 +38,7 @@
             <div
               class="w-full px-14 md:px-0 flex flex-col space-y-2 items-center justify-start"
             >
-              <div class="rounded-full bg-gray-100">
+              <div class="rounded-t-full rounded-br-full bg-gray-100">
                 <img src="../assets/customer.svg" class="h-14 m-6" alt="" />
               </div>
               <p class="font-bold tracking-normal text-xl text-gray-900 text-center">
@@ -56,7 +56,7 @@
             <div
               class="w-full px-14 md:px-0 flex flex-col space-y-2 items-center justify-start"
             >
-              <div class="rounded-full bg-gray-100">
+              <div class="rounded-t-full rounded-br-full bg-gray-100">
                 <img src="../assets/innovative.svg" class="h-10 mx-6 my-8" alt="" />
               </div>
               <p class="font-bold tracking-normal text-xl text-gray-900 text-center">
@@ -74,7 +74,7 @@
             <div
               class="w-full px-14 md:px-0 flex flex-col space-y-2 items-center justify-start"
             >
-              <div class="rounded-full bg-gray-100">
+              <div class="rounded-t-full rounded-br-full bg-gray-100">
                 <img src="../assets/support.svg" class="h-12 mx-6 my-7" alt="" />
               </div>
               <p class="font-bold tracking-normal text-xl text-gray-900 text-center">
