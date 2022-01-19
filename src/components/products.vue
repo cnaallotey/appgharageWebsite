@@ -19,12 +19,14 @@
 
     <div class="space-y-10 md:space-y-0 md:grid md:gap-x-8 md:gap-y-10">
       <div
-        class="w-full lg:w-2/3 mx-auto rounded-xl overflow-hidden border-t border-gray-100 border-opacity-50 flex flex-col md:flex-row shadow-md hover:shadow-lg transition-shadow ease-out delay-200 cursor-pointer"
+        class="w-full lg:w-2/3 mx-auto rounded-xl overflow-hidden border-2 border-gray-100 border-opacity-50 flex flex-col md:flex-row hover:shadow-lg transition-shadow ease-linear delay-200 cursor-pointer"
       >
-        <div class="w-full md:w-1/2 h-full overflow-hidden">
+        <div
+          class="w-full md:w-1/2 h-full overflow-hidden flex items-center bg-gray-50 p-5"
+        >
           <img
-            src="../assets/dutyestimater.jpg"
-            class="h-full w-full bg-red-800"
+            src="../assets/@ Macbook Pro.png"
+            class="my-auto w-full h-auto bg-gray-50"
             alt=""
           />
         </div>
