@@ -19,7 +19,7 @@
 
     <div class="space-y-10 md:space-y-0 md:grid md:gap-x-8 md:gap-y-10">
       <div
-        class="w-full lg:w-2/3 mx-auto rounded-xl overflow-hidden shadow border-1 border-gray-200 border-opacity-75 flex flex-col md:flex-row hover:shadow-lg transition-shadow ease-linear delay-200 cursor-pointer"
+        class="w-full lg:w-2/3 md:mx-auto rounded-xl overflow-hidden shadow border-1 border-gray-200 border-opacity-75 flex flex-col md:flex-row hover:shadow-lg transition-shadow ease-linear delay-200 cursor-pointer"
       >
         <div
           class="w-full md:w-1/2 h-full overflow-hidden flex items-center bg-gray-100 px-5 py-10"
@@ -46,7 +46,7 @@
             >
           </p>
           <button
-            class="text-white py-3 w-1/2 md:w-1/2 mt-5 mb-10 md:mb-0 text-base font-normal rounded-md"
+            class="text-white py-3 w-full md:w-1/2 mt-5 mb-10 md:mb-0 text-base font-normal rounded-md"
             style="background-color: #b00000"
             @click="dutyCalc()"
             title="ghanadutycalculater.com"
