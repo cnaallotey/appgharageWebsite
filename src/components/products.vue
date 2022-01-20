@@ -46,7 +46,7 @@
             >
           </p>
           <button
-            class="text-white py-3 w-full md:w-1/2 mt-5 mb-10 md:mb-0 text-base font-normal rounded-md"
+            class="text-white py-3 w-full md:w-1/2 mt-5 mb-10 md:mb-0 text-base font-medium rounded-md"
             style="background-color: #b00000"
             @click="dutyCalc()"
             title="ghanadutycalculater.com"
