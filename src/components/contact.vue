@@ -235,14 +235,14 @@
       </div>
     </div>
     <transition
-      enter-active-class="animate__animated animate__backInUp animate__faster"
-      leave-active-class="animate__animated animate__fadeOutDown"
+      enter-active-class="animate__animated animate__backInDown animate__faster"
+      leave-active-class="animate__animated animate__fadeOutUpBig"
     >
       <Success v-if="success" />
     </transition>
     <transition
-      enter-active-class="animate__animated animate__backInUp animate__faster"
-      leave-active-class="animate__animated animate__fadeOutDown"
+      enter-active-class="animate__animated animate__backInDown animate__faster"
+      leave-active-class="animate__animated animate__fadeOutUpBig"
     >
       <Error v-if="error" />
     </transition>
