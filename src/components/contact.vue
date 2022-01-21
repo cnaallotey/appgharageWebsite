@@ -130,18 +130,23 @@
                 >Full name</label
               >
               <div
-                class="w-full bg-white flex items-center rounded-md border-2 border-gray-200"
+                class="relative w-full bg-white flex items-center rounded-md border-2 border-gray-200"
               >
                 <input
                   type="text"
                   placeholder="John Doe"
                   v-model="fullName"
                   class="px-3 py-3 bg-white w-full rounded-md focus:outline-none"
+                  :class="[
+                    fullnameValidation
+                      ? 'focus:ring-1 focus:ring-green-400'
+                      : 'focus:ring-1 focus:ring-red-400',
+                  ]"
                   @keyup="validatename()"
                 />
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-8 w-8 text-green-500 mr-2"
+                  class="h-8 w-8 text-green-500 mr-2 absolute right-0"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                   v-if="fullnameValidation"
@@ -159,18 +164,23 @@
                 >Email Address</label
               >
               <div
-                class="w-full bg-white flex items-center rounded-md border-2 border-gray-200"
+                class="relative w-full bg-white flex items-center rounded-md border-2 border-gray-200"
               >
                 <input
                   type="email"
                   placeholder="john@example.com"
                   v-model="email"
                   @keyup="validateEmail()"
-                  class="px-3 py-3 bg-white w-full rounded-md focus:ring-2 focus:outline-none"
+                  class="px-3 py-3 bg-white w-full rounded-md focus:outline-none"
+                  :class="[
+                    emailValidation
+                      ? 'focus:ring-1 focus:ring-green-400'
+                      : 'focus:ring-1 focus:ring-red-400',
+                  ]"
                 />
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-8 w-8 text-green-500 mr-2"
+                  class="h-8 w-8 text-green-500 mr-2 absolute right-0"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                   v-if="emailValidation"
