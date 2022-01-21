@@ -246,7 +246,7 @@ export default {
       fullName: "",
       email: "",
       message: "",
-      error: true,
+      error: false,
       success: false,
       emailValidation: false,
       fullnameValidation: false,
