@@ -1,4 +1,4 @@
-# appggharagereal
+# Appgharage Website
 
 ## Project setup
 ```
