@@ -139,8 +139,8 @@
                   class="px-3 py-3 bg-white w-full rounded-md focus:outline-none"
                   :class="[
                     fullnameValidation
-                      ? 'focus:ring-1 focus:ring-green-400'
-                      : 'focus:ring-1 focus:ring-red-400',
+                      ? 'focus:ring-1 focus:ring-green-400 text-gray-900'
+                      : 'focus:ring-1 focus:ring-red-400 text-red-800',
                   ]"
                   @keyup="validatename()"
                 />
@@ -174,8 +174,8 @@
                   class="px-3 py-3 bg-white w-full rounded-md focus:outline-none"
                   :class="[
                     emailValidation
-                      ? 'focus:ring-1 focus:ring-green-400'
-                      : 'focus:ring-1 focus:ring-red-400',
+                      ? 'focus:ring-1 focus:ring-green-400 text-gray-900'
+                      : 'focus:ring-1 focus:ring-red-400 text-red-800',
                   ]"
                 />
                 <svg
