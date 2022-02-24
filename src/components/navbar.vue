@@ -14,7 +14,9 @@
           <ul class="navlinks inline-flex space-x-7 cursor-pointer">
             <li
               class="border-b-2 border-transparent text-base hover:border-red-800 transistion ease-linear delay-100 focus:text-red-700"
-              :class="[home ? 'text-red-700 font-semibold' : 'text-gray-700 font-medium']"
+              :class="[
+                chackHome ? 'text-red-700 font-semibold' : 'text-gray-700 font-medium',
+              ]"
             >
               <router-link to="/" class="hover:border-b-2 border-red-700">
                 Home
@@ -24,7 +26,7 @@
             <li
               class="border-b-2 text-base border-transparent hover:border-red-800 focus:text-red-700"
               :class="[
-                about ? 'text-red-700 font-semibold' : 'text-gray-700 font-medium',
+                checkAbout ? 'text-red-700 font-semibold' : 'text-gray-700 font-medium',
               ]"
             >
               <router-link to="/about"> About </router-link>
@@ -32,7 +34,9 @@
             <li
               class="border-b-2 border-transparent hover:border-red-800 focus:text-red-700 text-base"
               :class="[
-                project ? 'text-red-700 font-semibold' : 'text-gray-700 font-medium',
+                checkProjects
+                  ? 'text-red-700 font-semibold'
+                  : 'text-gray-700 font-medium',
               ]"
             >
               <router-link to="/projects"> Projects </router-link>
@@ -117,7 +121,7 @@
               to="/"
               class="flex px-4 py-3 mt-2 navlinks font-medium bg-transparent dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-red-700 focus:text-red-700 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
               href="#"
-              :class="[home ? 'text-red-700' : 'text-gray-500']"
+              :class="[checkHome ? 'text-red-700' : 'text-gray-500']"
             >
               <span>
                 <svg
@@ -139,7 +143,7 @@
             ><router-link
               to="/about"
               class="flex px-4 py-3 mt-2 navlinks font-medium bg-transparent dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-red-700 focus:text-red-700 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-              :class="[about ? 'text-red-700' : 'text-gray-500']"
+              :class="[checkAbout ? 'text-red-700' : 'text-gray-500']"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -160,7 +164,7 @@
             <router-link
               to="/projects"
               class="flex px-4 py-3 mt-2 navlinks font-medium bg-transparent dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-red-700 focus:text-red-700 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-              :class="[project ? 'text-red-700' : 'text-gray-500']"
+              :class="[checkProjects ? 'text-red-700' : 'text-gray-500']"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -205,35 +209,17 @@ export default {
       about: false,
     };
   },
-  created() {
-    switch (this.$route.name) {
-      case "Home":
-        this.home = true;
-        this.project = false;
-        this.about = false;
-        break;
-      case "About":
-        this.home = false;
-        this.project = false;
-        this.about = true;
-        break;
-      case "projects":
-        this.home = false;
-        this.project = true;
-        this.about = false;
-        break;
-      case "Contact":
-        this.home = false;
-        this.project = false;
-        this.about = false;
-        break;
-      default:
-        this.home = true;
-        this.project = false;
-        this.about = false;
-    }
-  },
+  created() {},
   computed: {
+    checkHome() {
+      return this.$route.name === "Home" || this.$route.name === "404";
+    },
+    checkAbout() {
+      return this.$route.name === "About";
+    },
+    checkProjects() {
+      return this.$route.name === "Projects";
+    },
     // routeName() {
     //   return this.$route.name;
     // },
